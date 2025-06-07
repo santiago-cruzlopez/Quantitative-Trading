@@ -1,0 +1,7 @@
+prefix=/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading
+includedir=${prefix}/include
+
+Name: CompositeExt
+Description: Composite extension headers
+Version: 0.4.2
+Cflags: -I${includedir}

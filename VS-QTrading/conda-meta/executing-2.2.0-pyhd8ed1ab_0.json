@@ -1,0 +1,185 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.9"
+  ],
+  "extracted_package_dir": "/home/santi_cruz/anaconda3/pkgs/executing-2.2.0-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.11/site-packages/executing-2.2.0.dist-info/INSTALLER",
+    "lib/python3.11/site-packages/executing-2.2.0.dist-info/METADATA",
+    "lib/python3.11/site-packages/executing-2.2.0.dist-info/RECORD",
+    "lib/python3.11/site-packages/executing-2.2.0.dist-info/REQUESTED",
+    "lib/python3.11/site-packages/executing-2.2.0.dist-info/WHEEL",
+    "lib/python3.11/site-packages/executing-2.2.0.dist-info/direct_url.json",
+    "lib/python3.11/site-packages/executing-2.2.0.dist-info/licenses/LICENSE.txt",
+    "lib/python3.11/site-packages/executing-2.2.0.dist-info/top_level.txt",
+    "lib/python3.11/site-packages/executing/__init__.py",
+    "lib/python3.11/site-packages/executing/_exceptions.py",
+    "lib/python3.11/site-packages/executing/_position_node_finder.py",
+    "lib/python3.11/site-packages/executing/_pytest_utils.py",
+    "lib/python3.11/site-packages/executing/executing.py",
+    "lib/python3.11/site-packages/executing/py.typed",
+    "lib/python3.11/site-packages/executing/version.py",
+    "lib/python3.11/site-packages/executing/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/executing/__pycache__/_exceptions.cpython-311.pyc",
+    "lib/python3.11/site-packages/executing/__pycache__/_position_node_finder.cpython-311.pyc",
+    "lib/python3.11/site-packages/executing/__pycache__/_pytest_utils.cpython-311.pyc",
+    "lib/python3.11/site-packages/executing/__pycache__/executing.cpython-311.pyc",
+    "lib/python3.11/site-packages/executing/__pycache__/version.cpython-311.pyc"
+  ],
+  "fn": "executing-2.2.0-pyhd8ed1ab_0.conda",
+  "license": "MIT",
+  "link": {
+    "source": "/home/santi_cruz/anaconda3/pkgs/executing-2.2.0-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "81d30c08f9a3e556e8ca9e124b044d14",
+  "name": "executing",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/santi_cruz/anaconda3/pkgs/executing-2.2.0-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/executing-2.2.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/executing-2.2.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "4e1b87a7febd70c6aec681e1496c6c1d7b45c74e1c630bd8ff3369a8d44cb333",
+        "sha256_in_prefix": "4e1b87a7febd70c6aec681e1496c6c1d7b45c74e1c630bd8ff3369a8d44cb333",
+        "size_in_bytes": 8885
+      },
+      {
+        "_path": "site-packages/executing-2.2.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "279f4dcde3f19a1581ee9bd3c47b1837b169cd76acd8c92eaf1b1e23461493e2",
+        "sha256_in_prefix": "279f4dcde3f19a1581ee9bd3c47b1837b169cd76acd8c92eaf1b1e23461493e2",
+        "size_in_bytes": 1573
+      },
+      {
+        "_path": "site-packages/executing-2.2.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/executing-2.2.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "01e3b606fa206169b77866870af87399462df226bb29f511887cceff56ad972b",
+        "sha256_in_prefix": "01e3b606fa206169b77866870af87399462df226bb29f511887cceff56ad972b",
+        "size_in_bytes": 109
+      },
+      {
+        "_path": "site-packages/executing-2.2.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "706b00680554461b495c81b9e9b340d2278eb1e9fff38d4686238426bf047632",
+        "sha256_in_prefix": "706b00680554461b495c81b9e9b340d2278eb1e9fff38d4686238426bf047632",
+        "size_in_bytes": 105
+      },
+      {
+        "_path": "site-packages/executing-2.2.0.dist-info/licenses/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "a476a2cb0ef4c41450340a577a28b91ac4c7f669136b2ee148047fabd5fc4181",
+        "sha256_in_prefix": "a476a2cb0ef4c41450340a577a28b91ac4c7f669136b2ee148047fabd5fc4181",
+        "size_in_bytes": 1066
+      },
+      {
+        "_path": "site-packages/executing-2.2.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "6fd46d7f736d4aa734fca6a4e8bfe5be76dd28f0341948a6da9f9770542c7f98",
+        "sha256_in_prefix": "6fd46d7f736d4aa734fca6a4e8bfe5be76dd28f0341948a6da9f9770542c7f98",
+        "size_in_bytes": 10
+      },
+      {
+        "_path": "site-packages/executing/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "6a07595a7ba2dc5681d457a91735565f9c9d4b49a552c55e034cc12ccc61be39",
+        "sha256_in_prefix": "6a07595a7ba2dc5681d457a91735565f9c9d4b49a552c55e034cc12ccc61be39",
+        "size_in_bytes": 831
+      },
+      {
+        "_path": "site-packages/executing/_exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "9dfe4fe633e74a38e8ffc616961e403b22d91c5fe13722690efd0e1b65c5620c",
+        "sha256_in_prefix": "9dfe4fe633e74a38e8ffc616961e403b22d91c5fe13722690efd0e1b65c5620c",
+        "size_in_bytes": 568
+      },
+      {
+        "_path": "site-packages/executing/_position_node_finder.py",
+        "path_type": "hardlink",
+        "sha256": "22daf9bdf05348a3174f7e80c9b16f328400ab14a86231cb22f7815eff424ba4",
+        "sha256_in_prefix": "22daf9bdf05348a3174f7e80c9b16f328400ab14a86231cb22f7815eff424ba4",
+        "size_in_bytes": 34701
+      },
+      {
+        "_path": "site-packages/executing/_pytest_utils.py",
+        "path_type": "hardlink",
+        "sha256": "3518fdd274dc1314bef11d8ff0cd70626f6ca1d86b4e5abbe1149de19be34111",
+        "sha256_in_prefix": "3518fdd274dc1314bef11d8ff0cd70626f6ca1d86b4e5abbe1149de19be34111",
+        "size_in_bytes": 354
+      },
+      {
+        "_path": "site-packages/executing/executing.py",
+        "path_type": "hardlink",
+        "sha256": "27498d7bee3d3861c6e0f7b659b90f9bbec5d6ef6a58380222437fa992cfc261",
+        "sha256_in_prefix": "27498d7bee3d3861c6e0f7b659b90f9bbec5d6ef6a58380222437fa992cfc261",
+        "size_in_bytes": 42226
+      },
+      {
+        "_path": "site-packages/executing/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/executing/version.py",
+        "path_type": "hardlink",
+        "sha256": "9bdca6f8225a245de69c63643aa36f02a60d90bb8ac5f1248c29066de15e22c4",
+        "sha256_in_prefix": "9bdca6f8225a245de69c63643aa36f02a60d90bb8ac5f1248c29066de15e22c4",
+        "size_in_bytes": 21
+      },
+      {
+        "_path": "lib/python3.11/site-packages/executing/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/executing/__pycache__/_exceptions.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/executing/__pycache__/_position_node_finder.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/executing/__pycache__/_pytest_utils.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/executing/__pycache__/executing.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/executing/__pycache__/version.cpython-311.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "7510dd93b9848c6257c43fdf9ad22adf62e7aa6da5f12a6a757aed83bcfedf05",
+  "size": 29652,
+  "subdir": "noarch",
+  "timestamp": 1745502200000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/executing-2.2.0-pyhd8ed1ab_0.conda",
+  "version": "2.2.0"
+}

@@ -1,0 +1,126 @@
+{
+  "build": "pyhd8ed1ab_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.9",
+    "traitlets >=5.3"
+  ],
+  "extracted_package_dir": "/home/santi_cruz/anaconda3/pkgs/comm-0.2.2-pyhd8ed1ab_1",
+  "files": [
+    "lib/python3.11/site-packages/comm-0.2.2.dist-info/INSTALLER",
+    "lib/python3.11/site-packages/comm-0.2.2.dist-info/METADATA",
+    "lib/python3.11/site-packages/comm-0.2.2.dist-info/RECORD",
+    "lib/python3.11/site-packages/comm-0.2.2.dist-info/REQUESTED",
+    "lib/python3.11/site-packages/comm-0.2.2.dist-info/WHEEL",
+    "lib/python3.11/site-packages/comm-0.2.2.dist-info/direct_url.json",
+    "lib/python3.11/site-packages/comm-0.2.2.dist-info/licenses/LICENSE",
+    "lib/python3.11/site-packages/comm/__init__.py",
+    "lib/python3.11/site-packages/comm/base_comm.py",
+    "lib/python3.11/site-packages/comm/py.typed",
+    "lib/python3.11/site-packages/comm/__pycache__/__init__.cpython-311.pyc",
+    "lib/python3.11/site-packages/comm/__pycache__/base_comm.cpython-311.pyc"
+  ],
+  "fn": "comm-0.2.2-pyhd8ed1ab_1.conda",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "/home/santi_cruz/anaconda3/pkgs/comm-0.2.2-pyhd8ed1ab_1",
+    "type": 1
+  },
+  "md5": "74673132601ec2b7fc592755605f4c1b",
+  "name": "comm",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/santi_cruz/anaconda3/pkgs/comm-0.2.2-pyhd8ed1ab_1.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/comm-0.2.2.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/comm-0.2.2.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "b7d3bcf5a4ec96ab631ead90c504fce1a0174c7a157726378982c438b6288ccf",
+        "sha256_in_prefix": "b7d3bcf5a4ec96ab631ead90c504fce1a0174c7a157726378982c438b6288ccf",
+        "size_in_bytes": 3667
+      },
+      {
+        "_path": "site-packages/comm-0.2.2.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "30ea5a4785ad6f68c5dbaf972387ce433c940cb2e000d318a614d3bc3e83a60d",
+        "sha256_in_prefix": "30ea5a4785ad6f68c5dbaf972387ce433c940cb2e000d318a614d3bc3e83a60d",
+        "size_in_bytes": 865
+      },
+      {
+        "_path": "site-packages/comm-0.2.2.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/comm-0.2.2.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "0b615483066088b6f39d1fa4d1bff9937022ff568048e5c3b2cde5cc252c52e8",
+        "sha256_in_prefix": "0b615483066088b6f39d1fa4d1bff9937022ff568048e5c3b2cde5cc252c52e8",
+        "size_in_bytes": 87
+      },
+      {
+        "_path": "site-packages/comm-0.2.2.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "91873557d1dcf4c94a04a41e5465b826edf717cbe60b856a720df8df6157007b",
+        "sha256_in_prefix": "91873557d1dcf4c94a04a41e5465b826edf717cbe60b856a720df8df6157007b",
+        "size_in_bytes": 100
+      },
+      {
+        "_path": "site-packages/comm-0.2.2.dist-info/licenses/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "97a7e0a142b7c1dcd26461b20fc13980988b4449b7446ed776928826fd2ca9c4",
+        "sha256_in_prefix": "97a7e0a142b7c1dcd26461b20fc13980988b4449b7446ed776928826fd2ca9c4",
+        "size_in_bytes": 1515
+      },
+      {
+        "_path": "site-packages/comm/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "6a8a387e917e88968c813e4549152b85d2c5e9cdbd37e0a9de0ff679984a75d0",
+        "sha256_in_prefix": "6a8a387e917e88968c813e4549152b85d2c5e9cdbd37e0a9de0ff679984a75d0",
+        "size_in_bytes": 1441
+      },
+      {
+        "_path": "site-packages/comm/base_comm.py",
+        "path_type": "hardlink",
+        "sha256": "3d9afc063fa99f2e31e2d2bd4d6e875feacff13238b92385fcee8e6df96a1029",
+        "sha256_in_prefix": "3d9afc063fa99f2e31e2d2bd4d6e875feacff13238b92385fcee8e6df96a1029",
+        "size_in_bytes": 10153
+      },
+      {
+        "_path": "site-packages/comm/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.11/site-packages/comm/__pycache__/__init__.cpython-311.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.11/site-packages/comm/__pycache__/base_comm.cpython-311.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "7e87ef7c91574d9fac19faedaaee328a70f718c9b4ddadfdc0ba9ac021bd64af",
+  "size": 12103,
+  "subdir": "noarch",
+  "timestamp": 1733503053000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/comm-0.2.2-pyhd8ed1ab_1.conda",
+  "version": "0.2.2"
+}

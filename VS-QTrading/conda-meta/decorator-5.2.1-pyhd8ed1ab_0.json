@@ -1,0 +1,112 @@
+{
+  "build": "pyhd8ed1ab_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.9"
+  ],
+  "extracted_package_dir": "/home/santi_cruz/anaconda3/pkgs/decorator-5.2.1-pyhd8ed1ab_0",
+  "files": [
+    "lib/python3.11/site-packages/decorator-5.2.1.dist-info/INSTALLER",
+    "lib/python3.11/site-packages/decorator-5.2.1.dist-info/LICENSE.txt",
+    "lib/python3.11/site-packages/decorator-5.2.1.dist-info/METADATA",
+    "lib/python3.11/site-packages/decorator-5.2.1.dist-info/RECORD",
+    "lib/python3.11/site-packages/decorator-5.2.1.dist-info/REQUESTED",
+    "lib/python3.11/site-packages/decorator-5.2.1.dist-info/WHEEL",
+    "lib/python3.11/site-packages/decorator-5.2.1.dist-info/direct_url.json",
+    "lib/python3.11/site-packages/decorator-5.2.1.dist-info/top_level.txt",
+    "lib/python3.11/site-packages/decorator.py",
+    "lib/python3.11/site-packages/__pycache__/decorator.cpython-311.pyc"
+  ],
+  "fn": "decorator-5.2.1-pyhd8ed1ab_0.conda",
+  "license": "BSD-2-Clause",
+  "link": {
+    "source": "/home/santi_cruz/anaconda3/pkgs/decorator-5.2.1-pyhd8ed1ab_0",
+    "type": 1
+  },
+  "md5": "9ce473d1d1be1cc3810856a48b3fab32",
+  "name": "decorator",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/santi_cruz/anaconda3/pkgs/decorator-5.2.1-pyhd8ed1ab_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/decorator-5.2.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/decorator-5.2.1.dist-info/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "914ee6ed78a5efc173bda698f2708444ca9d140fcc4080c60d0503d40db39da6",
+        "sha256_in_prefix": "914ee6ed78a5efc173bda698f2708444ca9d140fcc4080c60d0503d40db39da6",
+        "size_in_bytes": 1308
+      },
+      {
+        "_path": "site-packages/decorator-5.2.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "8bbe9fa7b94da3441b8a75f73412634aefc6855a7d03c8ae69bfbe9bef26281e",
+        "sha256_in_prefix": "8bbe9fa7b94da3441b8a75f73412634aefc6855a7d03c8ae69bfbe9bef26281e",
+        "size_in_bytes": 3934
+      },
+      {
+        "_path": "site-packages/decorator-5.2.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "a5e0077e7392fe8d4f91477f24550b4a7617492733d2c269654dc3606bee88dd",
+        "sha256_in_prefix": "a5e0077e7392fe8d4f91477f24550b4a7617492733d2c269654dc3606bee88dd",
+        "size_in_bytes": 794
+      },
+      {
+        "_path": "site-packages/decorator-5.2.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/decorator-5.2.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "227f454cdc5e3fad0a9d3906c3bc24ea624f61dfdd4128c46665dd05d30223ef",
+        "sha256_in_prefix": "227f454cdc5e3fad0a9d3906c3bc24ea624f61dfdd4128c46665dd05d30223ef",
+        "size_in_bytes": 91
+      },
+      {
+        "_path": "site-packages/decorator-5.2.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "a282bb2a74b4029c645e5af15d5985fd8766bf78c477fff7ebda23570d9754cd",
+        "sha256_in_prefix": "a282bb2a74b4029c645e5af15d5985fd8766bf78c477fff7ebda23570d9754cd",
+        "size_in_bytes": 105
+      },
+      {
+        "_path": "site-packages/decorator-5.2.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "2a7e9e423a3cddcb56c5757204c398b74fd8a634630739ca615b8dcae0bf0d22",
+        "sha256_in_prefix": "2a7e9e423a3cddcb56c5757204c398b74fd8a634630739ca615b8dcae0bf0d22",
+        "size_in_bytes": 10
+      },
+      {
+        "_path": "site-packages/decorator.py",
+        "path_type": "hardlink",
+        "sha256": "7169cee9c28aa2142b5cd106d7e15aba2c3c763c04ddfd8f0368091a87f08170",
+        "sha256_in_prefix": "7169cee9c28aa2142b5cd106d7e15aba2c3c763c04ddfd8f0368091a87f08170",
+        "size_in_bytes": 17067
+      },
+      {
+        "_path": "lib/python3.11/site-packages/__pycache__/decorator.cpython-311.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "c17c6b9937c08ad63cb20a26f403a3234088e57d4455600974a0ce865cb14017",
+  "size": 14129,
+  "subdir": "noarch",
+  "timestamp": 1740385067000,
+  "url": "https://conda.anaconda.org/conda-forge/noarch/decorator-5.2.1-pyhd8ed1ab_0.conda",
+  "version": "5.2.1"
+}

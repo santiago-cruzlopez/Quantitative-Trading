@@ -1,0 +1,7 @@
+prefix=/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading
+includedir=${prefix}/include
+ 
+Name: PresentProto
+Description: Present extension headers
+Version: 1.4
+Cflags: -I${includedir}

@@ -1,0 +1,13 @@
+prefix=/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading
+exec_prefix=/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading
+libdir=/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/lib
+sharedlibdir=/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/lib
+includedir=/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

@@ -1,0 +1,7 @@
+prefix=/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading
+includedir=${prefix}/include
+
+Name: RenderProto
+Description: Render extension headers
+Version: 0.11.1
+Cflags: -I${includedir}

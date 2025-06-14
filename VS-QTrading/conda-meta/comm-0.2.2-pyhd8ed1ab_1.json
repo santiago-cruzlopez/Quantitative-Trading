@@ -9,18 +9,18 @@
   ],
   "extracted_package_dir": "/home/santi_cruz/anaconda3/pkgs/comm-0.2.2-pyhd8ed1ab_1",
   "files": [
-    "lib/python3.11/site-packages/comm-0.2.2.dist-info/INSTALLER",
-    "lib/python3.11/site-packages/comm-0.2.2.dist-info/METADATA",
-    "lib/python3.11/site-packages/comm-0.2.2.dist-info/RECORD",
-    "lib/python3.11/site-packages/comm-0.2.2.dist-info/REQUESTED",
-    "lib/python3.11/site-packages/comm-0.2.2.dist-info/WHEEL",
-    "lib/python3.11/site-packages/comm-0.2.2.dist-info/direct_url.json",
-    "lib/python3.11/site-packages/comm-0.2.2.dist-info/licenses/LICENSE",
-    "lib/python3.11/site-packages/comm/__init__.py",
-    "lib/python3.11/site-packages/comm/base_comm.py",
-    "lib/python3.11/site-packages/comm/py.typed",
-    "lib/python3.11/site-packages/comm/__pycache__/__init__.cpython-311.pyc",
-    "lib/python3.11/site-packages/comm/__pycache__/base_comm.cpython-311.pyc"
+    "lib/python3.13/site-packages/comm-0.2.2.dist-info/INSTALLER",
+    "lib/python3.13/site-packages/comm-0.2.2.dist-info/METADATA",
+    "lib/python3.13/site-packages/comm-0.2.2.dist-info/RECORD",
+    "lib/python3.13/site-packages/comm-0.2.2.dist-info/REQUESTED",
+    "lib/python3.13/site-packages/comm-0.2.2.dist-info/WHEEL",
+    "lib/python3.13/site-packages/comm-0.2.2.dist-info/direct_url.json",
+    "lib/python3.13/site-packages/comm-0.2.2.dist-info/licenses/LICENSE",
+    "lib/python3.13/site-packages/comm/__init__.py",
+    "lib/python3.13/site-packages/comm/base_comm.py",
+    "lib/python3.13/site-packages/comm/py.typed",
+    "lib/python3.13/site-packages/comm/__pycache__/__init__.cpython-313.pyc",
+    "lib/python3.13/site-packages/comm/__pycache__/base_comm.cpython-313.pyc"
   ],
   "fn": "comm-0.2.2-pyhd8ed1ab_1.conda",
   "license": "BSD-3-Clause",
@@ -106,11 +106,11 @@
         "size_in_bytes": 0
       },
       {
-        "_path": "lib/python3.11/site-packages/comm/__pycache__/__init__.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/comm/__pycache__/__init__.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/comm/__pycache__/base_comm.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/comm/__pycache__/base_comm.cpython-313.pyc",
         "path_type": "pyc_file"
       }
     ],

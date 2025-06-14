@@ -11,35 +11,35 @@
   ],
   "extracted_package_dir": "/home/santi_cruz/anaconda3/pkgs/jupyter_core-5.8.1-pyh31011fe_0",
   "files": [
-    "lib/python3.11/site-packages/jupyter.py",
-    "lib/python3.11/site-packages/jupyter_core-5.8.1.dist-info/INSTALLER",
-    "lib/python3.11/site-packages/jupyter_core-5.8.1.dist-info/METADATA",
-    "lib/python3.11/site-packages/jupyter_core-5.8.1.dist-info/RECORD",
-    "lib/python3.11/site-packages/jupyter_core-5.8.1.dist-info/REQUESTED",
-    "lib/python3.11/site-packages/jupyter_core-5.8.1.dist-info/WHEEL",
-    "lib/python3.11/site-packages/jupyter_core-5.8.1.dist-info/direct_url.json",
-    "lib/python3.11/site-packages/jupyter_core-5.8.1.dist-info/entry_points.txt",
-    "lib/python3.11/site-packages/jupyter_core-5.8.1.dist-info/licenses/LICENSE",
-    "lib/python3.11/site-packages/jupyter_core/__init__.py",
-    "lib/python3.11/site-packages/jupyter_core/__main__.py",
-    "lib/python3.11/site-packages/jupyter_core/application.py",
-    "lib/python3.11/site-packages/jupyter_core/command.py",
-    "lib/python3.11/site-packages/jupyter_core/migrate.py",
-    "lib/python3.11/site-packages/jupyter_core/paths.py",
-    "lib/python3.11/site-packages/jupyter_core/py.typed",
-    "lib/python3.11/site-packages/jupyter_core/troubleshoot.py",
-    "lib/python3.11/site-packages/jupyter_core/utils/__init__.py",
-    "lib/python3.11/site-packages/jupyter_core/version.py",
-    "lib/python3.11/site-packages/__pycache__/jupyter.cpython-311.pyc",
-    "lib/python3.11/site-packages/jupyter_core/__pycache__/__init__.cpython-311.pyc",
-    "lib/python3.11/site-packages/jupyter_core/__pycache__/__main__.cpython-311.pyc",
-    "lib/python3.11/site-packages/jupyter_core/__pycache__/application.cpython-311.pyc",
-    "lib/python3.11/site-packages/jupyter_core/__pycache__/command.cpython-311.pyc",
-    "lib/python3.11/site-packages/jupyter_core/__pycache__/migrate.cpython-311.pyc",
-    "lib/python3.11/site-packages/jupyter_core/__pycache__/paths.cpython-311.pyc",
-    "lib/python3.11/site-packages/jupyter_core/__pycache__/troubleshoot.cpython-311.pyc",
-    "lib/python3.11/site-packages/jupyter_core/utils/__pycache__/__init__.cpython-311.pyc",
-    "lib/python3.11/site-packages/jupyter_core/__pycache__/version.cpython-311.pyc",
+    "lib/python3.13/site-packages/jupyter.py",
+    "lib/python3.13/site-packages/jupyter_core-5.8.1.dist-info/INSTALLER",
+    "lib/python3.13/site-packages/jupyter_core-5.8.1.dist-info/METADATA",
+    "lib/python3.13/site-packages/jupyter_core-5.8.1.dist-info/RECORD",
+    "lib/python3.13/site-packages/jupyter_core-5.8.1.dist-info/REQUESTED",
+    "lib/python3.13/site-packages/jupyter_core-5.8.1.dist-info/WHEEL",
+    "lib/python3.13/site-packages/jupyter_core-5.8.1.dist-info/direct_url.json",
+    "lib/python3.13/site-packages/jupyter_core-5.8.1.dist-info/entry_points.txt",
+    "lib/python3.13/site-packages/jupyter_core-5.8.1.dist-info/licenses/LICENSE",
+    "lib/python3.13/site-packages/jupyter_core/__init__.py",
+    "lib/python3.13/site-packages/jupyter_core/__main__.py",
+    "lib/python3.13/site-packages/jupyter_core/application.py",
+    "lib/python3.13/site-packages/jupyter_core/command.py",
+    "lib/python3.13/site-packages/jupyter_core/migrate.py",
+    "lib/python3.13/site-packages/jupyter_core/paths.py",
+    "lib/python3.13/site-packages/jupyter_core/py.typed",
+    "lib/python3.13/site-packages/jupyter_core/troubleshoot.py",
+    "lib/python3.13/site-packages/jupyter_core/utils/__init__.py",
+    "lib/python3.13/site-packages/jupyter_core/version.py",
+    "lib/python3.13/site-packages/__pycache__/jupyter.cpython-313.pyc",
+    "lib/python3.13/site-packages/jupyter_core/__pycache__/__init__.cpython-313.pyc",
+    "lib/python3.13/site-packages/jupyter_core/__pycache__/__main__.cpython-313.pyc",
+    "lib/python3.13/site-packages/jupyter_core/__pycache__/application.cpython-313.pyc",
+    "lib/python3.13/site-packages/jupyter_core/__pycache__/command.cpython-313.pyc",
+    "lib/python3.13/site-packages/jupyter_core/__pycache__/migrate.cpython-313.pyc",
+    "lib/python3.13/site-packages/jupyter_core/__pycache__/paths.cpython-313.pyc",
+    "lib/python3.13/site-packages/jupyter_core/__pycache__/troubleshoot.cpython-313.pyc",
+    "lib/python3.13/site-packages/jupyter_core/utils/__pycache__/__init__.cpython-313.pyc",
+    "lib/python3.13/site-packages/jupyter_core/__pycache__/version.cpython-313.pyc",
     "bin/jupyter",
     "bin/jupyter-migrate",
     "bin/jupyter-troubleshoot"
@@ -191,43 +191,43 @@
         "size_in_bytes": 539
       },
       {
-        "_path": "lib/python3.11/site-packages/__pycache__/jupyter.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/__pycache__/jupyter.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/jupyter_core/__pycache__/__init__.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/jupyter_core/__pycache__/__init__.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/jupyter_core/__pycache__/__main__.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/jupyter_core/__pycache__/__main__.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/jupyter_core/__pycache__/application.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/jupyter_core/__pycache__/application.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/jupyter_core/__pycache__/command.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/jupyter_core/__pycache__/command.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/jupyter_core/__pycache__/migrate.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/jupyter_core/__pycache__/migrate.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/jupyter_core/__pycache__/paths.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/jupyter_core/__pycache__/paths.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/jupyter_core/__pycache__/troubleshoot.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/jupyter_core/__pycache__/troubleshoot.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/jupyter_core/utils/__pycache__/__init__.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/jupyter_core/utils/__pycache__/__init__.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/jupyter_core/__pycache__/version.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/jupyter_core/__pycache__/version.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {

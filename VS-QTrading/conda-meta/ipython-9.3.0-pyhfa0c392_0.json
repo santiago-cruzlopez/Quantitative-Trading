@@ -112,363 +112,363 @@
     "etc/conda/test-files/ipython/2/tests/test_wildcard.py",
     "etc/conda/test-files/ipython/2/tests/test_zzz_autoreload.py",
     "share/man/man1/ipython.1",
-    "lib/python3.11/site-packages/IPython/__init__.py",
-    "lib/python3.11/site-packages/IPython/__main__.py",
-    "lib/python3.11/site-packages/IPython/core/__init__.py",
-    "lib/python3.11/site-packages/IPython/core/alias.py",
-    "lib/python3.11/site-packages/IPython/core/application.py",
-    "lib/python3.11/site-packages/IPython/core/async_helpers.py",
-    "lib/python3.11/site-packages/IPython/core/autocall.py",
-    "lib/python3.11/site-packages/IPython/core/builtin_trap.py",
-    "lib/python3.11/site-packages/IPython/core/compilerop.py",
-    "lib/python3.11/site-packages/IPython/core/completer.py",
-    "lib/python3.11/site-packages/IPython/core/completerlib.py",
-    "lib/python3.11/site-packages/IPython/core/crashhandler.py",
-    "lib/python3.11/site-packages/IPython/core/debugger.py",
-    "lib/python3.11/site-packages/IPython/core/display.py",
-    "lib/python3.11/site-packages/IPython/core/display_functions.py",
-    "lib/python3.11/site-packages/IPython/core/display_trap.py",
-    "lib/python3.11/site-packages/IPython/core/displayhook.py",
-    "lib/python3.11/site-packages/IPython/core/displaypub.py",
-    "lib/python3.11/site-packages/IPython/core/doctb.py",
-    "lib/python3.11/site-packages/IPython/core/error.py",
-    "lib/python3.11/site-packages/IPython/core/events.py",
-    "lib/python3.11/site-packages/IPython/core/extensions.py",
-    "lib/python3.11/site-packages/IPython/core/formatters.py",
-    "lib/python3.11/site-packages/IPython/core/getipython.py",
-    "lib/python3.11/site-packages/IPython/core/guarded_eval.py",
-    "lib/python3.11/site-packages/IPython/core/history.py",
-    "lib/python3.11/site-packages/IPython/core/historyapp.py",
-    "lib/python3.11/site-packages/IPython/core/hooks.py",
-    "lib/python3.11/site-packages/IPython/core/inputtransformer2.py",
-    "lib/python3.11/site-packages/IPython/core/interactiveshell.py",
-    "lib/python3.11/site-packages/IPython/core/latex_symbols.py",
-    "lib/python3.11/site-packages/IPython/core/logger.py",
-    "lib/python3.11/site-packages/IPython/core/macro.py",
-    "lib/python3.11/site-packages/IPython/core/magic.py",
-    "lib/python3.11/site-packages/IPython/core/magic_arguments.py",
-    "lib/python3.11/site-packages/IPython/core/magics/__init__.py",
-    "lib/python3.11/site-packages/IPython/core/magics/ast_mod.py",
-    "lib/python3.11/site-packages/IPython/core/magics/auto.py",
-    "lib/python3.11/site-packages/IPython/core/magics/basic.py",
-    "lib/python3.11/site-packages/IPython/core/magics/code.py",
-    "lib/python3.11/site-packages/IPython/core/magics/config.py",
-    "lib/python3.11/site-packages/IPython/core/magics/display.py",
-    "lib/python3.11/site-packages/IPython/core/magics/execution.py",
-    "lib/python3.11/site-packages/IPython/core/magics/extension.py",
-    "lib/python3.11/site-packages/IPython/core/magics/history.py",
-    "lib/python3.11/site-packages/IPython/core/magics/logging.py",
-    "lib/python3.11/site-packages/IPython/core/magics/namespace.py",
-    "lib/python3.11/site-packages/IPython/core/magics/osm.py",
-    "lib/python3.11/site-packages/IPython/core/magics/packaging.py",
-    "lib/python3.11/site-packages/IPython/core/magics/pylab.py",
-    "lib/python3.11/site-packages/IPython/core/magics/script.py",
-    "lib/python3.11/site-packages/IPython/core/oinspect.py",
-    "lib/python3.11/site-packages/IPython/core/page.py",
-    "lib/python3.11/site-packages/IPython/core/payload.py",
-    "lib/python3.11/site-packages/IPython/core/payloadpage.py",
-    "lib/python3.11/site-packages/IPython/core/prefilter.py",
-    "lib/python3.11/site-packages/IPython/core/profile/README_STARTUP",
-    "lib/python3.11/site-packages/IPython/core/profileapp.py",
-    "lib/python3.11/site-packages/IPython/core/profiledir.py",
-    "lib/python3.11/site-packages/IPython/core/pylabtools.py",
-    "lib/python3.11/site-packages/IPython/core/release.py",
-    "lib/python3.11/site-packages/IPython/core/shellapp.py",
-    "lib/python3.11/site-packages/IPython/core/splitinput.py",
-    "lib/python3.11/site-packages/IPython/core/tbtools.py",
-    "lib/python3.11/site-packages/IPython/core/tips.py",
-    "lib/python3.11/site-packages/IPython/core/ultratb.py",
-    "lib/python3.11/site-packages/IPython/core/usage.py",
-    "lib/python3.11/site-packages/IPython/display.py",
-    "lib/python3.11/site-packages/IPython/extensions/__init__.py",
-    "lib/python3.11/site-packages/IPython/extensions/autoreload.py",
-    "lib/python3.11/site-packages/IPython/extensions/deduperreload/__init__.py",
-    "lib/python3.11/site-packages/IPython/extensions/deduperreload/deduperreload.py",
-    "lib/python3.11/site-packages/IPython/extensions/deduperreload/deduperreload_patching.py",
-    "lib/python3.11/site-packages/IPython/extensions/storemagic.py",
-    "lib/python3.11/site-packages/IPython/external/__init__.py",
-    "lib/python3.11/site-packages/IPython/external/pickleshare.py",
-    "lib/python3.11/site-packages/IPython/external/qt_for_kernel.py",
-    "lib/python3.11/site-packages/IPython/external/qt_loaders.py",
-    "lib/python3.11/site-packages/IPython/lib/__init__.py",
-    "lib/python3.11/site-packages/IPython/lib/backgroundjobs.py",
-    "lib/python3.11/site-packages/IPython/lib/clipboard.py",
-    "lib/python3.11/site-packages/IPython/lib/deepreload.py",
-    "lib/python3.11/site-packages/IPython/lib/demo.py",
-    "lib/python3.11/site-packages/IPython/lib/display.py",
-    "lib/python3.11/site-packages/IPython/lib/editorhooks.py",
-    "lib/python3.11/site-packages/IPython/lib/guisupport.py",
-    "lib/python3.11/site-packages/IPython/lib/latextools.py",
-    "lib/python3.11/site-packages/IPython/lib/lexers.py",
-    "lib/python3.11/site-packages/IPython/lib/pretty.py",
-    "lib/python3.11/site-packages/IPython/paths.py",
-    "lib/python3.11/site-packages/IPython/py.typed",
-    "lib/python3.11/site-packages/IPython/sphinxext/__init__.py",
-    "lib/python3.11/site-packages/IPython/sphinxext/custom_doctests.py",
-    "lib/python3.11/site-packages/IPython/sphinxext/ipython_console_highlighting.py",
-    "lib/python3.11/site-packages/IPython/sphinxext/ipython_directive.py",
-    "lib/python3.11/site-packages/IPython/terminal/__init__.py",
-    "lib/python3.11/site-packages/IPython/terminal/debugger.py",
-    "lib/python3.11/site-packages/IPython/terminal/embed.py",
-    "lib/python3.11/site-packages/IPython/terminal/interactiveshell.py",
-    "lib/python3.11/site-packages/IPython/terminal/ipapp.py",
-    "lib/python3.11/site-packages/IPython/terminal/magics.py",
-    "lib/python3.11/site-packages/IPython/terminal/prompts.py",
-    "lib/python3.11/site-packages/IPython/terminal/pt_inputhooks/__init__.py",
-    "lib/python3.11/site-packages/IPython/terminal/pt_inputhooks/asyncio.py",
-    "lib/python3.11/site-packages/IPython/terminal/pt_inputhooks/glut.py",
-    "lib/python3.11/site-packages/IPython/terminal/pt_inputhooks/gtk.py",
-    "lib/python3.11/site-packages/IPython/terminal/pt_inputhooks/gtk3.py",
-    "lib/python3.11/site-packages/IPython/terminal/pt_inputhooks/gtk4.py",
-    "lib/python3.11/site-packages/IPython/terminal/pt_inputhooks/osx.py",
-    "lib/python3.11/site-packages/IPython/terminal/pt_inputhooks/pyglet.py",
-    "lib/python3.11/site-packages/IPython/terminal/pt_inputhooks/qt.py",
-    "lib/python3.11/site-packages/IPython/terminal/pt_inputhooks/tk.py",
-    "lib/python3.11/site-packages/IPython/terminal/pt_inputhooks/wx.py",
-    "lib/python3.11/site-packages/IPython/terminal/ptutils.py",
-    "lib/python3.11/site-packages/IPython/terminal/shortcuts/__init__.py",
-    "lib/python3.11/site-packages/IPython/terminal/shortcuts/auto_match.py",
-    "lib/python3.11/site-packages/IPython/terminal/shortcuts/auto_suggest.py",
-    "lib/python3.11/site-packages/IPython/terminal/shortcuts/filters.py",
-    "lib/python3.11/site-packages/IPython/testing/__init__.py",
-    "lib/python3.11/site-packages/IPython/testing/decorators.py",
-    "lib/python3.11/site-packages/IPython/testing/globalipapp.py",
-    "lib/python3.11/site-packages/IPython/testing/ipunittest.py",
-    "lib/python3.11/site-packages/IPython/testing/plugin/__init__.py",
-    "lib/python3.11/site-packages/IPython/testing/plugin/dtexample.py",
-    "lib/python3.11/site-packages/IPython/testing/plugin/ipdoctest.py",
-    "lib/python3.11/site-packages/IPython/testing/plugin/pytest_ipdoctest.py",
-    "lib/python3.11/site-packages/IPython/testing/plugin/setup.py",
-    "lib/python3.11/site-packages/IPython/testing/plugin/simple.py",
-    "lib/python3.11/site-packages/IPython/testing/plugin/simplevars.py",
-    "lib/python3.11/site-packages/IPython/testing/plugin/test_combo.txt",
-    "lib/python3.11/site-packages/IPython/testing/plugin/test_example.txt",
-    "lib/python3.11/site-packages/IPython/testing/plugin/test_exampleip.txt",
-    "lib/python3.11/site-packages/IPython/testing/plugin/test_ipdoctest.py",
-    "lib/python3.11/site-packages/IPython/testing/plugin/test_refs.py",
-    "lib/python3.11/site-packages/IPython/testing/skipdoctest.py",
-    "lib/python3.11/site-packages/IPython/testing/tools.py",
-    "lib/python3.11/site-packages/IPython/utils/PyColorize.py",
-    "lib/python3.11/site-packages/IPython/utils/__init__.py",
-    "lib/python3.11/site-packages/IPython/utils/_process_cli.py",
-    "lib/python3.11/site-packages/IPython/utils/_process_common.py",
-    "lib/python3.11/site-packages/IPython/utils/_process_emscripten.py",
-    "lib/python3.11/site-packages/IPython/utils/_process_posix.py",
-    "lib/python3.11/site-packages/IPython/utils/_process_win32.py",
-    "lib/python3.11/site-packages/IPython/utils/_process_win32_controller.py",
-    "lib/python3.11/site-packages/IPython/utils/_sysinfo.py",
-    "lib/python3.11/site-packages/IPython/utils/capture.py",
-    "lib/python3.11/site-packages/IPython/utils/coloransi.py",
-    "lib/python3.11/site-packages/IPython/utils/contexts.py",
-    "lib/python3.11/site-packages/IPython/utils/data.py",
-    "lib/python3.11/site-packages/IPython/utils/decorators.py",
-    "lib/python3.11/site-packages/IPython/utils/dir2.py",
-    "lib/python3.11/site-packages/IPython/utils/docs.py",
-    "lib/python3.11/site-packages/IPython/utils/encoding.py",
-    "lib/python3.11/site-packages/IPython/utils/eventful.py",
-    "lib/python3.11/site-packages/IPython/utils/frame.py",
-    "lib/python3.11/site-packages/IPython/utils/generics.py",
-    "lib/python3.11/site-packages/IPython/utils/importstring.py",
-    "lib/python3.11/site-packages/IPython/utils/io.py",
-    "lib/python3.11/site-packages/IPython/utils/ipstruct.py",
-    "lib/python3.11/site-packages/IPython/utils/jsonutil.py",
-    "lib/python3.11/site-packages/IPython/utils/log.py",
-    "lib/python3.11/site-packages/IPython/utils/module_paths.py",
-    "lib/python3.11/site-packages/IPython/utils/openpy.py",
-    "lib/python3.11/site-packages/IPython/utils/path.py",
-    "lib/python3.11/site-packages/IPython/utils/process.py",
-    "lib/python3.11/site-packages/IPython/utils/py3compat.py",
-    "lib/python3.11/site-packages/IPython/utils/sentinel.py",
-    "lib/python3.11/site-packages/IPython/utils/strdispatch.py",
-    "lib/python3.11/site-packages/IPython/utils/sysinfo.py",
-    "lib/python3.11/site-packages/IPython/utils/syspathcontext.py",
-    "lib/python3.11/site-packages/IPython/utils/tempdir.py",
-    "lib/python3.11/site-packages/IPython/utils/terminal.py",
-    "lib/python3.11/site-packages/IPython/utils/text.py",
-    "lib/python3.11/site-packages/IPython/utils/timing.py",
-    "lib/python3.11/site-packages/IPython/utils/tokenutil.py",
-    "lib/python3.11/site-packages/IPython/utils/wildcard.py",
-    "lib/python3.11/site-packages/ipython-9.3.0.dist-info/INSTALLER",
-    "lib/python3.11/site-packages/ipython-9.3.0.dist-info/METADATA",
-    "lib/python3.11/site-packages/ipython-9.3.0.dist-info/RECORD",
-    "lib/python3.11/site-packages/ipython-9.3.0.dist-info/REQUESTED",
-    "lib/python3.11/site-packages/ipython-9.3.0.dist-info/WHEEL",
-    "lib/python3.11/site-packages/ipython-9.3.0.dist-info/direct_url.json",
-    "lib/python3.11/site-packages/ipython-9.3.0.dist-info/entry_points.txt",
-    "lib/python3.11/site-packages/ipython-9.3.0.dist-info/licenses/COPYING.rst",
-    "lib/python3.11/site-packages/ipython-9.3.0.dist-info/licenses/LICENSE",
-    "lib/python3.11/site-packages/ipython-9.3.0.dist-info/top_level.txt",
-    "lib/python3.11/site-packages/IPython/__pycache__/__init__.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/__pycache__/__main__.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/core/__pycache__/__init__.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/core/__pycache__/alias.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/core/__pycache__/application.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/core/__pycache__/async_helpers.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/core/__pycache__/autocall.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/core/__pycache__/builtin_trap.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/core/__pycache__/compilerop.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/core/__pycache__/completer.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/core/__pycache__/completerlib.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/core/__pycache__/crashhandler.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/core/__pycache__/debugger.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/core/__pycache__/display.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/core/__pycache__/display_functions.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/core/__pycache__/display_trap.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/core/__pycache__/displayhook.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/core/__pycache__/displaypub.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/core/__pycache__/doctb.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/core/__pycache__/error.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/core/__pycache__/events.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/core/__pycache__/extensions.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/core/__pycache__/formatters.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/core/__pycache__/getipython.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/core/__pycache__/guarded_eval.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/core/__pycache__/history.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/core/__pycache__/historyapp.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/core/__pycache__/hooks.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/core/__pycache__/inputtransformer2.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/core/__pycache__/interactiveshell.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/core/__pycache__/latex_symbols.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/core/__pycache__/logger.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/core/__pycache__/macro.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/core/__pycache__/magic.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/core/__pycache__/magic_arguments.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/core/magics/__pycache__/__init__.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/core/magics/__pycache__/ast_mod.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/core/magics/__pycache__/auto.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/core/magics/__pycache__/basic.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/core/magics/__pycache__/code.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/core/magics/__pycache__/config.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/core/magics/__pycache__/display.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/core/magics/__pycache__/execution.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/core/magics/__pycache__/extension.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/core/magics/__pycache__/history.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/core/magics/__pycache__/logging.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/core/magics/__pycache__/namespace.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/core/magics/__pycache__/osm.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/core/magics/__pycache__/packaging.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/core/magics/__pycache__/pylab.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/core/magics/__pycache__/script.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/core/__pycache__/oinspect.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/core/__pycache__/page.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/core/__pycache__/payload.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/core/__pycache__/payloadpage.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/core/__pycache__/prefilter.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/core/__pycache__/profileapp.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/core/__pycache__/profiledir.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/core/__pycache__/pylabtools.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/core/__pycache__/release.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/core/__pycache__/shellapp.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/core/__pycache__/splitinput.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/core/__pycache__/tbtools.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/core/__pycache__/tips.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/core/__pycache__/ultratb.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/core/__pycache__/usage.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/__pycache__/display.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/extensions/__pycache__/__init__.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/extensions/__pycache__/autoreload.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/extensions/deduperreload/__pycache__/__init__.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/extensions/deduperreload/__pycache__/deduperreload.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/extensions/deduperreload/__pycache__/deduperreload_patching.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/extensions/__pycache__/storemagic.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/external/__pycache__/__init__.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/external/__pycache__/pickleshare.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/external/__pycache__/qt_for_kernel.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/external/__pycache__/qt_loaders.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/lib/__pycache__/__init__.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/lib/__pycache__/backgroundjobs.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/lib/__pycache__/clipboard.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/lib/__pycache__/deepreload.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/lib/__pycache__/demo.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/lib/__pycache__/display.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/lib/__pycache__/editorhooks.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/lib/__pycache__/guisupport.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/lib/__pycache__/latextools.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/lib/__pycache__/lexers.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/lib/__pycache__/pretty.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/__pycache__/paths.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/sphinxext/__pycache__/__init__.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/sphinxext/__pycache__/custom_doctests.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/sphinxext/__pycache__/ipython_console_highlighting.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/sphinxext/__pycache__/ipython_directive.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/terminal/__pycache__/__init__.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/terminal/__pycache__/debugger.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/terminal/__pycache__/embed.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/terminal/__pycache__/interactiveshell.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/terminal/__pycache__/ipapp.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/terminal/__pycache__/magics.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/terminal/__pycache__/prompts.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/terminal/pt_inputhooks/__pycache__/__init__.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/terminal/pt_inputhooks/__pycache__/asyncio.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/terminal/pt_inputhooks/__pycache__/glut.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/terminal/pt_inputhooks/__pycache__/gtk.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/terminal/pt_inputhooks/__pycache__/gtk3.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/terminal/pt_inputhooks/__pycache__/gtk4.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/terminal/pt_inputhooks/__pycache__/osx.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/terminal/pt_inputhooks/__pycache__/pyglet.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/terminal/pt_inputhooks/__pycache__/qt.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/terminal/pt_inputhooks/__pycache__/tk.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/terminal/pt_inputhooks/__pycache__/wx.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/terminal/__pycache__/ptutils.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/terminal/shortcuts/__pycache__/__init__.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/terminal/shortcuts/__pycache__/auto_match.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/terminal/shortcuts/__pycache__/auto_suggest.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/terminal/shortcuts/__pycache__/filters.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/testing/__pycache__/__init__.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/testing/__pycache__/decorators.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/testing/__pycache__/globalipapp.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/testing/__pycache__/ipunittest.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/testing/plugin/__pycache__/__init__.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/testing/plugin/__pycache__/dtexample.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/testing/plugin/__pycache__/ipdoctest.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/testing/plugin/__pycache__/pytest_ipdoctest.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/testing/plugin/__pycache__/setup.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/testing/plugin/__pycache__/simple.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/testing/plugin/__pycache__/simplevars.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/testing/plugin/__pycache__/test_ipdoctest.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/testing/plugin/__pycache__/test_refs.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/testing/__pycache__/skipdoctest.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/testing/__pycache__/tools.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/utils/__pycache__/PyColorize.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/utils/__pycache__/__init__.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/utils/__pycache__/_process_cli.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/utils/__pycache__/_process_common.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/utils/__pycache__/_process_emscripten.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/utils/__pycache__/_process_posix.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/utils/__pycache__/_process_win32.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/utils/__pycache__/_process_win32_controller.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/utils/__pycache__/_sysinfo.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/utils/__pycache__/capture.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/utils/__pycache__/coloransi.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/utils/__pycache__/contexts.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/utils/__pycache__/data.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/utils/__pycache__/decorators.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/utils/__pycache__/dir2.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/utils/__pycache__/docs.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/utils/__pycache__/encoding.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/utils/__pycache__/eventful.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/utils/__pycache__/frame.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/utils/__pycache__/generics.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/utils/__pycache__/importstring.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/utils/__pycache__/io.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/utils/__pycache__/ipstruct.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/utils/__pycache__/jsonutil.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/utils/__pycache__/log.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/utils/__pycache__/module_paths.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/utils/__pycache__/openpy.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/utils/__pycache__/path.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/utils/__pycache__/process.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/utils/__pycache__/py3compat.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/utils/__pycache__/sentinel.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/utils/__pycache__/strdispatch.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/utils/__pycache__/sysinfo.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/utils/__pycache__/syspathcontext.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/utils/__pycache__/tempdir.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/utils/__pycache__/terminal.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/utils/__pycache__/text.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/utils/__pycache__/timing.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/utils/__pycache__/tokenutil.cpython-311.pyc",
-    "lib/python3.11/site-packages/IPython/utils/__pycache__/wildcard.cpython-311.pyc",
+    "lib/python3.13/site-packages/IPython/__init__.py",
+    "lib/python3.13/site-packages/IPython/__main__.py",
+    "lib/python3.13/site-packages/IPython/core/__init__.py",
+    "lib/python3.13/site-packages/IPython/core/alias.py",
+    "lib/python3.13/site-packages/IPython/core/application.py",
+    "lib/python3.13/site-packages/IPython/core/async_helpers.py",
+    "lib/python3.13/site-packages/IPython/core/autocall.py",
+    "lib/python3.13/site-packages/IPython/core/builtin_trap.py",
+    "lib/python3.13/site-packages/IPython/core/compilerop.py",
+    "lib/python3.13/site-packages/IPython/core/completer.py",
+    "lib/python3.13/site-packages/IPython/core/completerlib.py",
+    "lib/python3.13/site-packages/IPython/core/crashhandler.py",
+    "lib/python3.13/site-packages/IPython/core/debugger.py",
+    "lib/python3.13/site-packages/IPython/core/display.py",
+    "lib/python3.13/site-packages/IPython/core/display_functions.py",
+    "lib/python3.13/site-packages/IPython/core/display_trap.py",
+    "lib/python3.13/site-packages/IPython/core/displayhook.py",
+    "lib/python3.13/site-packages/IPython/core/displaypub.py",
+    "lib/python3.13/site-packages/IPython/core/doctb.py",
+    "lib/python3.13/site-packages/IPython/core/error.py",
+    "lib/python3.13/site-packages/IPython/core/events.py",
+    "lib/python3.13/site-packages/IPython/core/extensions.py",
+    "lib/python3.13/site-packages/IPython/core/formatters.py",
+    "lib/python3.13/site-packages/IPython/core/getipython.py",
+    "lib/python3.13/site-packages/IPython/core/guarded_eval.py",
+    "lib/python3.13/site-packages/IPython/core/history.py",
+    "lib/python3.13/site-packages/IPython/core/historyapp.py",
+    "lib/python3.13/site-packages/IPython/core/hooks.py",
+    "lib/python3.13/site-packages/IPython/core/inputtransformer2.py",
+    "lib/python3.13/site-packages/IPython/core/interactiveshell.py",
+    "lib/python3.13/site-packages/IPython/core/latex_symbols.py",
+    "lib/python3.13/site-packages/IPython/core/logger.py",
+    "lib/python3.13/site-packages/IPython/core/macro.py",
+    "lib/python3.13/site-packages/IPython/core/magic.py",
+    "lib/python3.13/site-packages/IPython/core/magic_arguments.py",
+    "lib/python3.13/site-packages/IPython/core/magics/__init__.py",
+    "lib/python3.13/site-packages/IPython/core/magics/ast_mod.py",
+    "lib/python3.13/site-packages/IPython/core/magics/auto.py",
+    "lib/python3.13/site-packages/IPython/core/magics/basic.py",
+    "lib/python3.13/site-packages/IPython/core/magics/code.py",
+    "lib/python3.13/site-packages/IPython/core/magics/config.py",
+    "lib/python3.13/site-packages/IPython/core/magics/display.py",
+    "lib/python3.13/site-packages/IPython/core/magics/execution.py",
+    "lib/python3.13/site-packages/IPython/core/magics/extension.py",
+    "lib/python3.13/site-packages/IPython/core/magics/history.py",
+    "lib/python3.13/site-packages/IPython/core/magics/logging.py",
+    "lib/python3.13/site-packages/IPython/core/magics/namespace.py",
+    "lib/python3.13/site-packages/IPython/core/magics/osm.py",
+    "lib/python3.13/site-packages/IPython/core/magics/packaging.py",
+    "lib/python3.13/site-packages/IPython/core/magics/pylab.py",
+    "lib/python3.13/site-packages/IPython/core/magics/script.py",
+    "lib/python3.13/site-packages/IPython/core/oinspect.py",
+    "lib/python3.13/site-packages/IPython/core/page.py",
+    "lib/python3.13/site-packages/IPython/core/payload.py",
+    "lib/python3.13/site-packages/IPython/core/payloadpage.py",
+    "lib/python3.13/site-packages/IPython/core/prefilter.py",
+    "lib/python3.13/site-packages/IPython/core/profile/README_STARTUP",
+    "lib/python3.13/site-packages/IPython/core/profileapp.py",
+    "lib/python3.13/site-packages/IPython/core/profiledir.py",
+    "lib/python3.13/site-packages/IPython/core/pylabtools.py",
+    "lib/python3.13/site-packages/IPython/core/release.py",
+    "lib/python3.13/site-packages/IPython/core/shellapp.py",
+    "lib/python3.13/site-packages/IPython/core/splitinput.py",
+    "lib/python3.13/site-packages/IPython/core/tbtools.py",
+    "lib/python3.13/site-packages/IPython/core/tips.py",
+    "lib/python3.13/site-packages/IPython/core/ultratb.py",
+    "lib/python3.13/site-packages/IPython/core/usage.py",
+    "lib/python3.13/site-packages/IPython/display.py",
+    "lib/python3.13/site-packages/IPython/extensions/__init__.py",
+    "lib/python3.13/site-packages/IPython/extensions/autoreload.py",
+    "lib/python3.13/site-packages/IPython/extensions/deduperreload/__init__.py",
+    "lib/python3.13/site-packages/IPython/extensions/deduperreload/deduperreload.py",
+    "lib/python3.13/site-packages/IPython/extensions/deduperreload/deduperreload_patching.py",
+    "lib/python3.13/site-packages/IPython/extensions/storemagic.py",
+    "lib/python3.13/site-packages/IPython/external/__init__.py",
+    "lib/python3.13/site-packages/IPython/external/pickleshare.py",
+    "lib/python3.13/site-packages/IPython/external/qt_for_kernel.py",
+    "lib/python3.13/site-packages/IPython/external/qt_loaders.py",
+    "lib/python3.13/site-packages/IPython/lib/__init__.py",
+    "lib/python3.13/site-packages/IPython/lib/backgroundjobs.py",
+    "lib/python3.13/site-packages/IPython/lib/clipboard.py",
+    "lib/python3.13/site-packages/IPython/lib/deepreload.py",
+    "lib/python3.13/site-packages/IPython/lib/demo.py",
+    "lib/python3.13/site-packages/IPython/lib/display.py",
+    "lib/python3.13/site-packages/IPython/lib/editorhooks.py",
+    "lib/python3.13/site-packages/IPython/lib/guisupport.py",
+    "lib/python3.13/site-packages/IPython/lib/latextools.py",
+    "lib/python3.13/site-packages/IPython/lib/lexers.py",
+    "lib/python3.13/site-packages/IPython/lib/pretty.py",
+    "lib/python3.13/site-packages/IPython/paths.py",
+    "lib/python3.13/site-packages/IPython/py.typed",
+    "lib/python3.13/site-packages/IPython/sphinxext/__init__.py",
+    "lib/python3.13/site-packages/IPython/sphinxext/custom_doctests.py",
+    "lib/python3.13/site-packages/IPython/sphinxext/ipython_console_highlighting.py",
+    "lib/python3.13/site-packages/IPython/sphinxext/ipython_directive.py",
+    "lib/python3.13/site-packages/IPython/terminal/__init__.py",
+    "lib/python3.13/site-packages/IPython/terminal/debugger.py",
+    "lib/python3.13/site-packages/IPython/terminal/embed.py",
+    "lib/python3.13/site-packages/IPython/terminal/interactiveshell.py",
+    "lib/python3.13/site-packages/IPython/terminal/ipapp.py",
+    "lib/python3.13/site-packages/IPython/terminal/magics.py",
+    "lib/python3.13/site-packages/IPython/terminal/prompts.py",
+    "lib/python3.13/site-packages/IPython/terminal/pt_inputhooks/__init__.py",
+    "lib/python3.13/site-packages/IPython/terminal/pt_inputhooks/asyncio.py",
+    "lib/python3.13/site-packages/IPython/terminal/pt_inputhooks/glut.py",
+    "lib/python3.13/site-packages/IPython/terminal/pt_inputhooks/gtk.py",
+    "lib/python3.13/site-packages/IPython/terminal/pt_inputhooks/gtk3.py",
+    "lib/python3.13/site-packages/IPython/terminal/pt_inputhooks/gtk4.py",
+    "lib/python3.13/site-packages/IPython/terminal/pt_inputhooks/osx.py",
+    "lib/python3.13/site-packages/IPython/terminal/pt_inputhooks/pyglet.py",
+    "lib/python3.13/site-packages/IPython/terminal/pt_inputhooks/qt.py",
+    "lib/python3.13/site-packages/IPython/terminal/pt_inputhooks/tk.py",
+    "lib/python3.13/site-packages/IPython/terminal/pt_inputhooks/wx.py",
+    "lib/python3.13/site-packages/IPython/terminal/ptutils.py",
+    "lib/python3.13/site-packages/IPython/terminal/shortcuts/__init__.py",
+    "lib/python3.13/site-packages/IPython/terminal/shortcuts/auto_match.py",
+    "lib/python3.13/site-packages/IPython/terminal/shortcuts/auto_suggest.py",
+    "lib/python3.13/site-packages/IPython/terminal/shortcuts/filters.py",
+    "lib/python3.13/site-packages/IPython/testing/__init__.py",
+    "lib/python3.13/site-packages/IPython/testing/decorators.py",
+    "lib/python3.13/site-packages/IPython/testing/globalipapp.py",
+    "lib/python3.13/site-packages/IPython/testing/ipunittest.py",
+    "lib/python3.13/site-packages/IPython/testing/plugin/__init__.py",
+    "lib/python3.13/site-packages/IPython/testing/plugin/dtexample.py",
+    "lib/python3.13/site-packages/IPython/testing/plugin/ipdoctest.py",
+    "lib/python3.13/site-packages/IPython/testing/plugin/pytest_ipdoctest.py",
+    "lib/python3.13/site-packages/IPython/testing/plugin/setup.py",
+    "lib/python3.13/site-packages/IPython/testing/plugin/simple.py",
+    "lib/python3.13/site-packages/IPython/testing/plugin/simplevars.py",
+    "lib/python3.13/site-packages/IPython/testing/plugin/test_combo.txt",
+    "lib/python3.13/site-packages/IPython/testing/plugin/test_example.txt",
+    "lib/python3.13/site-packages/IPython/testing/plugin/test_exampleip.txt",
+    "lib/python3.13/site-packages/IPython/testing/plugin/test_ipdoctest.py",
+    "lib/python3.13/site-packages/IPython/testing/plugin/test_refs.py",
+    "lib/python3.13/site-packages/IPython/testing/skipdoctest.py",
+    "lib/python3.13/site-packages/IPython/testing/tools.py",
+    "lib/python3.13/site-packages/IPython/utils/PyColorize.py",
+    "lib/python3.13/site-packages/IPython/utils/__init__.py",
+    "lib/python3.13/site-packages/IPython/utils/_process_cli.py",
+    "lib/python3.13/site-packages/IPython/utils/_process_common.py",
+    "lib/python3.13/site-packages/IPython/utils/_process_emscripten.py",
+    "lib/python3.13/site-packages/IPython/utils/_process_posix.py",
+    "lib/python3.13/site-packages/IPython/utils/_process_win32.py",
+    "lib/python3.13/site-packages/IPython/utils/_process_win32_controller.py",
+    "lib/python3.13/site-packages/IPython/utils/_sysinfo.py",
+    "lib/python3.13/site-packages/IPython/utils/capture.py",
+    "lib/python3.13/site-packages/IPython/utils/coloransi.py",
+    "lib/python3.13/site-packages/IPython/utils/contexts.py",
+    "lib/python3.13/site-packages/IPython/utils/data.py",
+    "lib/python3.13/site-packages/IPython/utils/decorators.py",
+    "lib/python3.13/site-packages/IPython/utils/dir2.py",
+    "lib/python3.13/site-packages/IPython/utils/docs.py",
+    "lib/python3.13/site-packages/IPython/utils/encoding.py",
+    "lib/python3.13/site-packages/IPython/utils/eventful.py",
+    "lib/python3.13/site-packages/IPython/utils/frame.py",
+    "lib/python3.13/site-packages/IPython/utils/generics.py",
+    "lib/python3.13/site-packages/IPython/utils/importstring.py",
+    "lib/python3.13/site-packages/IPython/utils/io.py",
+    "lib/python3.13/site-packages/IPython/utils/ipstruct.py",
+    "lib/python3.13/site-packages/IPython/utils/jsonutil.py",
+    "lib/python3.13/site-packages/IPython/utils/log.py",
+    "lib/python3.13/site-packages/IPython/utils/module_paths.py",
+    "lib/python3.13/site-packages/IPython/utils/openpy.py",
+    "lib/python3.13/site-packages/IPython/utils/path.py",
+    "lib/python3.13/site-packages/IPython/utils/process.py",
+    "lib/python3.13/site-packages/IPython/utils/py3compat.py",
+    "lib/python3.13/site-packages/IPython/utils/sentinel.py",
+    "lib/python3.13/site-packages/IPython/utils/strdispatch.py",
+    "lib/python3.13/site-packages/IPython/utils/sysinfo.py",
+    "lib/python3.13/site-packages/IPython/utils/syspathcontext.py",
+    "lib/python3.13/site-packages/IPython/utils/tempdir.py",
+    "lib/python3.13/site-packages/IPython/utils/terminal.py",
+    "lib/python3.13/site-packages/IPython/utils/text.py",
+    "lib/python3.13/site-packages/IPython/utils/timing.py",
+    "lib/python3.13/site-packages/IPython/utils/tokenutil.py",
+    "lib/python3.13/site-packages/IPython/utils/wildcard.py",
+    "lib/python3.13/site-packages/ipython-9.3.0.dist-info/INSTALLER",
+    "lib/python3.13/site-packages/ipython-9.3.0.dist-info/METADATA",
+    "lib/python3.13/site-packages/ipython-9.3.0.dist-info/RECORD",
+    "lib/python3.13/site-packages/ipython-9.3.0.dist-info/REQUESTED",
+    "lib/python3.13/site-packages/ipython-9.3.0.dist-info/WHEEL",
+    "lib/python3.13/site-packages/ipython-9.3.0.dist-info/direct_url.json",
+    "lib/python3.13/site-packages/ipython-9.3.0.dist-info/entry_points.txt",
+    "lib/python3.13/site-packages/ipython-9.3.0.dist-info/licenses/COPYING.rst",
+    "lib/python3.13/site-packages/ipython-9.3.0.dist-info/licenses/LICENSE",
+    "lib/python3.13/site-packages/ipython-9.3.0.dist-info/top_level.txt",
+    "lib/python3.13/site-packages/IPython/__pycache__/__init__.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/__pycache__/__main__.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/core/__pycache__/__init__.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/core/__pycache__/alias.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/core/__pycache__/application.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/core/__pycache__/async_helpers.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/core/__pycache__/autocall.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/core/__pycache__/builtin_trap.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/core/__pycache__/compilerop.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/core/__pycache__/completer.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/core/__pycache__/completerlib.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/core/__pycache__/crashhandler.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/core/__pycache__/debugger.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/core/__pycache__/display.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/core/__pycache__/display_functions.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/core/__pycache__/display_trap.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/core/__pycache__/displayhook.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/core/__pycache__/displaypub.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/core/__pycache__/doctb.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/core/__pycache__/error.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/core/__pycache__/events.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/core/__pycache__/extensions.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/core/__pycache__/formatters.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/core/__pycache__/getipython.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/core/__pycache__/guarded_eval.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/core/__pycache__/history.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/core/__pycache__/historyapp.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/core/__pycache__/hooks.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/core/__pycache__/inputtransformer2.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/core/__pycache__/interactiveshell.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/core/__pycache__/latex_symbols.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/core/__pycache__/logger.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/core/__pycache__/macro.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/core/__pycache__/magic.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/core/__pycache__/magic_arguments.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/core/magics/__pycache__/__init__.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/core/magics/__pycache__/ast_mod.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/core/magics/__pycache__/auto.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/core/magics/__pycache__/basic.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/core/magics/__pycache__/code.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/core/magics/__pycache__/config.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/core/magics/__pycache__/display.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/core/magics/__pycache__/execution.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/core/magics/__pycache__/extension.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/core/magics/__pycache__/history.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/core/magics/__pycache__/logging.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/core/magics/__pycache__/namespace.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/core/magics/__pycache__/osm.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/core/magics/__pycache__/packaging.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/core/magics/__pycache__/pylab.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/core/magics/__pycache__/script.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/core/__pycache__/oinspect.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/core/__pycache__/page.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/core/__pycache__/payload.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/core/__pycache__/payloadpage.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/core/__pycache__/prefilter.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/core/__pycache__/profileapp.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/core/__pycache__/profiledir.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/core/__pycache__/pylabtools.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/core/__pycache__/release.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/core/__pycache__/shellapp.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/core/__pycache__/splitinput.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/core/__pycache__/tbtools.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/core/__pycache__/tips.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/core/__pycache__/ultratb.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/core/__pycache__/usage.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/__pycache__/display.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/extensions/__pycache__/__init__.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/extensions/__pycache__/autoreload.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/extensions/deduperreload/__pycache__/__init__.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/extensions/deduperreload/__pycache__/deduperreload.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/extensions/deduperreload/__pycache__/deduperreload_patching.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/extensions/__pycache__/storemagic.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/external/__pycache__/__init__.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/external/__pycache__/pickleshare.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/external/__pycache__/qt_for_kernel.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/external/__pycache__/qt_loaders.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/lib/__pycache__/__init__.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/lib/__pycache__/backgroundjobs.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/lib/__pycache__/clipboard.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/lib/__pycache__/deepreload.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/lib/__pycache__/demo.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/lib/__pycache__/display.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/lib/__pycache__/editorhooks.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/lib/__pycache__/guisupport.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/lib/__pycache__/latextools.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/lib/__pycache__/lexers.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/lib/__pycache__/pretty.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/__pycache__/paths.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/sphinxext/__pycache__/__init__.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/sphinxext/__pycache__/custom_doctests.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/sphinxext/__pycache__/ipython_console_highlighting.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/sphinxext/__pycache__/ipython_directive.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/terminal/__pycache__/__init__.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/terminal/__pycache__/debugger.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/terminal/__pycache__/embed.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/terminal/__pycache__/interactiveshell.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/terminal/__pycache__/ipapp.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/terminal/__pycache__/magics.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/terminal/__pycache__/prompts.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/terminal/pt_inputhooks/__pycache__/__init__.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/terminal/pt_inputhooks/__pycache__/asyncio.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/terminal/pt_inputhooks/__pycache__/glut.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/terminal/pt_inputhooks/__pycache__/gtk.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/terminal/pt_inputhooks/__pycache__/gtk3.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/terminal/pt_inputhooks/__pycache__/gtk4.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/terminal/pt_inputhooks/__pycache__/osx.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/terminal/pt_inputhooks/__pycache__/pyglet.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/terminal/pt_inputhooks/__pycache__/qt.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/terminal/pt_inputhooks/__pycache__/tk.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/terminal/pt_inputhooks/__pycache__/wx.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/terminal/__pycache__/ptutils.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/terminal/shortcuts/__pycache__/__init__.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/terminal/shortcuts/__pycache__/auto_match.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/terminal/shortcuts/__pycache__/auto_suggest.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/terminal/shortcuts/__pycache__/filters.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/testing/__pycache__/__init__.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/testing/__pycache__/decorators.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/testing/__pycache__/globalipapp.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/testing/__pycache__/ipunittest.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/testing/plugin/__pycache__/__init__.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/testing/plugin/__pycache__/dtexample.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/testing/plugin/__pycache__/ipdoctest.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/testing/plugin/__pycache__/pytest_ipdoctest.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/testing/plugin/__pycache__/setup.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/testing/plugin/__pycache__/simple.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/testing/plugin/__pycache__/simplevars.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/testing/plugin/__pycache__/test_ipdoctest.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/testing/plugin/__pycache__/test_refs.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/testing/__pycache__/skipdoctest.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/testing/__pycache__/tools.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/utils/__pycache__/PyColorize.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/utils/__pycache__/__init__.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/utils/__pycache__/_process_cli.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/utils/__pycache__/_process_common.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/utils/__pycache__/_process_emscripten.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/utils/__pycache__/_process_posix.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/utils/__pycache__/_process_win32.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/utils/__pycache__/_process_win32_controller.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/utils/__pycache__/_sysinfo.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/utils/__pycache__/capture.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/utils/__pycache__/coloransi.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/utils/__pycache__/contexts.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/utils/__pycache__/data.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/utils/__pycache__/decorators.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/utils/__pycache__/dir2.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/utils/__pycache__/docs.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/utils/__pycache__/encoding.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/utils/__pycache__/eventful.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/utils/__pycache__/frame.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/utils/__pycache__/generics.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/utils/__pycache__/importstring.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/utils/__pycache__/io.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/utils/__pycache__/ipstruct.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/utils/__pycache__/jsonutil.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/utils/__pycache__/log.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/utils/__pycache__/module_paths.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/utils/__pycache__/openpy.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/utils/__pycache__/path.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/utils/__pycache__/process.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/utils/__pycache__/py3compat.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/utils/__pycache__/sentinel.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/utils/__pycache__/strdispatch.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/utils/__pycache__/sysinfo.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/utils/__pycache__/syspathcontext.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/utils/__pycache__/tempdir.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/utils/__pycache__/terminal.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/utils/__pycache__/text.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/utils/__pycache__/timing.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/utils/__pycache__/tokenutil.cpython-313.pyc",
+    "lib/python3.13/site-packages/IPython/utils/__pycache__/wildcard.cpython-313.pyc",
     "bin/ipython",
     "bin/ipython3"
   ],
@@ -2418,687 +2418,687 @@
         "size_in_bytes": 8
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/__pycache__/__init__.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/__pycache__/__init__.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/__pycache__/__main__.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/__pycache__/__main__.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/core/__pycache__/__init__.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/core/__pycache__/__init__.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/core/__pycache__/alias.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/core/__pycache__/alias.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/core/__pycache__/application.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/core/__pycache__/application.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/core/__pycache__/async_helpers.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/core/__pycache__/async_helpers.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/core/__pycache__/autocall.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/core/__pycache__/autocall.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/core/__pycache__/builtin_trap.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/core/__pycache__/builtin_trap.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/core/__pycache__/compilerop.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/core/__pycache__/compilerop.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/core/__pycache__/completer.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/core/__pycache__/completer.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/core/__pycache__/completerlib.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/core/__pycache__/completerlib.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/core/__pycache__/crashhandler.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/core/__pycache__/crashhandler.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/core/__pycache__/debugger.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/core/__pycache__/debugger.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/core/__pycache__/display.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/core/__pycache__/display.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/core/__pycache__/display_functions.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/core/__pycache__/display_functions.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/core/__pycache__/display_trap.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/core/__pycache__/display_trap.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/core/__pycache__/displayhook.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/core/__pycache__/displayhook.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/core/__pycache__/displaypub.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/core/__pycache__/displaypub.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/core/__pycache__/doctb.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/core/__pycache__/doctb.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/core/__pycache__/error.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/core/__pycache__/error.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/core/__pycache__/events.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/core/__pycache__/events.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/core/__pycache__/extensions.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/core/__pycache__/extensions.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/core/__pycache__/formatters.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/core/__pycache__/formatters.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/core/__pycache__/getipython.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/core/__pycache__/getipython.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/core/__pycache__/guarded_eval.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/core/__pycache__/guarded_eval.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/core/__pycache__/history.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/core/__pycache__/history.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/core/__pycache__/historyapp.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/core/__pycache__/historyapp.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/core/__pycache__/hooks.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/core/__pycache__/hooks.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/core/__pycache__/inputtransformer2.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/core/__pycache__/inputtransformer2.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/core/__pycache__/interactiveshell.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/core/__pycache__/interactiveshell.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/core/__pycache__/latex_symbols.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/core/__pycache__/latex_symbols.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/core/__pycache__/logger.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/core/__pycache__/logger.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/core/__pycache__/macro.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/core/__pycache__/macro.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/core/__pycache__/magic.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/core/__pycache__/magic.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/core/__pycache__/magic_arguments.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/core/__pycache__/magic_arguments.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/core/magics/__pycache__/__init__.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/core/magics/__pycache__/__init__.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/core/magics/__pycache__/ast_mod.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/core/magics/__pycache__/ast_mod.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/core/magics/__pycache__/auto.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/core/magics/__pycache__/auto.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/core/magics/__pycache__/basic.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/core/magics/__pycache__/basic.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/core/magics/__pycache__/code.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/core/magics/__pycache__/code.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/core/magics/__pycache__/config.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/core/magics/__pycache__/config.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/core/magics/__pycache__/display.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/core/magics/__pycache__/display.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/core/magics/__pycache__/execution.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/core/magics/__pycache__/execution.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/core/magics/__pycache__/extension.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/core/magics/__pycache__/extension.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/core/magics/__pycache__/history.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/core/magics/__pycache__/history.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/core/magics/__pycache__/logging.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/core/magics/__pycache__/logging.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/core/magics/__pycache__/namespace.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/core/magics/__pycache__/namespace.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/core/magics/__pycache__/osm.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/core/magics/__pycache__/osm.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/core/magics/__pycache__/packaging.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/core/magics/__pycache__/packaging.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/core/magics/__pycache__/pylab.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/core/magics/__pycache__/pylab.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/core/magics/__pycache__/script.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/core/magics/__pycache__/script.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/core/__pycache__/oinspect.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/core/__pycache__/oinspect.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/core/__pycache__/page.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/core/__pycache__/page.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/core/__pycache__/payload.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/core/__pycache__/payload.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/core/__pycache__/payloadpage.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/core/__pycache__/payloadpage.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/core/__pycache__/prefilter.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/core/__pycache__/prefilter.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/core/__pycache__/profileapp.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/core/__pycache__/profileapp.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/core/__pycache__/profiledir.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/core/__pycache__/profiledir.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/core/__pycache__/pylabtools.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/core/__pycache__/pylabtools.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/core/__pycache__/release.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/core/__pycache__/release.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/core/__pycache__/shellapp.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/core/__pycache__/shellapp.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/core/__pycache__/splitinput.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/core/__pycache__/splitinput.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/core/__pycache__/tbtools.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/core/__pycache__/tbtools.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/core/__pycache__/tips.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/core/__pycache__/tips.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/core/__pycache__/ultratb.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/core/__pycache__/ultratb.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/core/__pycache__/usage.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/core/__pycache__/usage.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/__pycache__/display.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/__pycache__/display.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/extensions/__pycache__/__init__.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/extensions/__pycache__/__init__.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/extensions/__pycache__/autoreload.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/extensions/__pycache__/autoreload.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/extensions/deduperreload/__pycache__/__init__.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/extensions/deduperreload/__pycache__/__init__.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/extensions/deduperreload/__pycache__/deduperreload.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/extensions/deduperreload/__pycache__/deduperreload.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/extensions/deduperreload/__pycache__/deduperreload_patching.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/extensions/deduperreload/__pycache__/deduperreload_patching.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/extensions/__pycache__/storemagic.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/extensions/__pycache__/storemagic.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/external/__pycache__/__init__.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/external/__pycache__/__init__.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/external/__pycache__/pickleshare.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/external/__pycache__/pickleshare.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/external/__pycache__/qt_for_kernel.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/external/__pycache__/qt_for_kernel.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/external/__pycache__/qt_loaders.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/external/__pycache__/qt_loaders.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/lib/__pycache__/__init__.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/lib/__pycache__/__init__.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/lib/__pycache__/backgroundjobs.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/lib/__pycache__/backgroundjobs.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/lib/__pycache__/clipboard.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/lib/__pycache__/clipboard.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/lib/__pycache__/deepreload.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/lib/__pycache__/deepreload.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/lib/__pycache__/demo.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/lib/__pycache__/demo.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/lib/__pycache__/display.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/lib/__pycache__/display.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/lib/__pycache__/editorhooks.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/lib/__pycache__/editorhooks.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/lib/__pycache__/guisupport.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/lib/__pycache__/guisupport.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/lib/__pycache__/latextools.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/lib/__pycache__/latextools.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/lib/__pycache__/lexers.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/lib/__pycache__/lexers.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/lib/__pycache__/pretty.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/lib/__pycache__/pretty.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/__pycache__/paths.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/__pycache__/paths.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/sphinxext/__pycache__/__init__.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/sphinxext/__pycache__/__init__.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/sphinxext/__pycache__/custom_doctests.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/sphinxext/__pycache__/custom_doctests.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/sphinxext/__pycache__/ipython_console_highlighting.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/sphinxext/__pycache__/ipython_console_highlighting.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/sphinxext/__pycache__/ipython_directive.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/sphinxext/__pycache__/ipython_directive.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/terminal/__pycache__/__init__.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/terminal/__pycache__/__init__.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/terminal/__pycache__/debugger.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/terminal/__pycache__/debugger.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/terminal/__pycache__/embed.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/terminal/__pycache__/embed.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/terminal/__pycache__/interactiveshell.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/terminal/__pycache__/interactiveshell.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/terminal/__pycache__/ipapp.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/terminal/__pycache__/ipapp.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/terminal/__pycache__/magics.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/terminal/__pycache__/magics.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/terminal/__pycache__/prompts.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/terminal/__pycache__/prompts.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/terminal/pt_inputhooks/__pycache__/__init__.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/terminal/pt_inputhooks/__pycache__/__init__.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/terminal/pt_inputhooks/__pycache__/asyncio.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/terminal/pt_inputhooks/__pycache__/asyncio.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/terminal/pt_inputhooks/__pycache__/glut.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/terminal/pt_inputhooks/__pycache__/glut.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/terminal/pt_inputhooks/__pycache__/gtk.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/terminal/pt_inputhooks/__pycache__/gtk.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/terminal/pt_inputhooks/__pycache__/gtk3.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/terminal/pt_inputhooks/__pycache__/gtk3.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/terminal/pt_inputhooks/__pycache__/gtk4.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/terminal/pt_inputhooks/__pycache__/gtk4.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/terminal/pt_inputhooks/__pycache__/osx.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/terminal/pt_inputhooks/__pycache__/osx.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/terminal/pt_inputhooks/__pycache__/pyglet.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/terminal/pt_inputhooks/__pycache__/pyglet.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/terminal/pt_inputhooks/__pycache__/qt.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/terminal/pt_inputhooks/__pycache__/qt.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/terminal/pt_inputhooks/__pycache__/tk.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/terminal/pt_inputhooks/__pycache__/tk.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/terminal/pt_inputhooks/__pycache__/wx.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/terminal/pt_inputhooks/__pycache__/wx.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/terminal/__pycache__/ptutils.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/terminal/__pycache__/ptutils.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/terminal/shortcuts/__pycache__/__init__.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/terminal/shortcuts/__pycache__/__init__.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/terminal/shortcuts/__pycache__/auto_match.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/terminal/shortcuts/__pycache__/auto_match.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/terminal/shortcuts/__pycache__/auto_suggest.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/terminal/shortcuts/__pycache__/auto_suggest.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/terminal/shortcuts/__pycache__/filters.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/terminal/shortcuts/__pycache__/filters.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/testing/__pycache__/__init__.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/testing/__pycache__/__init__.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/testing/__pycache__/decorators.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/testing/__pycache__/decorators.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/testing/__pycache__/globalipapp.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/testing/__pycache__/globalipapp.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/testing/__pycache__/ipunittest.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/testing/__pycache__/ipunittest.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/testing/plugin/__pycache__/__init__.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/testing/plugin/__pycache__/__init__.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/testing/plugin/__pycache__/dtexample.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/testing/plugin/__pycache__/dtexample.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/testing/plugin/__pycache__/ipdoctest.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/testing/plugin/__pycache__/ipdoctest.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/testing/plugin/__pycache__/pytest_ipdoctest.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/testing/plugin/__pycache__/pytest_ipdoctest.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/testing/plugin/__pycache__/setup.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/testing/plugin/__pycache__/setup.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/testing/plugin/__pycache__/simple.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/testing/plugin/__pycache__/simple.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/testing/plugin/__pycache__/simplevars.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/testing/plugin/__pycache__/simplevars.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/testing/plugin/__pycache__/test_ipdoctest.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/testing/plugin/__pycache__/test_ipdoctest.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/testing/plugin/__pycache__/test_refs.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/testing/plugin/__pycache__/test_refs.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/testing/__pycache__/skipdoctest.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/testing/__pycache__/skipdoctest.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/testing/__pycache__/tools.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/testing/__pycache__/tools.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/utils/__pycache__/PyColorize.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/utils/__pycache__/PyColorize.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/utils/__pycache__/__init__.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/utils/__pycache__/__init__.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/utils/__pycache__/_process_cli.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/utils/__pycache__/_process_cli.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/utils/__pycache__/_process_common.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/utils/__pycache__/_process_common.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/utils/__pycache__/_process_emscripten.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/utils/__pycache__/_process_emscripten.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/utils/__pycache__/_process_posix.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/utils/__pycache__/_process_posix.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/utils/__pycache__/_process_win32.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/utils/__pycache__/_process_win32.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/utils/__pycache__/_process_win32_controller.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/utils/__pycache__/_process_win32_controller.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/utils/__pycache__/_sysinfo.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/utils/__pycache__/_sysinfo.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/utils/__pycache__/capture.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/utils/__pycache__/capture.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/utils/__pycache__/coloransi.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/utils/__pycache__/coloransi.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/utils/__pycache__/contexts.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/utils/__pycache__/contexts.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/utils/__pycache__/data.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/utils/__pycache__/data.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/utils/__pycache__/decorators.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/utils/__pycache__/decorators.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/utils/__pycache__/dir2.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/utils/__pycache__/dir2.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/utils/__pycache__/docs.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/utils/__pycache__/docs.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/utils/__pycache__/encoding.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/utils/__pycache__/encoding.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/utils/__pycache__/eventful.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/utils/__pycache__/eventful.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/utils/__pycache__/frame.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/utils/__pycache__/frame.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/utils/__pycache__/generics.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/utils/__pycache__/generics.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/utils/__pycache__/importstring.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/utils/__pycache__/importstring.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/utils/__pycache__/io.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/utils/__pycache__/io.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/utils/__pycache__/ipstruct.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/utils/__pycache__/ipstruct.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/utils/__pycache__/jsonutil.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/utils/__pycache__/jsonutil.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/utils/__pycache__/log.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/utils/__pycache__/log.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/utils/__pycache__/module_paths.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/utils/__pycache__/module_paths.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/utils/__pycache__/openpy.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/utils/__pycache__/openpy.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/utils/__pycache__/path.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/utils/__pycache__/path.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/utils/__pycache__/process.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/utils/__pycache__/process.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/utils/__pycache__/py3compat.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/utils/__pycache__/py3compat.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/utils/__pycache__/sentinel.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/utils/__pycache__/sentinel.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/utils/__pycache__/strdispatch.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/utils/__pycache__/strdispatch.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/utils/__pycache__/sysinfo.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/utils/__pycache__/sysinfo.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/utils/__pycache__/syspathcontext.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/utils/__pycache__/syspathcontext.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/utils/__pycache__/tempdir.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/utils/__pycache__/tempdir.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/utils/__pycache__/terminal.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/utils/__pycache__/terminal.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/utils/__pycache__/text.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/utils/__pycache__/text.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/utils/__pycache__/timing.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/utils/__pycache__/timing.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/utils/__pycache__/tokenutil.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/utils/__pycache__/tokenutil.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/IPython/utils/__pycache__/wildcard.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/IPython/utils/__pycache__/wildcard.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {

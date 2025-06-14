@@ -9,52 +9,52 @@
   ],
   "extracted_package_dir": "/home/santi_cruz/anaconda3/pkgs/python-dateutil-2.9.0.post0-pyhff2d567_1",
   "files": [
-    "lib/python3.11/site-packages/dateutil/__init__.py",
-    "lib/python3.11/site-packages/dateutil/_common.py",
-    "lib/python3.11/site-packages/dateutil/_version.py",
-    "lib/python3.11/site-packages/dateutil/easter.py",
-    "lib/python3.11/site-packages/dateutil/parser/__init__.py",
-    "lib/python3.11/site-packages/dateutil/parser/_parser.py",
-    "lib/python3.11/site-packages/dateutil/parser/isoparser.py",
-    "lib/python3.11/site-packages/dateutil/relativedelta.py",
-    "lib/python3.11/site-packages/dateutil/rrule.py",
-    "lib/python3.11/site-packages/dateutil/tz/__init__.py",
-    "lib/python3.11/site-packages/dateutil/tz/_common.py",
-    "lib/python3.11/site-packages/dateutil/tz/_factories.py",
-    "lib/python3.11/site-packages/dateutil/tz/tz.py",
-    "lib/python3.11/site-packages/dateutil/tz/win.py",
-    "lib/python3.11/site-packages/dateutil/tzwin.py",
-    "lib/python3.11/site-packages/dateutil/utils.py",
-    "lib/python3.11/site-packages/dateutil/zoneinfo/__init__.py",
-    "lib/python3.11/site-packages/dateutil/zoneinfo/dateutil-zoneinfo.tar.gz",
-    "lib/python3.11/site-packages/dateutil/zoneinfo/rebuild.py",
-    "lib/python3.11/site-packages/python_dateutil-2.9.0.post0.dist-info/INSTALLER",
-    "lib/python3.11/site-packages/python_dateutil-2.9.0.post0.dist-info/LICENSE",
-    "lib/python3.11/site-packages/python_dateutil-2.9.0.post0.dist-info/METADATA",
-    "lib/python3.11/site-packages/python_dateutil-2.9.0.post0.dist-info/RECORD",
-    "lib/python3.11/site-packages/python_dateutil-2.9.0.post0.dist-info/REQUESTED",
-    "lib/python3.11/site-packages/python_dateutil-2.9.0.post0.dist-info/WHEEL",
-    "lib/python3.11/site-packages/python_dateutil-2.9.0.post0.dist-info/direct_url.json",
-    "lib/python3.11/site-packages/python_dateutil-2.9.0.post0.dist-info/top_level.txt",
-    "lib/python3.11/site-packages/python_dateutil-2.9.0.post0.dist-info/zip-safe",
-    "lib/python3.11/site-packages/dateutil/__pycache__/__init__.cpython-311.pyc",
-    "lib/python3.11/site-packages/dateutil/__pycache__/_common.cpython-311.pyc",
-    "lib/python3.11/site-packages/dateutil/__pycache__/_version.cpython-311.pyc",
-    "lib/python3.11/site-packages/dateutil/__pycache__/easter.cpython-311.pyc",
-    "lib/python3.11/site-packages/dateutil/parser/__pycache__/__init__.cpython-311.pyc",
-    "lib/python3.11/site-packages/dateutil/parser/__pycache__/_parser.cpython-311.pyc",
-    "lib/python3.11/site-packages/dateutil/parser/__pycache__/isoparser.cpython-311.pyc",
-    "lib/python3.11/site-packages/dateutil/__pycache__/relativedelta.cpython-311.pyc",
-    "lib/python3.11/site-packages/dateutil/__pycache__/rrule.cpython-311.pyc",
-    "lib/python3.11/site-packages/dateutil/tz/__pycache__/__init__.cpython-311.pyc",
-    "lib/python3.11/site-packages/dateutil/tz/__pycache__/_common.cpython-311.pyc",
-    "lib/python3.11/site-packages/dateutil/tz/__pycache__/_factories.cpython-311.pyc",
-    "lib/python3.11/site-packages/dateutil/tz/__pycache__/tz.cpython-311.pyc",
-    "lib/python3.11/site-packages/dateutil/tz/__pycache__/win.cpython-311.pyc",
-    "lib/python3.11/site-packages/dateutil/__pycache__/tzwin.cpython-311.pyc",
-    "lib/python3.11/site-packages/dateutil/__pycache__/utils.cpython-311.pyc",
-    "lib/python3.11/site-packages/dateutil/zoneinfo/__pycache__/__init__.cpython-311.pyc",
-    "lib/python3.11/site-packages/dateutil/zoneinfo/__pycache__/rebuild.cpython-311.pyc"
+    "lib/python3.13/site-packages/dateutil/__init__.py",
+    "lib/python3.13/site-packages/dateutil/_common.py",
+    "lib/python3.13/site-packages/dateutil/_version.py",
+    "lib/python3.13/site-packages/dateutil/easter.py",
+    "lib/python3.13/site-packages/dateutil/parser/__init__.py",
+    "lib/python3.13/site-packages/dateutil/parser/_parser.py",
+    "lib/python3.13/site-packages/dateutil/parser/isoparser.py",
+    "lib/python3.13/site-packages/dateutil/relativedelta.py",
+    "lib/python3.13/site-packages/dateutil/rrule.py",
+    "lib/python3.13/site-packages/dateutil/tz/__init__.py",
+    "lib/python3.13/site-packages/dateutil/tz/_common.py",
+    "lib/python3.13/site-packages/dateutil/tz/_factories.py",
+    "lib/python3.13/site-packages/dateutil/tz/tz.py",
+    "lib/python3.13/site-packages/dateutil/tz/win.py",
+    "lib/python3.13/site-packages/dateutil/tzwin.py",
+    "lib/python3.13/site-packages/dateutil/utils.py",
+    "lib/python3.13/site-packages/dateutil/zoneinfo/__init__.py",
+    "lib/python3.13/site-packages/dateutil/zoneinfo/dateutil-zoneinfo.tar.gz",
+    "lib/python3.13/site-packages/dateutil/zoneinfo/rebuild.py",
+    "lib/python3.13/site-packages/python_dateutil-2.9.0.post0.dist-info/INSTALLER",
+    "lib/python3.13/site-packages/python_dateutil-2.9.0.post0.dist-info/LICENSE",
+    "lib/python3.13/site-packages/python_dateutil-2.9.0.post0.dist-info/METADATA",
+    "lib/python3.13/site-packages/python_dateutil-2.9.0.post0.dist-info/RECORD",
+    "lib/python3.13/site-packages/python_dateutil-2.9.0.post0.dist-info/REQUESTED",
+    "lib/python3.13/site-packages/python_dateutil-2.9.0.post0.dist-info/WHEEL",
+    "lib/python3.13/site-packages/python_dateutil-2.9.0.post0.dist-info/direct_url.json",
+    "lib/python3.13/site-packages/python_dateutil-2.9.0.post0.dist-info/top_level.txt",
+    "lib/python3.13/site-packages/python_dateutil-2.9.0.post0.dist-info/zip-safe",
+    "lib/python3.13/site-packages/dateutil/__pycache__/__init__.cpython-313.pyc",
+    "lib/python3.13/site-packages/dateutil/__pycache__/_common.cpython-313.pyc",
+    "lib/python3.13/site-packages/dateutil/__pycache__/_version.cpython-313.pyc",
+    "lib/python3.13/site-packages/dateutil/__pycache__/easter.cpython-313.pyc",
+    "lib/python3.13/site-packages/dateutil/parser/__pycache__/__init__.cpython-313.pyc",
+    "lib/python3.13/site-packages/dateutil/parser/__pycache__/_parser.cpython-313.pyc",
+    "lib/python3.13/site-packages/dateutil/parser/__pycache__/isoparser.cpython-313.pyc",
+    "lib/python3.13/site-packages/dateutil/__pycache__/relativedelta.cpython-313.pyc",
+    "lib/python3.13/site-packages/dateutil/__pycache__/rrule.cpython-313.pyc",
+    "lib/python3.13/site-packages/dateutil/tz/__pycache__/__init__.cpython-313.pyc",
+    "lib/python3.13/site-packages/dateutil/tz/__pycache__/_common.cpython-313.pyc",
+    "lib/python3.13/site-packages/dateutil/tz/__pycache__/_factories.cpython-313.pyc",
+    "lib/python3.13/site-packages/dateutil/tz/__pycache__/tz.cpython-313.pyc",
+    "lib/python3.13/site-packages/dateutil/tz/__pycache__/win.cpython-313.pyc",
+    "lib/python3.13/site-packages/dateutil/__pycache__/tzwin.cpython-313.pyc",
+    "lib/python3.13/site-packages/dateutil/__pycache__/utils.cpython-313.pyc",
+    "lib/python3.13/site-packages/dateutil/zoneinfo/__pycache__/__init__.cpython-313.pyc",
+    "lib/python3.13/site-packages/dateutil/zoneinfo/__pycache__/rebuild.cpython-313.pyc"
   ],
   "fn": "python-dateutil-2.9.0.post0-pyhff2d567_1.conda",
   "license": "Apache-2.0",
@@ -266,75 +266,75 @@
         "size_in_bytes": 1
       },
       {
-        "_path": "lib/python3.11/site-packages/dateutil/__pycache__/__init__.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/dateutil/__pycache__/__init__.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/dateutil/__pycache__/_common.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/dateutil/__pycache__/_common.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/dateutil/__pycache__/_version.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/dateutil/__pycache__/_version.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/dateutil/__pycache__/easter.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/dateutil/__pycache__/easter.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/dateutil/parser/__pycache__/__init__.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/dateutil/parser/__pycache__/__init__.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/dateutil/parser/__pycache__/_parser.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/dateutil/parser/__pycache__/_parser.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/dateutil/parser/__pycache__/isoparser.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/dateutil/parser/__pycache__/isoparser.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/dateutil/__pycache__/relativedelta.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/dateutil/__pycache__/relativedelta.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/dateutil/__pycache__/rrule.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/dateutil/__pycache__/rrule.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/dateutil/tz/__pycache__/__init__.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/dateutil/tz/__pycache__/__init__.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/dateutil/tz/__pycache__/_common.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/dateutil/tz/__pycache__/_common.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/dateutil/tz/__pycache__/_factories.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/dateutil/tz/__pycache__/_factories.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/dateutil/tz/__pycache__/tz.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/dateutil/tz/__pycache__/tz.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/dateutil/tz/__pycache__/win.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/dateutil/tz/__pycache__/win.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/dateutil/__pycache__/tzwin.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/dateutil/__pycache__/tzwin.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/dateutil/__pycache__/utils.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/dateutil/__pycache__/utils.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/dateutil/zoneinfo/__pycache__/__init__.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/dateutil/zoneinfo/__pycache__/__init__.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/dateutil/zoneinfo/__pycache__/rebuild.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/dateutil/zoneinfo/__pycache__/rebuild.cpython-313.pyc",
         "path_type": "pyc_file"
       }
     ],

@@ -8,26 +8,26 @@
   ],
   "extracted_package_dir": "/home/santi_cruz/anaconda3/pkgs/zipp-3.22.0-pyhd8ed1ab_0",
   "files": [
-    "lib/python3.11/site-packages/zipp-3.22.0.dist-info/INSTALLER",
-    "lib/python3.11/site-packages/zipp-3.22.0.dist-info/METADATA",
-    "lib/python3.11/site-packages/zipp-3.22.0.dist-info/RECORD",
-    "lib/python3.11/site-packages/zipp-3.22.0.dist-info/REQUESTED",
-    "lib/python3.11/site-packages/zipp-3.22.0.dist-info/WHEEL",
-    "lib/python3.11/site-packages/zipp-3.22.0.dist-info/direct_url.json",
-    "lib/python3.11/site-packages/zipp-3.22.0.dist-info/licenses/LICENSE",
-    "lib/python3.11/site-packages/zipp-3.22.0.dist-info/top_level.txt",
-    "lib/python3.11/site-packages/zipp/__init__.py",
-    "lib/python3.11/site-packages/zipp/_functools.py",
-    "lib/python3.11/site-packages/zipp/compat/__init__.py",
-    "lib/python3.11/site-packages/zipp/compat/overlay.py",
-    "lib/python3.11/site-packages/zipp/compat/py310.py",
-    "lib/python3.11/site-packages/zipp/glob.py",
-    "lib/python3.11/site-packages/zipp/__pycache__/__init__.cpython-311.pyc",
-    "lib/python3.11/site-packages/zipp/__pycache__/_functools.cpython-311.pyc",
-    "lib/python3.11/site-packages/zipp/compat/__pycache__/__init__.cpython-311.pyc",
-    "lib/python3.11/site-packages/zipp/compat/__pycache__/overlay.cpython-311.pyc",
-    "lib/python3.11/site-packages/zipp/compat/__pycache__/py310.cpython-311.pyc",
-    "lib/python3.11/site-packages/zipp/__pycache__/glob.cpython-311.pyc"
+    "lib/python3.13/site-packages/zipp-3.22.0.dist-info/INSTALLER",
+    "lib/python3.13/site-packages/zipp-3.22.0.dist-info/METADATA",
+    "lib/python3.13/site-packages/zipp-3.22.0.dist-info/RECORD",
+    "lib/python3.13/site-packages/zipp-3.22.0.dist-info/REQUESTED",
+    "lib/python3.13/site-packages/zipp-3.22.0.dist-info/WHEEL",
+    "lib/python3.13/site-packages/zipp-3.22.0.dist-info/direct_url.json",
+    "lib/python3.13/site-packages/zipp-3.22.0.dist-info/licenses/LICENSE",
+    "lib/python3.13/site-packages/zipp-3.22.0.dist-info/top_level.txt",
+    "lib/python3.13/site-packages/zipp/__init__.py",
+    "lib/python3.13/site-packages/zipp/_functools.py",
+    "lib/python3.13/site-packages/zipp/compat/__init__.py",
+    "lib/python3.13/site-packages/zipp/compat/overlay.py",
+    "lib/python3.13/site-packages/zipp/compat/py310.py",
+    "lib/python3.13/site-packages/zipp/glob.py",
+    "lib/python3.13/site-packages/zipp/__pycache__/__init__.cpython-313.pyc",
+    "lib/python3.13/site-packages/zipp/__pycache__/_functools.cpython-313.pyc",
+    "lib/python3.13/site-packages/zipp/compat/__pycache__/__init__.cpython-313.pyc",
+    "lib/python3.13/site-packages/zipp/compat/__pycache__/overlay.cpython-313.pyc",
+    "lib/python3.13/site-packages/zipp/compat/__pycache__/py310.cpython-313.pyc",
+    "lib/python3.13/site-packages/zipp/__pycache__/glob.cpython-313.pyc"
   ],
   "fn": "zipp-3.22.0-pyhd8ed1ab_0.conda",
   "license": "MIT",
@@ -141,27 +141,27 @@
         "size_in_bytes": 3314
       },
       {
-        "_path": "lib/python3.11/site-packages/zipp/__pycache__/__init__.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/zipp/__pycache__/__init__.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/zipp/__pycache__/_functools.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/zipp/__pycache__/_functools.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/zipp/compat/__pycache__/__init__.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/zipp/compat/__pycache__/__init__.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/zipp/compat/__pycache__/overlay.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/zipp/compat/__pycache__/overlay.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/zipp/compat/__pycache__/py310.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/zipp/compat/__pycache__/py310.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/zipp/__pycache__/glob.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/zipp/__pycache__/glob.cpython-313.pyc",
         "path_type": "pyc_file"
       }
     ],

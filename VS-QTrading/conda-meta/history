@@ -83,3 +83,26 @@
 +defaults/linux-64::krb5-1.21.3-h143b758_0
 +defaults/linux-64::libedit-3.1.20230828-h5eee18b_0
 # update specs: ['ipykernel']
+==> 2025-06-14 10:57:20 <==
+# cmd: /home/santi_cruz/anaconda3/bin/conda update python
+# conda version: 24.11.3
+-conda-forge/linux-64::debugpy-1.8.14-py311hfdbb021_0
+-conda-forge/linux-64::psutil-7.0.0-py311h9ecbd09_0
+-conda-forge/linux-64::python_abi-3.11-2_cp311
+-conda-forge/linux-64::pyzmq-26.4.0-py311h7deb3e3_0
+-conda-forge/linux-64::tornado-6.5.1-py311h9ecbd09_0
+-defaults/linux-64::python-3.11.4-h955ad1f_0
+-defaults/linux-64::setuptools-78.1.1-py311h06a4308_0
+-defaults/linux-64::wheel-0.45.1-py311h06a4308_0
++defaults/linux-64::debugpy-1.8.11-py313h6a678d5_0
++defaults/linux-64::expat-2.7.1-h6a678d5_0
++defaults/linux-64::libmpdec-4.0.0-h5eee18b_0
++defaults/linux-64::psutil-5.9.0-py313h5eee18b_1
++defaults/linux-64::python-3.13.5-h4612cfd_100_cp313
++defaults/linux-64::python_abi-3.13-0_cp313
++defaults/linux-64::pyzmq-26.2.0-py313h6a678d5_0
++defaults/linux-64::setuptools-78.1.1-py313h06a4308_0
++defaults/linux-64::tornado-6.5.1-py313h5eee18b_0
++defaults/linux-64::wheel-0.45.1-py313h06a4308_0
+# update specs: ['python']
+# neutered specs: ['python==3.13.5']

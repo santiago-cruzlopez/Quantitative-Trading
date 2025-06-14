@@ -8,16 +8,16 @@
   ],
   "extracted_package_dir": "/home/santi_cruz/anaconda3/pkgs/six-1.17.0-pyhd8ed1ab_0",
   "files": [
-    "lib/python3.11/site-packages/six-1.17.0.dist-info/INSTALLER",
-    "lib/python3.11/site-packages/six-1.17.0.dist-info/LICENSE",
-    "lib/python3.11/site-packages/six-1.17.0.dist-info/METADATA",
-    "lib/python3.11/site-packages/six-1.17.0.dist-info/RECORD",
-    "lib/python3.11/site-packages/six-1.17.0.dist-info/REQUESTED",
-    "lib/python3.11/site-packages/six-1.17.0.dist-info/WHEEL",
-    "lib/python3.11/site-packages/six-1.17.0.dist-info/direct_url.json",
-    "lib/python3.11/site-packages/six-1.17.0.dist-info/top_level.txt",
-    "lib/python3.11/site-packages/six.py",
-    "lib/python3.11/site-packages/__pycache__/six.cpython-311.pyc"
+    "lib/python3.13/site-packages/six-1.17.0.dist-info/INSTALLER",
+    "lib/python3.13/site-packages/six-1.17.0.dist-info/LICENSE",
+    "lib/python3.13/site-packages/six-1.17.0.dist-info/METADATA",
+    "lib/python3.13/site-packages/six-1.17.0.dist-info/RECORD",
+    "lib/python3.13/site-packages/six-1.17.0.dist-info/REQUESTED",
+    "lib/python3.13/site-packages/six-1.17.0.dist-info/WHEEL",
+    "lib/python3.13/site-packages/six-1.17.0.dist-info/direct_url.json",
+    "lib/python3.13/site-packages/six-1.17.0.dist-info/top_level.txt",
+    "lib/python3.13/site-packages/six.py",
+    "lib/python3.13/site-packages/__pycache__/six.cpython-313.pyc"
   ],
   "fn": "six-1.17.0-pyhd8ed1ab_0.conda",
   "license": "MIT",
@@ -96,7 +96,7 @@
         "size_in_bytes": 34703
       },
       {
-        "_path": "lib/python3.11/site-packages/__pycache__/six.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/__pycache__/six.cpython-313.pyc",
         "path_type": "pyc_file"
       }
     ],

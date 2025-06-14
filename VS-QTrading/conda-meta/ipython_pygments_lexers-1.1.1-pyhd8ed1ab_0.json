@@ -9,16 +9,16 @@
   ],
   "extracted_package_dir": "/home/santi_cruz/anaconda3/pkgs/ipython_pygments_lexers-1.1.1-pyhd8ed1ab_0",
   "files": [
-    "lib/python3.11/site-packages/ipython_pygments_lexers-1.1.1.dist-info/INSTALLER",
-    "lib/python3.11/site-packages/ipython_pygments_lexers-1.1.1.dist-info/LICENSE",
-    "lib/python3.11/site-packages/ipython_pygments_lexers-1.1.1.dist-info/METADATA",
-    "lib/python3.11/site-packages/ipython_pygments_lexers-1.1.1.dist-info/RECORD",
-    "lib/python3.11/site-packages/ipython_pygments_lexers-1.1.1.dist-info/REQUESTED",
-    "lib/python3.11/site-packages/ipython_pygments_lexers-1.1.1.dist-info/WHEEL",
-    "lib/python3.11/site-packages/ipython_pygments_lexers-1.1.1.dist-info/direct_url.json",
-    "lib/python3.11/site-packages/ipython_pygments_lexers-1.1.1.dist-info/entry_points.txt",
-    "lib/python3.11/site-packages/ipython_pygments_lexers.py",
-    "lib/python3.11/site-packages/__pycache__/ipython_pygments_lexers.cpython-311.pyc"
+    "lib/python3.13/site-packages/ipython_pygments_lexers-1.1.1.dist-info/INSTALLER",
+    "lib/python3.13/site-packages/ipython_pygments_lexers-1.1.1.dist-info/LICENSE",
+    "lib/python3.13/site-packages/ipython_pygments_lexers-1.1.1.dist-info/METADATA",
+    "lib/python3.13/site-packages/ipython_pygments_lexers-1.1.1.dist-info/RECORD",
+    "lib/python3.13/site-packages/ipython_pygments_lexers-1.1.1.dist-info/REQUESTED",
+    "lib/python3.13/site-packages/ipython_pygments_lexers-1.1.1.dist-info/WHEEL",
+    "lib/python3.13/site-packages/ipython_pygments_lexers-1.1.1.dist-info/direct_url.json",
+    "lib/python3.13/site-packages/ipython_pygments_lexers-1.1.1.dist-info/entry_points.txt",
+    "lib/python3.13/site-packages/ipython_pygments_lexers.py",
+    "lib/python3.13/site-packages/__pycache__/ipython_pygments_lexers.cpython-313.pyc"
   ],
   "fn": "ipython_pygments_lexers-1.1.1-pyhd8ed1ab_0.conda",
   "license": "BSD-3-Clause",
@@ -97,7 +97,7 @@
         "size_in_bytes": 19656
       },
       {
-        "_path": "lib/python3.11/site-packages/__pycache__/ipython_pygments_lexers.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/__pycache__/ipython_pygments_lexers.cpython-313.pyc",
         "path_type": "pyc_file"
       }
     ],

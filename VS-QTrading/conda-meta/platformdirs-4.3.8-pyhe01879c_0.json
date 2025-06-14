@@ -9,30 +9,30 @@
   ],
   "extracted_package_dir": "/home/santi_cruz/anaconda3/pkgs/platformdirs-4.3.8-pyhe01879c_0",
   "files": [
-    "lib/python3.11/site-packages/platformdirs/__init__.py",
-    "lib/python3.11/site-packages/platformdirs/__main__.py",
-    "lib/python3.11/site-packages/platformdirs/android.py",
-    "lib/python3.11/site-packages/platformdirs/api.py",
-    "lib/python3.11/site-packages/platformdirs/macos.py",
-    "lib/python3.11/site-packages/platformdirs/py.typed",
-    "lib/python3.11/site-packages/platformdirs/unix.py",
-    "lib/python3.11/site-packages/platformdirs/version.py",
-    "lib/python3.11/site-packages/platformdirs/windows.py",
-    "lib/python3.11/site-packages/platformdirs-4.3.8.dist-info/INSTALLER",
-    "lib/python3.11/site-packages/platformdirs-4.3.8.dist-info/METADATA",
-    "lib/python3.11/site-packages/platformdirs-4.3.8.dist-info/RECORD",
-    "lib/python3.11/site-packages/platformdirs-4.3.8.dist-info/REQUESTED",
-    "lib/python3.11/site-packages/platformdirs-4.3.8.dist-info/WHEEL",
-    "lib/python3.11/site-packages/platformdirs-4.3.8.dist-info/direct_url.json",
-    "lib/python3.11/site-packages/platformdirs-4.3.8.dist-info/licenses/LICENSE",
-    "lib/python3.11/site-packages/platformdirs/__pycache__/__init__.cpython-311.pyc",
-    "lib/python3.11/site-packages/platformdirs/__pycache__/__main__.cpython-311.pyc",
-    "lib/python3.11/site-packages/platformdirs/__pycache__/android.cpython-311.pyc",
-    "lib/python3.11/site-packages/platformdirs/__pycache__/api.cpython-311.pyc",
-    "lib/python3.11/site-packages/platformdirs/__pycache__/macos.cpython-311.pyc",
-    "lib/python3.11/site-packages/platformdirs/__pycache__/unix.cpython-311.pyc",
-    "lib/python3.11/site-packages/platformdirs/__pycache__/version.cpython-311.pyc",
-    "lib/python3.11/site-packages/platformdirs/__pycache__/windows.cpython-311.pyc"
+    "lib/python3.13/site-packages/platformdirs/__init__.py",
+    "lib/python3.13/site-packages/platformdirs/__main__.py",
+    "lib/python3.13/site-packages/platformdirs/android.py",
+    "lib/python3.13/site-packages/platformdirs/api.py",
+    "lib/python3.13/site-packages/platformdirs/macos.py",
+    "lib/python3.13/site-packages/platformdirs/py.typed",
+    "lib/python3.13/site-packages/platformdirs/unix.py",
+    "lib/python3.13/site-packages/platformdirs/version.py",
+    "lib/python3.13/site-packages/platformdirs/windows.py",
+    "lib/python3.13/site-packages/platformdirs-4.3.8.dist-info/INSTALLER",
+    "lib/python3.13/site-packages/platformdirs-4.3.8.dist-info/METADATA",
+    "lib/python3.13/site-packages/platformdirs-4.3.8.dist-info/RECORD",
+    "lib/python3.13/site-packages/platformdirs-4.3.8.dist-info/REQUESTED",
+    "lib/python3.13/site-packages/platformdirs-4.3.8.dist-info/WHEEL",
+    "lib/python3.13/site-packages/platformdirs-4.3.8.dist-info/direct_url.json",
+    "lib/python3.13/site-packages/platformdirs-4.3.8.dist-info/licenses/LICENSE",
+    "lib/python3.13/site-packages/platformdirs/__pycache__/__init__.cpython-313.pyc",
+    "lib/python3.13/site-packages/platformdirs/__pycache__/__main__.cpython-313.pyc",
+    "lib/python3.13/site-packages/platformdirs/__pycache__/android.cpython-313.pyc",
+    "lib/python3.13/site-packages/platformdirs/__pycache__/api.cpython-313.pyc",
+    "lib/python3.13/site-packages/platformdirs/__pycache__/macos.cpython-313.pyc",
+    "lib/python3.13/site-packages/platformdirs/__pycache__/unix.cpython-313.pyc",
+    "lib/python3.13/site-packages/platformdirs/__pycache__/version.cpython-313.pyc",
+    "lib/python3.13/site-packages/platformdirs/__pycache__/windows.cpython-313.pyc"
   ],
   "fn": "platformdirs-4.3.8-pyhe01879c_0.conda",
   "license": "MIT",
@@ -160,35 +160,35 @@
         "size_in_bytes": 1089
       },
       {
-        "_path": "lib/python3.11/site-packages/platformdirs/__pycache__/__init__.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/platformdirs/__pycache__/__init__.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/platformdirs/__pycache__/__main__.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/platformdirs/__pycache__/__main__.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/platformdirs/__pycache__/android.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/platformdirs/__pycache__/android.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/platformdirs/__pycache__/api.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/platformdirs/__pycache__/api.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/platformdirs/__pycache__/macos.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/platformdirs/__pycache__/macos.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/platformdirs/__pycache__/unix.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/platformdirs/__pycache__/unix.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/platformdirs/__pycache__/version.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/platformdirs/__pycache__/version.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/platformdirs/__pycache__/windows.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/platformdirs/__pycache__/windows.cpython-313.pyc",
         "path_type": "pyc_file"
       }
     ],

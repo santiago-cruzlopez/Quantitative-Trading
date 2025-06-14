@@ -10,42 +10,42 @@
   ],
   "extracted_package_dir": "/home/santi_cruz/anaconda3/pkgs/importlib-metadata-8.7.0-pyhe01879c_1",
   "files": [
-    "lib/python3.11/site-packages/importlib_metadata/__init__.py",
-    "lib/python3.11/site-packages/importlib_metadata/_adapters.py",
-    "lib/python3.11/site-packages/importlib_metadata/_collections.py",
-    "lib/python3.11/site-packages/importlib_metadata/_compat.py",
-    "lib/python3.11/site-packages/importlib_metadata/_functools.py",
-    "lib/python3.11/site-packages/importlib_metadata/_itertools.py",
-    "lib/python3.11/site-packages/importlib_metadata/_meta.py",
-    "lib/python3.11/site-packages/importlib_metadata/_text.py",
-    "lib/python3.11/site-packages/importlib_metadata/_typing.py",
-    "lib/python3.11/site-packages/importlib_metadata/compat/__init__.py",
-    "lib/python3.11/site-packages/importlib_metadata/compat/py311.py",
-    "lib/python3.11/site-packages/importlib_metadata/compat/py39.py",
-    "lib/python3.11/site-packages/importlib_metadata/diagnose.py",
-    "lib/python3.11/site-packages/importlib_metadata/py.typed",
-    "lib/python3.11/site-packages/importlib_metadata-8.7.0.dist-info/INSTALLER",
-    "lib/python3.11/site-packages/importlib_metadata-8.7.0.dist-info/METADATA",
-    "lib/python3.11/site-packages/importlib_metadata-8.7.0.dist-info/RECORD",
-    "lib/python3.11/site-packages/importlib_metadata-8.7.0.dist-info/REQUESTED",
-    "lib/python3.11/site-packages/importlib_metadata-8.7.0.dist-info/WHEEL",
-    "lib/python3.11/site-packages/importlib_metadata-8.7.0.dist-info/direct_url.json",
-    "lib/python3.11/site-packages/importlib_metadata-8.7.0.dist-info/licenses/LICENSE",
-    "lib/python3.11/site-packages/importlib_metadata-8.7.0.dist-info/top_level.txt",
-    "lib/python3.11/site-packages/importlib_metadata-8.7.0.dist-info/uv_cache.json",
-    "lib/python3.11/site-packages/importlib_metadata/__pycache__/__init__.cpython-311.pyc",
-    "lib/python3.11/site-packages/importlib_metadata/__pycache__/_adapters.cpython-311.pyc",
-    "lib/python3.11/site-packages/importlib_metadata/__pycache__/_collections.cpython-311.pyc",
-    "lib/python3.11/site-packages/importlib_metadata/__pycache__/_compat.cpython-311.pyc",
-    "lib/python3.11/site-packages/importlib_metadata/__pycache__/_functools.cpython-311.pyc",
-    "lib/python3.11/site-packages/importlib_metadata/__pycache__/_itertools.cpython-311.pyc",
-    "lib/python3.11/site-packages/importlib_metadata/__pycache__/_meta.cpython-311.pyc",
-    "lib/python3.11/site-packages/importlib_metadata/__pycache__/_text.cpython-311.pyc",
-    "lib/python3.11/site-packages/importlib_metadata/__pycache__/_typing.cpython-311.pyc",
-    "lib/python3.11/site-packages/importlib_metadata/compat/__pycache__/__init__.cpython-311.pyc",
-    "lib/python3.11/site-packages/importlib_metadata/compat/__pycache__/py311.cpython-311.pyc",
-    "lib/python3.11/site-packages/importlib_metadata/compat/__pycache__/py39.cpython-311.pyc",
-    "lib/python3.11/site-packages/importlib_metadata/__pycache__/diagnose.cpython-311.pyc"
+    "lib/python3.13/site-packages/importlib_metadata/__init__.py",
+    "lib/python3.13/site-packages/importlib_metadata/_adapters.py",
+    "lib/python3.13/site-packages/importlib_metadata/_collections.py",
+    "lib/python3.13/site-packages/importlib_metadata/_compat.py",
+    "lib/python3.13/site-packages/importlib_metadata/_functools.py",
+    "lib/python3.13/site-packages/importlib_metadata/_itertools.py",
+    "lib/python3.13/site-packages/importlib_metadata/_meta.py",
+    "lib/python3.13/site-packages/importlib_metadata/_text.py",
+    "lib/python3.13/site-packages/importlib_metadata/_typing.py",
+    "lib/python3.13/site-packages/importlib_metadata/compat/__init__.py",
+    "lib/python3.13/site-packages/importlib_metadata/compat/py311.py",
+    "lib/python3.13/site-packages/importlib_metadata/compat/py39.py",
+    "lib/python3.13/site-packages/importlib_metadata/diagnose.py",
+    "lib/python3.13/site-packages/importlib_metadata/py.typed",
+    "lib/python3.13/site-packages/importlib_metadata-8.7.0.dist-info/INSTALLER",
+    "lib/python3.13/site-packages/importlib_metadata-8.7.0.dist-info/METADATA",
+    "lib/python3.13/site-packages/importlib_metadata-8.7.0.dist-info/RECORD",
+    "lib/python3.13/site-packages/importlib_metadata-8.7.0.dist-info/REQUESTED",
+    "lib/python3.13/site-packages/importlib_metadata-8.7.0.dist-info/WHEEL",
+    "lib/python3.13/site-packages/importlib_metadata-8.7.0.dist-info/direct_url.json",
+    "lib/python3.13/site-packages/importlib_metadata-8.7.0.dist-info/licenses/LICENSE",
+    "lib/python3.13/site-packages/importlib_metadata-8.7.0.dist-info/top_level.txt",
+    "lib/python3.13/site-packages/importlib_metadata-8.7.0.dist-info/uv_cache.json",
+    "lib/python3.13/site-packages/importlib_metadata/__pycache__/__init__.cpython-313.pyc",
+    "lib/python3.13/site-packages/importlib_metadata/__pycache__/_adapters.cpython-313.pyc",
+    "lib/python3.13/site-packages/importlib_metadata/__pycache__/_collections.cpython-313.pyc",
+    "lib/python3.13/site-packages/importlib_metadata/__pycache__/_compat.cpython-313.pyc",
+    "lib/python3.13/site-packages/importlib_metadata/__pycache__/_functools.cpython-313.pyc",
+    "lib/python3.13/site-packages/importlib_metadata/__pycache__/_itertools.cpython-313.pyc",
+    "lib/python3.13/site-packages/importlib_metadata/__pycache__/_meta.cpython-313.pyc",
+    "lib/python3.13/site-packages/importlib_metadata/__pycache__/_text.cpython-313.pyc",
+    "lib/python3.13/site-packages/importlib_metadata/__pycache__/_typing.cpython-313.pyc",
+    "lib/python3.13/site-packages/importlib_metadata/compat/__pycache__/__init__.cpython-313.pyc",
+    "lib/python3.13/site-packages/importlib_metadata/compat/__pycache__/py311.cpython-313.pyc",
+    "lib/python3.13/site-packages/importlib_metadata/compat/__pycache__/py39.cpython-313.pyc",
+    "lib/python3.13/site-packages/importlib_metadata/__pycache__/diagnose.cpython-313.pyc"
   ],
   "fn": "importlib-metadata-8.7.0-pyhe01879c_1.conda",
   "license": "Apache-2.0",
@@ -222,55 +222,55 @@
         "size_in_bytes": 137
       },
       {
-        "_path": "lib/python3.11/site-packages/importlib_metadata/__pycache__/__init__.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/importlib_metadata/__pycache__/__init__.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/importlib_metadata/__pycache__/_adapters.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/importlib_metadata/__pycache__/_adapters.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/importlib_metadata/__pycache__/_collections.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/importlib_metadata/__pycache__/_collections.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/importlib_metadata/__pycache__/_compat.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/importlib_metadata/__pycache__/_compat.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/importlib_metadata/__pycache__/_functools.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/importlib_metadata/__pycache__/_functools.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/importlib_metadata/__pycache__/_itertools.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/importlib_metadata/__pycache__/_itertools.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/importlib_metadata/__pycache__/_meta.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/importlib_metadata/__pycache__/_meta.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/importlib_metadata/__pycache__/_text.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/importlib_metadata/__pycache__/_text.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/importlib_metadata/__pycache__/_typing.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/importlib_metadata/__pycache__/_typing.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/importlib_metadata/compat/__pycache__/__init__.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/importlib_metadata/compat/__pycache__/__init__.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/importlib_metadata/compat/__pycache__/py311.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/importlib_metadata/compat/__pycache__/py311.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/importlib_metadata/compat/__pycache__/py39.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/importlib_metadata/compat/__pycache__/py39.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/importlib_metadata/__pycache__/diagnose.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/importlib_metadata/__pycache__/diagnose.cpython-313.pyc",
         "path_type": "pyc_file"
       }
     ],

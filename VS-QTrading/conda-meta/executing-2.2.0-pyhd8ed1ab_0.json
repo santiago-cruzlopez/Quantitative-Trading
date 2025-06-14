@@ -8,27 +8,27 @@
   ],
   "extracted_package_dir": "/home/santi_cruz/anaconda3/pkgs/executing-2.2.0-pyhd8ed1ab_0",
   "files": [
-    "lib/python3.11/site-packages/executing-2.2.0.dist-info/INSTALLER",
-    "lib/python3.11/site-packages/executing-2.2.0.dist-info/METADATA",
-    "lib/python3.11/site-packages/executing-2.2.0.dist-info/RECORD",
-    "lib/python3.11/site-packages/executing-2.2.0.dist-info/REQUESTED",
-    "lib/python3.11/site-packages/executing-2.2.0.dist-info/WHEEL",
-    "lib/python3.11/site-packages/executing-2.2.0.dist-info/direct_url.json",
-    "lib/python3.11/site-packages/executing-2.2.0.dist-info/licenses/LICENSE.txt",
-    "lib/python3.11/site-packages/executing-2.2.0.dist-info/top_level.txt",
-    "lib/python3.11/site-packages/executing/__init__.py",
-    "lib/python3.11/site-packages/executing/_exceptions.py",
-    "lib/python3.11/site-packages/executing/_position_node_finder.py",
-    "lib/python3.11/site-packages/executing/_pytest_utils.py",
-    "lib/python3.11/site-packages/executing/executing.py",
-    "lib/python3.11/site-packages/executing/py.typed",
-    "lib/python3.11/site-packages/executing/version.py",
-    "lib/python3.11/site-packages/executing/__pycache__/__init__.cpython-311.pyc",
-    "lib/python3.11/site-packages/executing/__pycache__/_exceptions.cpython-311.pyc",
-    "lib/python3.11/site-packages/executing/__pycache__/_position_node_finder.cpython-311.pyc",
-    "lib/python3.11/site-packages/executing/__pycache__/_pytest_utils.cpython-311.pyc",
-    "lib/python3.11/site-packages/executing/__pycache__/executing.cpython-311.pyc",
-    "lib/python3.11/site-packages/executing/__pycache__/version.cpython-311.pyc"
+    "lib/python3.13/site-packages/executing-2.2.0.dist-info/INSTALLER",
+    "lib/python3.13/site-packages/executing-2.2.0.dist-info/METADATA",
+    "lib/python3.13/site-packages/executing-2.2.0.dist-info/RECORD",
+    "lib/python3.13/site-packages/executing-2.2.0.dist-info/REQUESTED",
+    "lib/python3.13/site-packages/executing-2.2.0.dist-info/WHEEL",
+    "lib/python3.13/site-packages/executing-2.2.0.dist-info/direct_url.json",
+    "lib/python3.13/site-packages/executing-2.2.0.dist-info/licenses/LICENSE.txt",
+    "lib/python3.13/site-packages/executing-2.2.0.dist-info/top_level.txt",
+    "lib/python3.13/site-packages/executing/__init__.py",
+    "lib/python3.13/site-packages/executing/_exceptions.py",
+    "lib/python3.13/site-packages/executing/_position_node_finder.py",
+    "lib/python3.13/site-packages/executing/_pytest_utils.py",
+    "lib/python3.13/site-packages/executing/executing.py",
+    "lib/python3.13/site-packages/executing/py.typed",
+    "lib/python3.13/site-packages/executing/version.py",
+    "lib/python3.13/site-packages/executing/__pycache__/__init__.cpython-313.pyc",
+    "lib/python3.13/site-packages/executing/__pycache__/_exceptions.cpython-313.pyc",
+    "lib/python3.13/site-packages/executing/__pycache__/_position_node_finder.cpython-313.pyc",
+    "lib/python3.13/site-packages/executing/__pycache__/_pytest_utils.cpython-313.pyc",
+    "lib/python3.13/site-packages/executing/__pycache__/executing.cpython-313.pyc",
+    "lib/python3.13/site-packages/executing/__pycache__/version.cpython-313.pyc"
   ],
   "fn": "executing-2.2.0-pyhd8ed1ab_0.conda",
   "license": "MIT",
@@ -149,27 +149,27 @@
         "size_in_bytes": 21
       },
       {
-        "_path": "lib/python3.11/site-packages/executing/__pycache__/__init__.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/executing/__pycache__/__init__.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/executing/__pycache__/_exceptions.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/executing/__pycache__/_exceptions.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/executing/__pycache__/_position_node_finder.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/executing/__pycache__/_position_node_finder.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/executing/__pycache__/_pytest_utils.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/executing/__pycache__/_pytest_utils.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/executing/__pycache__/executing.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/executing/__pycache__/executing.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/executing/__pycache__/version.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/executing/__pycache__/version.cpython-313.pyc",
         "path_type": "pyc_file"
       }
     ],

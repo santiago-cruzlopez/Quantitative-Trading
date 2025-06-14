@@ -9,21 +9,21 @@
   ],
   "extracted_package_dir": "/home/santi_cruz/anaconda3/pkgs/matplotlib-inline-0.1.7-pyhd8ed1ab_1",
   "files": [
-    "lib/python3.11/site-packages/matplotlib_inline-0.1.7.dist-info/INSTALLER",
-    "lib/python3.11/site-packages/matplotlib_inline-0.1.7.dist-info/LICENSE",
-    "lib/python3.11/site-packages/matplotlib_inline-0.1.7.dist-info/METADATA",
-    "lib/python3.11/site-packages/matplotlib_inline-0.1.7.dist-info/RECORD",
-    "lib/python3.11/site-packages/matplotlib_inline-0.1.7.dist-info/REQUESTED",
-    "lib/python3.11/site-packages/matplotlib_inline-0.1.7.dist-info/WHEEL",
-    "lib/python3.11/site-packages/matplotlib_inline-0.1.7.dist-info/direct_url.json",
-    "lib/python3.11/site-packages/matplotlib_inline-0.1.7.dist-info/entry_points.txt",
-    "lib/python3.11/site-packages/matplotlib_inline-0.1.7.dist-info/top_level.txt",
-    "lib/python3.11/site-packages/matplotlib_inline/__init__.py",
-    "lib/python3.11/site-packages/matplotlib_inline/backend_inline.py",
-    "lib/python3.11/site-packages/matplotlib_inline/config.py",
-    "lib/python3.11/site-packages/matplotlib_inline/__pycache__/__init__.cpython-311.pyc",
-    "lib/python3.11/site-packages/matplotlib_inline/__pycache__/backend_inline.cpython-311.pyc",
-    "lib/python3.11/site-packages/matplotlib_inline/__pycache__/config.cpython-311.pyc"
+    "lib/python3.13/site-packages/matplotlib_inline-0.1.7.dist-info/INSTALLER",
+    "lib/python3.13/site-packages/matplotlib_inline-0.1.7.dist-info/LICENSE",
+    "lib/python3.13/site-packages/matplotlib_inline-0.1.7.dist-info/METADATA",
+    "lib/python3.13/site-packages/matplotlib_inline-0.1.7.dist-info/RECORD",
+    "lib/python3.13/site-packages/matplotlib_inline-0.1.7.dist-info/REQUESTED",
+    "lib/python3.13/site-packages/matplotlib_inline-0.1.7.dist-info/WHEEL",
+    "lib/python3.13/site-packages/matplotlib_inline-0.1.7.dist-info/direct_url.json",
+    "lib/python3.13/site-packages/matplotlib_inline-0.1.7.dist-info/entry_points.txt",
+    "lib/python3.13/site-packages/matplotlib_inline-0.1.7.dist-info/top_level.txt",
+    "lib/python3.13/site-packages/matplotlib_inline/__init__.py",
+    "lib/python3.13/site-packages/matplotlib_inline/backend_inline.py",
+    "lib/python3.13/site-packages/matplotlib_inline/config.py",
+    "lib/python3.13/site-packages/matplotlib_inline/__pycache__/__init__.cpython-313.pyc",
+    "lib/python3.13/site-packages/matplotlib_inline/__pycache__/backend_inline.cpython-313.pyc",
+    "lib/python3.13/site-packages/matplotlib_inline/__pycache__/config.cpython-313.pyc"
   ],
   "fn": "matplotlib-inline-0.1.7-pyhd8ed1ab_1.conda",
   "license": "BSD-3-Clause",
@@ -123,15 +123,15 @@
         "size_in_bytes": 3911
       },
       {
-        "_path": "lib/python3.11/site-packages/matplotlib_inline/__pycache__/__init__.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/matplotlib_inline/__pycache__/__init__.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/matplotlib_inline/__pycache__/backend_inline.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/matplotlib_inline/__pycache__/backend_inline.cpython-313.pyc",
         "path_type": "pyc_file"
       },
       {
-        "_path": "lib/python3.11/site-packages/matplotlib_inline/__pycache__/config.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/matplotlib_inline/__pycache__/config.cpython-313.pyc",
         "path_type": "pyc_file"
       }
     ],

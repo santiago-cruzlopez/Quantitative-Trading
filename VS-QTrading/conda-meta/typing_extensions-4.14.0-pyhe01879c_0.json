@@ -9,15 +9,15 @@
   ],
   "extracted_package_dir": "/home/santi_cruz/anaconda3/pkgs/typing_extensions-4.14.0-pyhe01879c_0",
   "files": [
-    "lib/python3.11/site-packages/typing_extensions-4.14.0.dist-info/INSTALLER",
-    "lib/python3.11/site-packages/typing_extensions-4.14.0.dist-info/METADATA",
-    "lib/python3.11/site-packages/typing_extensions-4.14.0.dist-info/RECORD",
-    "lib/python3.11/site-packages/typing_extensions-4.14.0.dist-info/REQUESTED",
-    "lib/python3.11/site-packages/typing_extensions-4.14.0.dist-info/WHEEL",
-    "lib/python3.11/site-packages/typing_extensions-4.14.0.dist-info/direct_url.json",
-    "lib/python3.11/site-packages/typing_extensions-4.14.0.dist-info/licenses/LICENSE",
-    "lib/python3.11/site-packages/typing_extensions.py",
-    "lib/python3.11/site-packages/__pycache__/typing_extensions.cpython-311.pyc"
+    "lib/python3.13/site-packages/typing_extensions-4.14.0.dist-info/INSTALLER",
+    "lib/python3.13/site-packages/typing_extensions-4.14.0.dist-info/METADATA",
+    "lib/python3.13/site-packages/typing_extensions-4.14.0.dist-info/RECORD",
+    "lib/python3.13/site-packages/typing_extensions-4.14.0.dist-info/REQUESTED",
+    "lib/python3.13/site-packages/typing_extensions-4.14.0.dist-info/WHEEL",
+    "lib/python3.13/site-packages/typing_extensions-4.14.0.dist-info/direct_url.json",
+    "lib/python3.13/site-packages/typing_extensions-4.14.0.dist-info/licenses/LICENSE",
+    "lib/python3.13/site-packages/typing_extensions.py",
+    "lib/python3.13/site-packages/__pycache__/typing_extensions.cpython-313.pyc"
   ],
   "fn": "typing_extensions-4.14.0-pyhe01879c_0.conda",
   "license": "PSF-2.0",
@@ -89,7 +89,7 @@
         "size_in_bytes": 157143
       },
       {
-        "_path": "lib/python3.11/site-packages/__pycache__/typing_extensions.cpython-311.pyc",
+        "_path": "lib/python3.13/site-packages/__pycache__/typing_extensions.cpython-313.pyc",
         "path_type": "pyc_file"
       }
     ],

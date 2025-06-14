@@ -1,4 +1,4 @@
-#!/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/bin/python
+#!/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/bin/python3.13
 # -*- coding: utf-8 -*-
 import re
 import sys

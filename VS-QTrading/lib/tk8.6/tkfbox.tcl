@@ -226,9 +226,7 @@ proc ::tk::dialog::file:: {type args} {
     foreach trace [trace info variable data(selectPath)] {
 	trace remove variable data(selectPath) {*}$trace
     }
-    if {[winfo exists $data(dirMenuBtn)]} {
-	$data(dirMenuBtn) configure -textvariable {}
-    }
+    $data(dirMenuBtn) configure -textvariable {}
 
     return $Priv(selectFilePath)
 }

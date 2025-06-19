@@ -13,13 +13,13 @@
 TCL_VERSION='8.6'
 TCL_MAJOR_VERSION='8'
 TCL_MINOR_VERSION='6'
-TCL_PATCH_LEVEL='.14'
+TCL_PATCH_LEVEL='.13'
 
 # C compiler to use for compilation.
-TCL_CC='/croot/tk_1748849386456/_build_env/bin/x86_64-conda-linux-gnu-cc'
+TCL_CC='/home/conda/feedstock_root/build_artifacts/tk_1748387370632/_build_env/bin/x86_64-conda-linux-gnu-cc'
 
 # -D flags for use with the C compiler.
-TCL_DEFS='-DPACKAGE_NAME=\"tcl\" -DPACKAGE_TARNAME=\"tcl\" -DPACKAGE_VERSION=\"8.6\" -DPACKAGE_STRING=\"tcl\ 8.6\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_SYS_PARAM_H=1 -DUSE_THREAD_ALLOC=1 -D_REENTRANT=1 -D_THREAD_SAFE=1 -DHAVE_PTHREAD_ATTR_SETSTACKSIZE=1 -DHAVE_PTHREAD_ATFORK=1 -DTCL_THREADS=1 -DTCL_CFGVAL_ENCODING=\"iso8859-1\" -DHAVE_ZLIB=1 -DMODULE_SCOPE=extern\ __attribute__\(\(__visibility__\(\"hidden\"\)\)\) -DHAVE_HIDDEN=1 -DTCL_CFG_DO64BIT=1 -DHAVE_CAST_TO_UNION=1 -DHAVE_VFORK=1 -DHAVE_POSIX_SPAWNP=1 -DHAVE_POSIX_SPAWN_FILE_ACTIONS_ADDDUP2=1 -DHAVE_POSIX_SPAWNATTR_SETFLAGS=1 -DTCL_SHLIB_EXT=\".so\" -DNDEBUG=1 -DTCL_CFG_OPTIMIZED=1 -DTCL_TOMMATH=1 -DMP_PREC=4 -D_LARGEFILE64_SOURCE=1 -DTCL_WIDE_INT_IS_LONG=1 -DHAVE_GETCWD=1 -DHAVE_MKSTEMP=1 -DHAVE_OPENDIR=1 -DHAVE_STRTOL=1 -DHAVE_WAITPID=1 -DHAVE_GETNAMEINFO=1 -DHAVE_GETADDRINFO=1 -DHAVE_FREEADDRINFO=1 -DHAVE_GAI_STRERROR=1 -DHAVE_STRUCT_ADDRINFO=1 -DHAVE_STRUCT_IN6_ADDR=1 -DHAVE_STRUCT_SOCKADDR_IN6=1 -DHAVE_STRUCT_SOCKADDR_STORAGE=1 -DHAVE_GETPWUID_R_5=1 -DHAVE_GETPWUID_R=1 -DHAVE_GETPWNAM_R_5=1 -DHAVE_GETPWNAM_R=1 -DHAVE_GETGRGID_R_5=1 -DHAVE_GETGRGID_R=1 -DHAVE_GETGRNAM_R_5=1 -DHAVE_GETGRNAM_R=1 -DHAVE_DECL_GETHOSTBYNAME_R=1 -DHAVE_GETHOSTBYNAME_R_6=1 -DHAVE_GETHOSTBYNAME_R=1 -DHAVE_DECL_GETHOSTBYADDR_R=1 -DHAVE_GETHOSTBYADDR_R_8=1 -DHAVE_GETHOSTBYADDR_R=1 -DHAVE_TERMIOS_H=1 -DHAVE_SYS_IOCTL_H=1 -DHAVE_SYS_TIME_H=1 -DTIME_WITH_SYS_TIME=1 -DHAVE_GMTIME_R=1 -DHAVE_LOCALTIME_R=1 -DHAVE_MKTIME=1 -DHAVE_TM_GMTOFF=1 -DHAVE_TIMEZONE_VAR=1 -DHAVE_STRUCT_STAT_ST_BLOCKS=1 -DHAVE_STRUCT_STAT_ST_BLKSIZE=1 -DHAVE_BLKCNT_T=1 -DHAVE_INTPTR_T=1 -DHAVE_UINTPTR_T=1 -DHAVE_SIGNED_CHAR=1 -DHAVE_LANGINFO=1 -DHAVE_MKSTEMPS=1 -DHAVE_FTS=1 -DHAVE_SYS_IOCTL_H=1 -DTCL_UNLOAD_DLLS=1 -DHAVE_CPUID=1 '
+TCL_DEFS='-DPACKAGE_NAME=\"tcl\" -DPACKAGE_TARNAME=\"tcl\" -DPACKAGE_VERSION=\"8.6\" -DPACKAGE_STRING=\"tcl\ 8.6\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_SYS_PARAM_H=1 -DUSE_THREAD_ALLOC=1 -D_REENTRANT=1 -D_THREAD_SAFE=1 -DHAVE_PTHREAD_ATTR_SETSTACKSIZE=1 -DHAVE_PTHREAD_ATFORK=1 -DTCL_THREADS=1 -DTCL_CFGVAL_ENCODING=\"iso8859-1\" -DHAVE_ZLIB=1 -DMODULE_SCOPE=extern\ __attribute__\(\(__visibility__\(\"hidden\"\)\)\) -DHAVE_HIDDEN=1 -DHAVE_CAST_TO_UNION=1 -DTCL_SHLIB_EXT=\".so\" -DNDEBUG=1 -DTCL_CFG_OPTIMIZED=1 -DTCL_TOMMATH=1 -DMP_PREC=4 -D_LARGEFILE64_SOURCE=1 -DTCL_WIDE_INT_IS_LONG=1 -DHAVE_GETCWD=1 -DHAVE_MKSTEMP=1 -DHAVE_OPENDIR=1 -DHAVE_STRTOL=1 -DHAVE_WAITPID=1 -DHAVE_GETNAMEINFO=1 -DHAVE_GETADDRINFO=1 -DHAVE_FREEADDRINFO=1 -DHAVE_GAI_STRERROR=1 -DHAVE_STRUCT_ADDRINFO=1 -DHAVE_STRUCT_IN6_ADDR=1 -DHAVE_STRUCT_SOCKADDR_IN6=1 -DHAVE_STRUCT_SOCKADDR_STORAGE=1 -DHAVE_GETPWUID_R_5=1 -DHAVE_GETPWUID_R=1 -DHAVE_GETPWNAM_R_5=1 -DHAVE_GETPWNAM_R=1 -DHAVE_GETGRGID_R_5=1 -DHAVE_GETGRGID_R=1 -DHAVE_GETGRNAM_R_5=1 -DHAVE_GETGRNAM_R=1 -DHAVE_DECL_GETHOSTBYNAME_R=1 -DHAVE_GETHOSTBYNAME_R_6=1 -DHAVE_GETHOSTBYNAME_R=1 -DHAVE_DECL_GETHOSTBYADDR_R=1 -DHAVE_GETHOSTBYADDR_R_8=1 -DHAVE_GETHOSTBYADDR_R=1 -DHAVE_TERMIOS_H=1 -DHAVE_SYS_IOCTL_H=1 -DHAVE_SYS_TIME_H=1 -DTIME_WITH_SYS_TIME=1 -DHAVE_GMTIME_R=1 -DHAVE_LOCALTIME_R=1 -DHAVE_MKTIME=1 -DHAVE_TM_GMTOFF=1 -DHAVE_TIMEZONE_VAR=1 -DHAVE_STRUCT_STAT_ST_BLOCKS=1 -DHAVE_STRUCT_STAT_ST_BLKSIZE=1 -DHAVE_BLKCNT_T=1 -DHAVE_INTPTR_T=1 -DHAVE_UINTPTR_T=1 -DHAVE_SIGNED_CHAR=1 -DHAVE_LANGINFO=1 -DHAVE_MKSTEMPS=1 -DHAVE_FTS=1 -DHAVE_SYS_IOCTL_H=1 -DTCL_UNLOAD_DLLS=1 -DHAVE_CPUID=1 '
 
 # TCL_DBGX used to be used to distinguish debug vs. non-debug builds.
 # This was a righteous pain so the core doesn't do that any more.
@@ -57,7 +57,7 @@ TCL_SHLIB_CFLAGS='-fPIC'
 TCL_CFLAGS_WARNING='-Wall -Wpointer-arith'
 
 # Extra flags to pass to cc:
-TCL_EXTRA_CFLAGS='-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/include -fdebug-prefix-map=/croot/tk_1748849386456/work=/usr/local/src/conda/tk-8.6.14 -fdebug-prefix-map=/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading=/usr/local/src/conda-prefix -pipe -m64 -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/include'
+TCL_EXTRA_CFLAGS='-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/tk_1748387370632/work=/usr/local/src/conda/tk-8.6.13 -fdebug-prefix-map=/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading=/usr/local/src/conda-prefix -pipe -DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/include'
 
 # Base command to use for combining object files into a shared library:
 TCL_SHLIB_LD='${CC} ${CFLAGS} ${LDFLAGS} -shared'
@@ -79,7 +79,7 @@ TCL_DL_LIBS='-ldl'
 
 # Flags to pass to the compiler when linking object files into
 # an executable tclsh or tcltest binary.
-TCL_LD_FLAGS='-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/lib -Wl,-rpath-link,/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/lib -L/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/lib -Wl,--export-dynamic '
+TCL_LD_FLAGS='-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/lib -Wl,-rpath-link,/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/lib -L/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/lib -Wl,--export-dynamic '
 
 # Flags to pass to cc/ld, such as "-R /usr/local/tcl/lib", that tell the
 # run-time dynamic linker where to look for shared libraries such as
@@ -93,14 +93,14 @@ TCL_LD_SEARCH_FLAGS='"-Wl,-rpath,${LIB_RUNTIME_DIR}"'
 TCL_COMPAT_OBJS=''
 
 # Name of the ranlib program to use.
-TCL_RANLIB='/croot/tk_1748849386456/_build_env/bin/x86_64-conda-linux-gnu-ranlib'
+TCL_RANLIB='/home/conda/feedstock_root/build_artifacts/tk_1748387370632/_build_env/bin/x86_64-conda-linux-gnu-ranlib'
 
 # -l flag to pass to the linker to pick up the Tcl library
 TCL_LIB_FLAG='-ltcl8.6'
 
 # String to pass to linker to pick up the Tcl library from its
 # build directory.
-TCL_BUILD_LIB_SPEC='-L/croot/tk_1748849386456/work/tcl8.6.14/unix -ltcl8.6'
+TCL_BUILD_LIB_SPEC='-L/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/lib -ltcl8.6'
 
 # String to pass to linker to pick up the Tcl library from its
 # installed directory.
@@ -135,7 +135,7 @@ TCL_UNSHARED_LIB_SUFFIX='${VERSION}.a'
 # different place than the directory containing the source files, this
 # points to the location of the sources, not the location where Tcl was
 # compiled.
-TCL_SRC_DIR='/croot/tk_1748849386456/work/tcl8.6.14'
+TCL_SRC_DIR='/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/include'
 
 # List of standard directories in which to look for packages during
 # "package require" commands.  Contains the "prefix" directory plus also
@@ -153,14 +153,14 @@ TCL_STUB_LIB_FLAG='-ltclstub8.6'
 
 # String to pass to linker to pick up the Tcl stub library from its
 # build directory.
-TCL_BUILD_STUB_LIB_SPEC='-L/croot/tk_1748849386456/work/tcl8.6.14/unix -ltclstub8.6'
+TCL_BUILD_STUB_LIB_SPEC='-L/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/lib -ltclstub8.6'
 
 # String to pass to linker to pick up the Tcl stub library from its
 # installed directory.
 TCL_STUB_LIB_SPEC='-L/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/lib -ltclstub8.6'
 
 # Path to the Tcl stub library in the build directory.
-TCL_BUILD_STUB_LIB_PATH='/croot/tk_1748849386456/work/tcl8.6.14/unix/libtclstub8.6.a'
+TCL_BUILD_STUB_LIB_PATH='/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/lib/libtclstub8.6.a'
 
 # Path to the Tcl stub library in the install directory.
 TCL_STUB_LIB_PATH='/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/lib/libtclstub8.6.a'

@@ -1,0 +1,24 @@
+prefix=/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading
+datadir=${prefix}/share
+includedir=${prefix}/include
+libdir=${prefix}/lib
+libexecdir=${prefix}/libexec
+
+exec_prefix=${prefix}
+toolsdir=${exec_prefix}/bin
+pluginsdir=${libdir}/gstreamer-1.0
+girdir=${datadir}/gir-1.0
+typelibdir=${libdir}/girepository-1.0
+pluginscannerdir=${libexecdir}/gstreamer-1.0
+gl_platforms=egl glx
+gl_winsys=egl surfaceless x11
+gl_apis=gl
+
+Name: gstreamer-gl-1.0
+Description: Streaming media framework, OpenGL plugins libraries
+Version: 1.24.11
+Requires: gstreamer-video-1.0, gstreamer-base-1.0 >=  1.24.0, gstreamer-1.0 >=  1.24.0
+Requires.private: gstreamer-allocators-1.0, gmodule-no-export-2.0, gl, egl, glx, x11, x11-xcb, libdrm >=  2.4.98
+Libs: -L${libdir} -lgstgl-1.0
+Libs.private: -lm
+Cflags: -I${includedir}/gstreamer-1.0 -I${libdir}/gstreamer-1.0/include

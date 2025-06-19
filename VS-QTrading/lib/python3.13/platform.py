@@ -460,7 +460,12 @@ def win32_ver(release='', version='', csd='', ptype=''):
 def _mac_ver_xml():
     fn = '/System/Library/CoreServices/SystemVersion.plist'
     if not os.path.exists(fn):
-        return None
+        if 'SDKROOT' in os.environ:
+            fn = os.environ['SDKROOT'] + fn
+            if not os.path.exists(fn):
+                return None
+        else:
+            return None
 
     try:
         import plistlib
@@ -1191,8 +1196,9 @@ def _sys_version(sys_version=None):
     else:
         # CPython
         cpython_sys_version_parser = re.compile(
-            r'([\w.+]+)\s*(?:\ \|\ packaged\ by\ Anaconda,\ Inc\.\ \|)?\s*'  # version<space>"
+            r'([\w.+]+)\s*'  # "version<space>"
             r'(?:experimental free-threading build\s+)?' # "free-threading-build<space>"
+            r'(?:\| packaged by conda-forge \|\s+)?' # "| packaged by conda-forge |<space>"
             r'\(#?([^,]+)'  # "(#buildno"
             r'(?:,\s*([\w ]*)'  # ", builddate"
             r'(?:,\s*([\w :]*))?)?\)\s*'  # ", buildtime)<space>"

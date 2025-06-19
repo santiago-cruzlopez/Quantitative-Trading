@@ -1,0 +1,114 @@
+{
+  "build": "hd0c01bc_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc >=13",
+    "__glibc >=2.17,<3.0.a0"
+  ],
+  "extracted_package_dir": "/home/santi_cruz/anaconda3/pkgs/libopus-1.5.2-hd0c01bc_0",
+  "files": [
+    "include/opus/opus.h",
+    "include/opus/opus_defines.h",
+    "include/opus/opus_multistream.h",
+    "include/opus/opus_projection.h",
+    "include/opus/opus_types.h",
+    "lib/libopus.so",
+    "lib/libopus.so.0",
+    "lib/libopus.so.0.10.1",
+    "lib/pkgconfig/opus.pc",
+    "share/aclocal/opus.m4"
+  ],
+  "fn": "libopus-1.5.2-hd0c01bc_0.conda",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "/home/santi_cruz/anaconda3/pkgs/libopus-1.5.2-hd0c01bc_0",
+    "type": 1
+  },
+  "md5": "b64523fb87ac6f87f0790f324ad43046",
+  "name": "libopus",
+  "package_tarball_full_path": "/home/santi_cruz/anaconda3/pkgs/libopus-1.5.2-hd0c01bc_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "include/opus/opus.h",
+        "path_type": "hardlink",
+        "sha256": "0d5e90fe5d2651ce616b238a81b33d393949b99ef9528efdbd653c0097abbbd4",
+        "sha256_in_prefix": "0d5e90fe5d2651ce616b238a81b33d393949b99ef9528efdbd653c0097abbbd4",
+        "size_in_bytes": 54623
+      },
+      {
+        "_path": "include/opus/opus_defines.h",
+        "path_type": "hardlink",
+        "sha256": "8918f65309058be1921e59e9ef9cd4081497ce8a487e55cb45c5547046447d9b",
+        "sha256_in_prefix": "8918f65309058be1921e59e9ef9cd4081497ce8a487e55cb45c5547046447d9b",
+        "size_in_bytes": 36680
+      },
+      {
+        "_path": "include/opus/opus_multistream.h",
+        "path_type": "hardlink",
+        "sha256": "49b727edb7306f94980713bb6c2777fa1fb52de00005cd77c5aff3b935435c22",
+        "sha256_in_prefix": "49b727edb7306f94980713bb6c2777fa1fb52de00005cd77c5aff3b935435c22",
+        "size_in_bytes": 33540
+      },
+      {
+        "_path": "include/opus/opus_projection.h",
+        "path_type": "hardlink",
+        "sha256": "a53752449f55b5f60679eab8fda96835102251aeefccf7c54256460d02747216",
+        "sha256_in_prefix": "a53752449f55b5f60679eab8fda96835102251aeefccf7c54256460d02747216",
+        "size_in_bytes": 28240
+      },
+      {
+        "_path": "include/opus/opus_types.h",
+        "path_type": "hardlink",
+        "sha256": "19cb301ea1eedbcbdbb5049363de061893bf11c20e505a657b69ce6ffa5b11fa",
+        "sha256_in_prefix": "19cb301ea1eedbcbdbb5049363de061893bf11c20e505a657b69ce6ffa5b11fa",
+        "size_in_bytes": 5157
+      },
+      {
+        "_path": "lib/libopus.so",
+        "path_type": "softlink",
+        "sha256": "1c96eaa1ab4d793235b4ae9cdbbd839d2669f917cb89fdfaa9b99555a765a04b",
+        "size_in_bytes": 17
+      },
+      {
+        "_path": "lib/libopus.so.0",
+        "path_type": "softlink",
+        "sha256": "1c96eaa1ab4d793235b4ae9cdbbd839d2669f917cb89fdfaa9b99555a765a04b",
+        "size_in_bytes": 17
+      },
+      {
+        "_path": "lib/libopus.so.0.10.1",
+        "path_type": "hardlink",
+        "sha256": "1c96eaa1ab4d793235b4ae9cdbbd839d2669f917cb89fdfaa9b99555a765a04b",
+        "sha256_in_prefix": "1c96eaa1ab4d793235b4ae9cdbbd839d2669f917cb89fdfaa9b99555a765a04b",
+        "size_in_bytes": 494032
+      },
+      {
+        "_path": "lib/pkgconfig/opus.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/bld/rattler-build_libopus_1744330953/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "651cb9b6a75b236474d72e049789a0f819b5a9613b10dcd3376300bfd68d305c",
+        "sha256_in_prefix": "ce75ca6024c7feb01c1053bc593c83b989eb1a6edb41b1e7d40c21eb9f7237ed",
+        "size_in_bytes": 602
+      },
+      {
+        "_path": "share/aclocal/opus.m4",
+        "path_type": "hardlink",
+        "sha256": "b10eed4b75ebb1a255f604f45111a40d3f339b428565c3026001239b1f0affca",
+        "sha256_in_prefix": "b10eed4b75ebb1a255f604f45111a40d3f339b428565c3026001239b1f0affca",
+        "size_in_bytes": 4083
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "786d43678d6d1dc5f88a6bad2d02830cfd5a0184e84a8caa45694049f0e3ea5f",
+  "size": 312472,
+  "subdir": "linux-64",
+  "timestamp": 1744330953000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/libopus-1.5.2-hd0c01bc_0.conda",
+  "version": "1.5.2"
+}

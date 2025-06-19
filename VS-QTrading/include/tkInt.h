@@ -693,8 +693,6 @@ typedef struct TkMainInfo {
 				/* Saved Tcl [update] command, used to restore
 				 * Tcl's version of [update] after Tk is shut
 				 * down */
-    unsigned int ttkNbTabsStickBit;
-    				/* Information used by ttk::notebook. */
 } TkMainInfo;
 
 /*
@@ -1094,11 +1092,10 @@ extern "C" {
 #endif
 
 /*
- * Themed widget set init function, and handler called when Tk is destroyed.
+ * Themed widget set init function:
  */
 
 MODULE_SCOPE int	Ttk_Init(Tcl_Interp *interp);
-MODULE_SCOPE void	Ttk_TkDestroyedHandler(Tcl_Interp *interp);
 
 /*
  * Internal functions shared among Tk modules but not exported to the outside
@@ -1338,8 +1335,6 @@ MODULE_SCOPE Status TkParseColor (Display * display,
 #ifdef HAVE_XFT
 MODULE_SCOPE void	TkUnixSetXftClipRegion(TkRegion clipRegion);
 #endif
-
-MODULE_SCOPE void	TkpCopyRegion(TkRegion dst, TkRegion src);
 
 #if !defined(__cplusplus) && !defined(c_plusplus)
 # define c_class class

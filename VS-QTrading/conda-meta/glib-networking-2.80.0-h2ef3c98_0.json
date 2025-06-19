@@ -1,0 +1,624 @@
+{
+  "build": "h2ef3c98_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "gettext",
+    "glib >=2.74.0",
+    "libgcc-ng >=12",
+    "libglib >=2.74.1,<3.0a0",
+    "libzlib >=1.2.13,<2.0.0a0",
+    "openssl >=3.2.1,<4.0a0"
+  ],
+  "extracted_package_dir": "/home/santi_cruz/anaconda3/pkgs/glib-networking-2.80.0-h2ef3c98_0",
+  "files": [
+    "bin/.glib-networking-post-link.sh",
+    "lib/gio/modules/libgioopenssl.so",
+    "share/locale/ab/LC_MESSAGES/glib-networking.mo",
+    "share/locale/an/LC_MESSAGES/glib-networking.mo",
+    "share/locale/ar/LC_MESSAGES/glib-networking.mo",
+    "share/locale/as/LC_MESSAGES/glib-networking.mo",
+    "share/locale/be/LC_MESSAGES/glib-networking.mo",
+    "share/locale/bg/LC_MESSAGES/glib-networking.mo",
+    "share/locale/bn_IN/LC_MESSAGES/glib-networking.mo",
+    "share/locale/bs/LC_MESSAGES/glib-networking.mo",
+    "share/locale/ca/LC_MESSAGES/glib-networking.mo",
+    "share/locale/ca@valencia/LC_MESSAGES/glib-networking.mo",
+    "share/locale/cs/LC_MESSAGES/glib-networking.mo",
+    "share/locale/da/LC_MESSAGES/glib-networking.mo",
+    "share/locale/de/LC_MESSAGES/glib-networking.mo",
+    "share/locale/el/LC_MESSAGES/glib-networking.mo",
+    "share/locale/en_CA/LC_MESSAGES/glib-networking.mo",
+    "share/locale/en_GB/LC_MESSAGES/glib-networking.mo",
+    "share/locale/eo/LC_MESSAGES/glib-networking.mo",
+    "share/locale/es/LC_MESSAGES/glib-networking.mo",
+    "share/locale/et/LC_MESSAGES/glib-networking.mo",
+    "share/locale/eu/LC_MESSAGES/glib-networking.mo",
+    "share/locale/fa/LC_MESSAGES/glib-networking.mo",
+    "share/locale/fi/LC_MESSAGES/glib-networking.mo",
+    "share/locale/fr/LC_MESSAGES/glib-networking.mo",
+    "share/locale/fur/LC_MESSAGES/glib-networking.mo",
+    "share/locale/gd/LC_MESSAGES/glib-networking.mo",
+    "share/locale/gl/LC_MESSAGES/glib-networking.mo",
+    "share/locale/gu/LC_MESSAGES/glib-networking.mo",
+    "share/locale/he/LC_MESSAGES/glib-networking.mo",
+    "share/locale/hi/LC_MESSAGES/glib-networking.mo",
+    "share/locale/hr/LC_MESSAGES/glib-networking.mo",
+    "share/locale/hu/LC_MESSAGES/glib-networking.mo",
+    "share/locale/id/LC_MESSAGES/glib-networking.mo",
+    "share/locale/it/LC_MESSAGES/glib-networking.mo",
+    "share/locale/ja/LC_MESSAGES/glib-networking.mo",
+    "share/locale/ka/LC_MESSAGES/glib-networking.mo",
+    "share/locale/kk/LC_MESSAGES/glib-networking.mo",
+    "share/locale/km/LC_MESSAGES/glib-networking.mo",
+    "share/locale/kn/LC_MESSAGES/glib-networking.mo",
+    "share/locale/ko/LC_MESSAGES/glib-networking.mo",
+    "share/locale/lt/LC_MESSAGES/glib-networking.mo",
+    "share/locale/lv/LC_MESSAGES/glib-networking.mo",
+    "share/locale/ml/LC_MESSAGES/glib-networking.mo",
+    "share/locale/mr/LC_MESSAGES/glib-networking.mo",
+    "share/locale/ms/LC_MESSAGES/glib-networking.mo",
+    "share/locale/nb/LC_MESSAGES/glib-networking.mo",
+    "share/locale/ne/LC_MESSAGES/glib-networking.mo",
+    "share/locale/nl/LC_MESSAGES/glib-networking.mo",
+    "share/locale/oc/LC_MESSAGES/glib-networking.mo",
+    "share/locale/or/LC_MESSAGES/glib-networking.mo",
+    "share/locale/pa/LC_MESSAGES/glib-networking.mo",
+    "share/locale/pl/LC_MESSAGES/glib-networking.mo",
+    "share/locale/pt/LC_MESSAGES/glib-networking.mo",
+    "share/locale/pt_BR/LC_MESSAGES/glib-networking.mo",
+    "share/locale/ro/LC_MESSAGES/glib-networking.mo",
+    "share/locale/ru/LC_MESSAGES/glib-networking.mo",
+    "share/locale/sk/LC_MESSAGES/glib-networking.mo",
+    "share/locale/sl/LC_MESSAGES/glib-networking.mo",
+    "share/locale/sr/LC_MESSAGES/glib-networking.mo",
+    "share/locale/sr@latin/LC_MESSAGES/glib-networking.mo",
+    "share/locale/sv/LC_MESSAGES/glib-networking.mo",
+    "share/locale/ta/LC_MESSAGES/glib-networking.mo",
+    "share/locale/te/LC_MESSAGES/glib-networking.mo",
+    "share/locale/tg/LC_MESSAGES/glib-networking.mo",
+    "share/locale/th/LC_MESSAGES/glib-networking.mo",
+    "share/locale/tr/LC_MESSAGES/glib-networking.mo",
+    "share/locale/ug/LC_MESSAGES/glib-networking.mo",
+    "share/locale/uk/LC_MESSAGES/glib-networking.mo",
+    "share/locale/vi/LC_MESSAGES/glib-networking.mo",
+    "share/locale/zh_CN/LC_MESSAGES/glib-networking.mo",
+    "share/locale/zh_HK/LC_MESSAGES/glib-networking.mo",
+    "share/locale/zh_TW/LC_MESSAGES/glib-networking.mo"
+  ],
+  "fn": "glib-networking-2.80.0-h2ef3c98_0.conda",
+  "license": "LGPL-2.1-or-later",
+  "link": {
+    "source": "/home/santi_cruz/anaconda3/pkgs/glib-networking-2.80.0-h2ef3c98_0",
+    "type": 1
+  },
+  "md5": "3081eba855a71319a77a5325a43d755a",
+  "name": "glib-networking",
+  "package_tarball_full_path": "/home/santi_cruz/anaconda3/pkgs/glib-networking-2.80.0-h2ef3c98_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/.glib-networking-post-link.sh",
+        "path_type": "hardlink",
+        "sha256": "96bce8d5348f3d23d8467c7c0d73b0cef4de88d8e7c003eeecf194a41cff0a91",
+        "sha256_in_prefix": "96bce8d5348f3d23d8467c7c0d73b0cef4de88d8e7c003eeecf194a41cff0a91",
+        "size_in_bytes": 479
+      },
+      {
+        "_path": "lib/gio/modules/libgioopenssl.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/glib-networking_1710665592276/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "226d94560f89fc3f7dfde87f90d8bd9b68be1d423ea00dd08968609616fca604",
+        "sha256_in_prefix": "5ccd03ca828301b3471923465442066b84bf049c52c0b0370fee1f9f67097541",
+        "size_in_bytes": 187704
+      },
+      {
+        "_path": "share/locale/ab/LC_MESSAGES/glib-networking.mo",
+        "path_type": "hardlink",
+        "sha256": "b953a998cf236af4503298135abfd77aa1dffa8220106045f88e7f19e82cc88a",
+        "sha256_in_prefix": "b953a998cf236af4503298135abfd77aa1dffa8220106045f88e7f19e82cc88a",
+        "size_in_bytes": 528
+      },
+      {
+        "_path": "share/locale/an/LC_MESSAGES/glib-networking.mo",
+        "path_type": "hardlink",
+        "sha256": "89f9fe6d79d45c7ff389a5c015ecc5b2804ce7829a1e78c0bf1b4b7b90ccaaec",
+        "sha256_in_prefix": "89f9fe6d79d45c7ff389a5c015ecc5b2804ce7829a1e78c0bf1b4b7b90ccaaec",
+        "size_in_bytes": 3264
+      },
+      {
+        "_path": "share/locale/ar/LC_MESSAGES/glib-networking.mo",
+        "path_type": "hardlink",
+        "sha256": "52cc8f61f60786f844ead7b58ca2c82fc7be9180b866cd82738c19bfc8bdd831",
+        "sha256_in_prefix": "52cc8f61f60786f844ead7b58ca2c82fc7be9180b866cd82738c19bfc8bdd831",
+        "size_in_bytes": 3570
+      },
+      {
+        "_path": "share/locale/as/LC_MESSAGES/glib-networking.mo",
+        "path_type": "hardlink",
+        "sha256": "a729451c0d508e768c26df6754fd23d66c6070440d653cf2d27577b8aa821aeb",
+        "sha256_in_prefix": "a729451c0d508e768c26df6754fd23d66c6070440d653cf2d27577b8aa821aeb",
+        "size_in_bytes": 4548
+      },
+      {
+        "_path": "share/locale/be/LC_MESSAGES/glib-networking.mo",
+        "path_type": "hardlink",
+        "sha256": "7946e8e21afd2039e8e68209143cfc2b804501091d2de091c4bc8f7a3f0a90ac",
+        "sha256_in_prefix": "7946e8e21afd2039e8e68209143cfc2b804501091d2de091c4bc8f7a3f0a90ac",
+        "size_in_bytes": 7605
+      },
+      {
+        "_path": "share/locale/bg/LC_MESSAGES/glib-networking.mo",
+        "path_type": "hardlink",
+        "sha256": "0b4728ebef3b892229e55eeffc22d581f1bb9abe44478a6aecfe2035714197e7",
+        "sha256_in_prefix": "0b4728ebef3b892229e55eeffc22d581f1bb9abe44478a6aecfe2035714197e7",
+        "size_in_bytes": 10629
+      },
+      {
+        "_path": "share/locale/bn_IN/LC_MESSAGES/glib-networking.mo",
+        "path_type": "hardlink",
+        "sha256": "7a96f60172f39da1c2cd0d8c127bcda7d770e83c1a2f93088f7330ed9a66fd04",
+        "sha256_in_prefix": "7a96f60172f39da1c2cd0d8c127bcda7d770e83c1a2f93088f7330ed9a66fd04",
+        "size_in_bytes": 2891
+      },
+      {
+        "_path": "share/locale/bs/LC_MESSAGES/glib-networking.mo",
+        "path_type": "hardlink",
+        "sha256": "83b744822bd9d77f48463fbbbd302bf25e6e9c766d1db552bffdbb6147b128ed",
+        "sha256_in_prefix": "83b744822bd9d77f48463fbbbd302bf25e6e9c766d1db552bffdbb6147b128ed",
+        "size_in_bytes": 3159
+      },
+      {
+        "_path": "share/locale/ca/LC_MESSAGES/glib-networking.mo",
+        "path_type": "hardlink",
+        "sha256": "db3c60f0abbe6f5c5bb0acc0528e022218ce2e34756b5f27dea6452fa3aba83f",
+        "sha256_in_prefix": "db3c60f0abbe6f5c5bb0acc0528e022218ce2e34756b5f27dea6452fa3aba83f",
+        "size_in_bytes": 8914
+      },
+      {
+        "_path": "share/locale/ca@valencia/LC_MESSAGES/glib-networking.mo",
+        "path_type": "hardlink",
+        "sha256": "1ee0e0c8837e749254b5b7cb8b8d7b834618c57c4484045e7d2088a0016a8410",
+        "sha256_in_prefix": "1ee0e0c8837e749254b5b7cb8b8d7b834618c57c4484045e7d2088a0016a8410",
+        "size_in_bytes": 3671
+      },
+      {
+        "_path": "share/locale/cs/LC_MESSAGES/glib-networking.mo",
+        "path_type": "hardlink",
+        "sha256": "c77cc9da9af60c9fb6f5de3e819e83b3a55667b2cbba5705d47ef53b3c09bdd8",
+        "sha256_in_prefix": "c77cc9da9af60c9fb6f5de3e819e83b3a55667b2cbba5705d47ef53b3c09bdd8",
+        "size_in_bytes": 8095
+      },
+      {
+        "_path": "share/locale/da/LC_MESSAGES/glib-networking.mo",
+        "path_type": "hardlink",
+        "sha256": "6dcb3331975564b8ed5e7e4c2aab84561aa7ec66116db00be11c4efb1d83e4af",
+        "sha256_in_prefix": "6dcb3331975564b8ed5e7e4c2aab84561aa7ec66116db00be11c4efb1d83e4af",
+        "size_in_bytes": 8085
+      },
+      {
+        "_path": "share/locale/de/LC_MESSAGES/glib-networking.mo",
+        "path_type": "hardlink",
+        "sha256": "dd510effbcb37202c3f4a894e462de637f9ceed25fda45b9b56dc3ab638f89e9",
+        "sha256_in_prefix": "dd510effbcb37202c3f4a894e462de637f9ceed25fda45b9b56dc3ab638f89e9",
+        "size_in_bytes": 8452
+      },
+      {
+        "_path": "share/locale/el/LC_MESSAGES/glib-networking.mo",
+        "path_type": "hardlink",
+        "sha256": "039d0b6d41f6c21f8a6ab4714a552eaa2c767c68e9f7ba3a9d69fef9d762253a",
+        "sha256_in_prefix": "039d0b6d41f6c21f8a6ab4714a552eaa2c767c68e9f7ba3a9d69fef9d762253a",
+        "size_in_bytes": 7344
+      },
+      {
+        "_path": "share/locale/en_CA/LC_MESSAGES/glib-networking.mo",
+        "path_type": "hardlink",
+        "sha256": "10b3bac3a622c104998bbc218a09474bbc48e474b580923e60c42cc5c78b2258",
+        "sha256_in_prefix": "10b3bac3a622c104998bbc218a09474bbc48e474b580923e60c42cc5c78b2258",
+        "size_in_bytes": 465
+      },
+      {
+        "_path": "share/locale/en_GB/LC_MESSAGES/glib-networking.mo",
+        "path_type": "hardlink",
+        "sha256": "f933b94adfb79077b82fb3f86f7744b9cbb8a9931105be97ca551ee2a4280e8f",
+        "sha256_in_prefix": "f933b94adfb79077b82fb3f86f7744b9cbb8a9931105be97ca551ee2a4280e8f",
+        "size_in_bytes": 7753
+      },
+      {
+        "_path": "share/locale/eo/LC_MESSAGES/glib-networking.mo",
+        "path_type": "hardlink",
+        "sha256": "95716a97dea887bde1c5c0c10327b7c31993c5b9533802d1ebe670eda7ab2980",
+        "sha256_in_prefix": "95716a97dea887bde1c5c0c10327b7c31993c5b9533802d1ebe670eda7ab2980",
+        "size_in_bytes": 7525
+      },
+      {
+        "_path": "share/locale/es/LC_MESSAGES/glib-networking.mo",
+        "path_type": "hardlink",
+        "sha256": "3dc0a811dabdea931771f26b664e1c0b7439642cc035510fd1bb9f50acb06629",
+        "sha256_in_prefix": "3dc0a811dabdea931771f26b664e1c0b7439642cc035510fd1bb9f50acb06629",
+        "size_in_bytes": 8379
+      },
+      {
+        "_path": "share/locale/et/LC_MESSAGES/glib-networking.mo",
+        "path_type": "hardlink",
+        "sha256": "7d602040a24dff4238ef056d9c073fb14595c777acb0b2cd6363f97f82a9d55d",
+        "sha256_in_prefix": "7d602040a24dff4238ef056d9c073fb14595c777acb0b2cd6363f97f82a9d55d",
+        "size_in_bytes": 3188
+      },
+      {
+        "_path": "share/locale/eu/LC_MESSAGES/glib-networking.mo",
+        "path_type": "hardlink",
+        "sha256": "06200159d9c8815e8ac4670c8011e5f9023a5685a003380d63aa064599238c6f",
+        "sha256_in_prefix": "06200159d9c8815e8ac4670c8011e5f9023a5685a003380d63aa064599238c6f",
+        "size_in_bytes": 8106
+      },
+      {
+        "_path": "share/locale/fa/LC_MESSAGES/glib-networking.mo",
+        "path_type": "hardlink",
+        "sha256": "53ef65145b147f3b7bc506462a2d37ddfc5ca4180d65bbf8d178b943ee04647c",
+        "sha256_in_prefix": "53ef65145b147f3b7bc506462a2d37ddfc5ca4180d65bbf8d178b943ee04647c",
+        "size_in_bytes": 10017
+      },
+      {
+        "_path": "share/locale/fi/LC_MESSAGES/glib-networking.mo",
+        "path_type": "hardlink",
+        "sha256": "a6872185202023e6734c04578dab5f746bf162ea9a28782041df70b26a78e106",
+        "sha256_in_prefix": "a6872185202023e6734c04578dab5f746bf162ea9a28782041df70b26a78e106",
+        "size_in_bytes": 6010
+      },
+      {
+        "_path": "share/locale/fr/LC_MESSAGES/glib-networking.mo",
+        "path_type": "hardlink",
+        "sha256": "73a5f1a5341cd8765553de3274fb17ffc45b617bfb22557c24c4f0cb29573ba7",
+        "sha256_in_prefix": "73a5f1a5341cd8765553de3274fb17ffc45b617bfb22557c24c4f0cb29573ba7",
+        "size_in_bytes": 8877
+      },
+      {
+        "_path": "share/locale/fur/LC_MESSAGES/glib-networking.mo",
+        "path_type": "hardlink",
+        "sha256": "03ca89903edc7a2afb41e75f6f8df063bacc3ed5fa940bd1e6a1f94a7d09276a",
+        "sha256_in_prefix": "03ca89903edc7a2afb41e75f6f8df063bacc3ed5fa940bd1e6a1f94a7d09276a",
+        "size_in_bytes": 7875
+      },
+      {
+        "_path": "share/locale/gd/LC_MESSAGES/glib-networking.mo",
+        "path_type": "hardlink",
+        "sha256": "623bfea2d83e3c1621236841eca9ae7f477a575b206dc7bc332fde0bfd37d471",
+        "sha256_in_prefix": "623bfea2d83e3c1621236841eca9ae7f477a575b206dc7bc332fde0bfd37d471",
+        "size_in_bytes": 3584
+      },
+      {
+        "_path": "share/locale/gl/LC_MESSAGES/glib-networking.mo",
+        "path_type": "hardlink",
+        "sha256": "70234c084ba8a854ba3aa013f27166734b31be8795db975c2d353537e917a842",
+        "sha256_in_prefix": "70234c084ba8a854ba3aa013f27166734b31be8795db975c2d353537e917a842",
+        "size_in_bytes": 8780
+      },
+      {
+        "_path": "share/locale/gu/LC_MESSAGES/glib-networking.mo",
+        "path_type": "hardlink",
+        "sha256": "68004a450e1f0899783e7d6e62c3426fb37862044929c2e3abd578f6291f3cea",
+        "sha256_in_prefix": "68004a450e1f0899783e7d6e62c3426fb37862044929c2e3abd578f6291f3cea",
+        "size_in_bytes": 2889
+      },
+      {
+        "_path": "share/locale/he/LC_MESSAGES/glib-networking.mo",
+        "path_type": "hardlink",
+        "sha256": "467470d4ab0cf12039df946c66818bb5af0a8d202bc1d185138bdb359e3735fd",
+        "sha256_in_prefix": "467470d4ab0cf12039df946c66818bb5af0a8d202bc1d185138bdb359e3735fd",
+        "size_in_bytes": 9530
+      },
+      {
+        "_path": "share/locale/hi/LC_MESSAGES/glib-networking.mo",
+        "path_type": "hardlink",
+        "sha256": "3b12ce136ff8ec1d3cb919c37988cd77120af273adc4e25a8cedf21f5ee751cf",
+        "sha256_in_prefix": "3b12ce136ff8ec1d3cb919c37988cd77120af273adc4e25a8cedf21f5ee751cf",
+        "size_in_bytes": 4662
+      },
+      {
+        "_path": "share/locale/hr/LC_MESSAGES/glib-networking.mo",
+        "path_type": "hardlink",
+        "sha256": "faa58d457de6afe03bf405e9356fa4b815db3b489d687525a8017ef4de1a4e6e",
+        "sha256_in_prefix": "faa58d457de6afe03bf405e9356fa4b815db3b489d687525a8017ef4de1a4e6e",
+        "size_in_bytes": 7831
+      },
+      {
+        "_path": "share/locale/hu/LC_MESSAGES/glib-networking.mo",
+        "path_type": "hardlink",
+        "sha256": "fba74a36813eaca3ce2f51e452d68ff54c60eb93f8ebd94f8abd732806ae6ba2",
+        "sha256_in_prefix": "fba74a36813eaca3ce2f51e452d68ff54c60eb93f8ebd94f8abd732806ae6ba2",
+        "size_in_bytes": 8600
+      },
+      {
+        "_path": "share/locale/id/LC_MESSAGES/glib-networking.mo",
+        "path_type": "hardlink",
+        "sha256": "254d7bef57e5bf33b45b8cea77ea34bd1dac51f0df04ede875bba5b4e703ca90",
+        "sha256_in_prefix": "254d7bef57e5bf33b45b8cea77ea34bd1dac51f0df04ede875bba5b4e703ca90",
+        "size_in_bytes": 7832
+      },
+      {
+        "_path": "share/locale/it/LC_MESSAGES/glib-networking.mo",
+        "path_type": "hardlink",
+        "sha256": "3783c1785a48f987a11f3f74c7f1b936dacc5357f39ef73f8a0033823481a7e9",
+        "sha256_in_prefix": "3783c1785a48f987a11f3f74c7f1b936dacc5357f39ef73f8a0033823481a7e9",
+        "size_in_bytes": 8523
+      },
+      {
+        "_path": "share/locale/ja/LC_MESSAGES/glib-networking.mo",
+        "path_type": "hardlink",
+        "sha256": "948e75a6b34bb3ffdf9b5bd6d78445446720dc64055be6af3afa2edc23705ae9",
+        "sha256_in_prefix": "948e75a6b34bb3ffdf9b5bd6d78445446720dc64055be6af3afa2edc23705ae9",
+        "size_in_bytes": 4205
+      },
+      {
+        "_path": "share/locale/ka/LC_MESSAGES/glib-networking.mo",
+        "path_type": "hardlink",
+        "sha256": "7a25dadb2950fd5ccf1f6c29cf8ec66fc1f9fb09dd3899f0602d6fd4eae9df00",
+        "sha256_in_prefix": "7a25dadb2950fd5ccf1f6c29cf8ec66fc1f9fb09dd3899f0602d6fd4eae9df00",
+        "size_in_bytes": 12595
+      },
+      {
+        "_path": "share/locale/kk/LC_MESSAGES/glib-networking.mo",
+        "path_type": "hardlink",
+        "sha256": "c9a358dcdd404eecadcfecc3cdde02ff65040eba359a858fb55c6fb501ddc79f",
+        "sha256_in_prefix": "c9a358dcdd404eecadcfecc3cdde02ff65040eba359a858fb55c6fb501ddc79f",
+        "size_in_bytes": 10296
+      },
+      {
+        "_path": "share/locale/km/LC_MESSAGES/glib-networking.mo",
+        "path_type": "hardlink",
+        "sha256": "21ba2f07c48ebfa1ac1d08394657f2c9b75161b1012d3e0c233a5aa49afa84f1",
+        "sha256_in_prefix": "21ba2f07c48ebfa1ac1d08394657f2c9b75161b1012d3e0c233a5aa49afa84f1",
+        "size_in_bytes": 4740
+      },
+      {
+        "_path": "share/locale/kn/LC_MESSAGES/glib-networking.mo",
+        "path_type": "hardlink",
+        "sha256": "2e0b4fefecb4cf8ebf58bde9c6c63c9713c3ede522e64cc393dc41e687f6485c",
+        "sha256_in_prefix": "2e0b4fefecb4cf8ebf58bde9c6c63c9713c3ede522e64cc393dc41e687f6485c",
+        "size_in_bytes": 3229
+      },
+      {
+        "_path": "share/locale/ko/LC_MESSAGES/glib-networking.mo",
+        "path_type": "hardlink",
+        "sha256": "41e0cef866c6c3e9fbce51969a5919691b6a43b1039d536e301a92314e3e208e",
+        "sha256_in_prefix": "41e0cef866c6c3e9fbce51969a5919691b6a43b1039d536e301a92314e3e208e",
+        "size_in_bytes": 8805
+      },
+      {
+        "_path": "share/locale/lt/LC_MESSAGES/glib-networking.mo",
+        "path_type": "hardlink",
+        "sha256": "3b8a2368225f0777048c9df8f01b7aae0bd6dfd646ac0548f0bb980638ff89a9",
+        "sha256_in_prefix": "3b8a2368225f0777048c9df8f01b7aae0bd6dfd646ac0548f0bb980638ff89a9",
+        "size_in_bytes": 8264
+      },
+      {
+        "_path": "share/locale/lv/LC_MESSAGES/glib-networking.mo",
+        "path_type": "hardlink",
+        "sha256": "3c6e9c4f291cd6527c730dede62c9a75954d722f3f63e121abc33e97c5b9416a",
+        "sha256_in_prefix": "3c6e9c4f291cd6527c730dede62c9a75954d722f3f63e121abc33e97c5b9416a",
+        "size_in_bytes": 8489
+      },
+      {
+        "_path": "share/locale/ml/LC_MESSAGES/glib-networking.mo",
+        "path_type": "hardlink",
+        "sha256": "1871f7e081a0998bff666ab75b451f02f0e4fb7b10ada945300003d6a59fbe27",
+        "sha256_in_prefix": "1871f7e081a0998bff666ab75b451f02f0e4fb7b10ada945300003d6a59fbe27",
+        "size_in_bytes": 5626
+      },
+      {
+        "_path": "share/locale/mr/LC_MESSAGES/glib-networking.mo",
+        "path_type": "hardlink",
+        "sha256": "1d7f443515dda4eb11029e91ab5f4c12ef8ae7fd01316645cf9fe6fb80d4a3ff",
+        "sha256_in_prefix": "1d7f443515dda4eb11029e91ab5f4c12ef8ae7fd01316645cf9fe6fb80d4a3ff",
+        "size_in_bytes": 3899
+      },
+      {
+        "_path": "share/locale/ms/LC_MESSAGES/glib-networking.mo",
+        "path_type": "hardlink",
+        "sha256": "f438162ce62fe636cf0848749c509591d88bc36298a9f65452962a38f61f2ea3",
+        "sha256_in_prefix": "f438162ce62fe636cf0848749c509591d88bc36298a9f65452962a38f61f2ea3",
+        "size_in_bytes": 4769
+      },
+      {
+        "_path": "share/locale/nb/LC_MESSAGES/glib-networking.mo",
+        "path_type": "hardlink",
+        "sha256": "4c445a12816d172ec0bb6d3d36633becd4d35d5615d62dc6d3b7bb31f3559154",
+        "sha256_in_prefix": "4c445a12816d172ec0bb6d3d36633becd4d35d5615d62dc6d3b7bb31f3559154",
+        "size_in_bytes": 3456
+      },
+      {
+        "_path": "share/locale/ne/LC_MESSAGES/glib-networking.mo",
+        "path_type": "hardlink",
+        "sha256": "f6a8af88305b2ad3ec2e03fbce588b369c1c49185349cd9a6cd331185e9f14d7",
+        "sha256_in_prefix": "f6a8af88305b2ad3ec2e03fbce588b369c1c49185349cd9a6cd331185e9f14d7",
+        "size_in_bytes": 11164
+      },
+      {
+        "_path": "share/locale/nl/LC_MESSAGES/glib-networking.mo",
+        "path_type": "hardlink",
+        "sha256": "f66044f924c2f89c0dba8d6e8dc443320cded751f5d00d090fc7d62a23c2077f",
+        "sha256_in_prefix": "f66044f924c2f89c0dba8d6e8dc443320cded751f5d00d090fc7d62a23c2077f",
+        "size_in_bytes": 7643
+      },
+      {
+        "_path": "share/locale/oc/LC_MESSAGES/glib-networking.mo",
+        "path_type": "hardlink",
+        "sha256": "faea27130f078a1996adb3edb577ee85077c47497332e77038f8abb594693fc3",
+        "sha256_in_prefix": "faea27130f078a1996adb3edb577ee85077c47497332e77038f8abb594693fc3",
+        "size_in_bytes": 8616
+      },
+      {
+        "_path": "share/locale/or/LC_MESSAGES/glib-networking.mo",
+        "path_type": "hardlink",
+        "sha256": "04ed2eb2dcc179027f8adb91e8d137416c357db3d8cce39bd8d6aace02843c59",
+        "sha256_in_prefix": "04ed2eb2dcc179027f8adb91e8d137416c357db3d8cce39bd8d6aace02843c59",
+        "size_in_bytes": 4179
+      },
+      {
+        "_path": "share/locale/pa/LC_MESSAGES/glib-networking.mo",
+        "path_type": "hardlink",
+        "sha256": "5afe184c537aebc2fc6c5f79a312561adbbec0a39a37a8507bdf6d239da671df",
+        "sha256_in_prefix": "5afe184c537aebc2fc6c5f79a312561adbbec0a39a37a8507bdf6d239da671df",
+        "size_in_bytes": 4548
+      },
+      {
+        "_path": "share/locale/pl/LC_MESSAGES/glib-networking.mo",
+        "path_type": "hardlink",
+        "sha256": "df6bf73bf4d176ea1d672d5ca64596c6cb9592acb34dee7ad16db603281953a3",
+        "sha256_in_prefix": "df6bf73bf4d176ea1d672d5ca64596c6cb9592acb34dee7ad16db603281953a3",
+        "size_in_bytes": 8699
+      },
+      {
+        "_path": "share/locale/pt/LC_MESSAGES/glib-networking.mo",
+        "path_type": "hardlink",
+        "sha256": "0ae4e0a741d94a9a1787346fce1fcc5b8c0b98bf7be25f1ca680b498782a66a1",
+        "sha256_in_prefix": "0ae4e0a741d94a9a1787346fce1fcc5b8c0b98bf7be25f1ca680b498782a66a1",
+        "size_in_bytes": 8417
+      },
+      {
+        "_path": "share/locale/pt_BR/LC_MESSAGES/glib-networking.mo",
+        "path_type": "hardlink",
+        "sha256": "7976ae51a7d124f470b6b51e45a0318aade71fc6d7d79cff619df7a0b9f8ad01",
+        "sha256_in_prefix": "7976ae51a7d124f470b6b51e45a0318aade71fc6d7d79cff619df7a0b9f8ad01",
+        "size_in_bytes": 8248
+      },
+      {
+        "_path": "share/locale/ro/LC_MESSAGES/glib-networking.mo",
+        "path_type": "hardlink",
+        "sha256": "f39c18fc8252d3f35da347305874f48154c7342f04a6a9f8e89b034bdac20545",
+        "sha256_in_prefix": "f39c18fc8252d3f35da347305874f48154c7342f04a6a9f8e89b034bdac20545",
+        "size_in_bytes": 8337
+      },
+      {
+        "_path": "share/locale/ru/LC_MESSAGES/glib-networking.mo",
+        "path_type": "hardlink",
+        "sha256": "c1ba75e0c192026dde137f361fe088d934287ead5cb3cca601b478c6f64b6e33",
+        "sha256_in_prefix": "c1ba75e0c192026dde137f361fe088d934287ead5cb3cca601b478c6f64b6e33",
+        "size_in_bytes": 10968
+      },
+      {
+        "_path": "share/locale/sk/LC_MESSAGES/glib-networking.mo",
+        "path_type": "hardlink",
+        "sha256": "b7b0d08f6cb7762c4f00a32b6e5e77274f1bfede9ce21e16f627e44142e7342b",
+        "sha256_in_prefix": "b7b0d08f6cb7762c4f00a32b6e5e77274f1bfede9ce21e16f627e44142e7342b",
+        "size_in_bytes": 8399
+      },
+      {
+        "_path": "share/locale/sl/LC_MESSAGES/glib-networking.mo",
+        "path_type": "hardlink",
+        "sha256": "011b8753a2eb489775353126692da200fa88229a6861b46dba2f7b763c3eeea7",
+        "sha256_in_prefix": "011b8753a2eb489775353126692da200fa88229a6861b46dba2f7b763c3eeea7",
+        "size_in_bytes": 8607
+      },
+      {
+        "_path": "share/locale/sr/LC_MESSAGES/glib-networking.mo",
+        "path_type": "hardlink",
+        "sha256": "b55eb232f57776cab63a7b1129793e9ef6c73a6ef2ffaf960197d703853d71c4",
+        "sha256_in_prefix": "b55eb232f57776cab63a7b1129793e9ef6c73a6ef2ffaf960197d703853d71c4",
+        "size_in_bytes": 10386
+      },
+      {
+        "_path": "share/locale/sr@latin/LC_MESSAGES/glib-networking.mo",
+        "path_type": "hardlink",
+        "sha256": "9fb36b31d955a8ae252afd16341e8025e5d88e8d5d5186f8095b8e806e690e87",
+        "sha256_in_prefix": "9fb36b31d955a8ae252afd16341e8025e5d88e8d5d5186f8095b8e806e690e87",
+        "size_in_bytes": 4605
+      },
+      {
+        "_path": "share/locale/sv/LC_MESSAGES/glib-networking.mo",
+        "path_type": "hardlink",
+        "sha256": "348fb78a8aeaaad0c2fc2a99fef9cbaf06ac98866a56cdebe27ccfeedc3f495a",
+        "sha256_in_prefix": "348fb78a8aeaaad0c2fc2a99fef9cbaf06ac98866a56cdebe27ccfeedc3f495a",
+        "size_in_bytes": 8181
+      },
+      {
+        "_path": "share/locale/ta/LC_MESSAGES/glib-networking.mo",
+        "path_type": "hardlink",
+        "sha256": "6e308afa51b6a3457447e3b192af4e0814fe5f7cdc8ace8301a023b79e3e0b80",
+        "sha256_in_prefix": "6e308afa51b6a3457447e3b192af4e0814fe5f7cdc8ace8301a023b79e3e0b80",
+        "size_in_bytes": 3132
+      },
+      {
+        "_path": "share/locale/te/LC_MESSAGES/glib-networking.mo",
+        "path_type": "hardlink",
+        "sha256": "5a00efa613c725d0c1ef916c25f09bad627fafd5e3c8dfdd61d66ab415723f45",
+        "sha256_in_prefix": "5a00efa613c725d0c1ef916c25f09bad627fafd5e3c8dfdd61d66ab415723f45",
+        "size_in_bytes": 4729
+      },
+      {
+        "_path": "share/locale/tg/LC_MESSAGES/glib-networking.mo",
+        "path_type": "hardlink",
+        "sha256": "43c1777e3df730e25a336007974884b7c6b572923010bdc9caebd53ab1647b45",
+        "sha256_in_prefix": "43c1777e3df730e25a336007974884b7c6b572923010bdc9caebd53ab1647b45",
+        "size_in_bytes": 4092
+      },
+      {
+        "_path": "share/locale/th/LC_MESSAGES/glib-networking.mo",
+        "path_type": "hardlink",
+        "sha256": "57a1fe8a396562f321e229ac51273b58e04c5a5356aff21ae41d92feaf6030cf",
+        "sha256_in_prefix": "57a1fe8a396562f321e229ac51273b58e04c5a5356aff21ae41d92feaf6030cf",
+        "size_in_bytes": 4620
+      },
+      {
+        "_path": "share/locale/tr/LC_MESSAGES/glib-networking.mo",
+        "path_type": "hardlink",
+        "sha256": "766f4b2dd2820cb6ce6757b483b9f8b8b77304811a2efa537125f7087810842f",
+        "sha256_in_prefix": "766f4b2dd2820cb6ce6757b483b9f8b8b77304811a2efa537125f7087810842f",
+        "size_in_bytes": 7805
+      },
+      {
+        "_path": "share/locale/ug/LC_MESSAGES/glib-networking.mo",
+        "path_type": "hardlink",
+        "sha256": "7ca0ef0ad438b8e2ca825ba6d93fe3db9841978d7ee1771ccdaba6eea0342b47",
+        "sha256_in_prefix": "7ca0ef0ad438b8e2ca825ba6d93fe3db9841978d7ee1771ccdaba6eea0342b47",
+        "size_in_bytes": 4053
+      },
+      {
+        "_path": "share/locale/uk/LC_MESSAGES/glib-networking.mo",
+        "path_type": "hardlink",
+        "sha256": "227fe74e8122e7bb905e40675dcbf944a6e3aa1be11b9c8d4176ec218559ad43",
+        "sha256_in_prefix": "227fe74e8122e7bb905e40675dcbf944a6e3aa1be11b9c8d4176ec218559ad43",
+        "size_in_bytes": 11741
+      },
+      {
+        "_path": "share/locale/vi/LC_MESSAGES/glib-networking.mo",
+        "path_type": "hardlink",
+        "sha256": "4cd9187646b9e5f46c1ddf91f1161a9d37641ff22bfe7251aed09f723b16854e",
+        "sha256_in_prefix": "4cd9187646b9e5f46c1ddf91f1161a9d37641ff22bfe7251aed09f723b16854e",
+        "size_in_bytes": 3416
+      },
+      {
+        "_path": "share/locale/zh_CN/LC_MESSAGES/glib-networking.mo",
+        "path_type": "hardlink",
+        "sha256": "b3e0d0d2546d4aa46c86846f3ad69198d8abbf53353d15c805324646e27444fa",
+        "sha256_in_prefix": "b3e0d0d2546d4aa46c86846f3ad69198d8abbf53353d15c805324646e27444fa",
+        "size_in_bytes": 7146
+      },
+      {
+        "_path": "share/locale/zh_HK/LC_MESSAGES/glib-networking.mo",
+        "path_type": "hardlink",
+        "sha256": "4036bcf0f4fa1ef96f41b9d41efc307b50c1236c809a1e46cec9d2052f69b4e9",
+        "sha256_in_prefix": "4036bcf0f4fa1ef96f41b9d41efc307b50c1236c809a1e46cec9d2052f69b4e9",
+        "size_in_bytes": 3048
+      },
+      {
+        "_path": "share/locale/zh_TW/LC_MESSAGES/glib-networking.mo",
+        "path_type": "hardlink",
+        "sha256": "fa9b33460bcf6ee47b92a46b0ce72915bf6f68ada6df2d721218679af08b9369",
+        "sha256_in_prefix": "fa9b33460bcf6ee47b92a46b0ce72915bf6f68ada6df2d721218679af08b9369",
+        "size_in_bytes": 6426
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "9aecd58fe3f3f8179fe7fe8b08c6494d5ea35ccf44ec42b58d5a0d25d782708c",
+  "size": 160408,
+  "subdir": "linux-64",
+  "timestamp": 1710665753000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/glib-networking-2.80.0-h2ef3c98_0.conda",
+  "version": "2.80.0"
+}

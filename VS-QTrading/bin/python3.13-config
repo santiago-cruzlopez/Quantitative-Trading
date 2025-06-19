@@ -41,7 +41,7 @@ exec_prefix="${prefix}"
 exec_prefix_real=${prefix_real}
 includedir=$(echo "${prefix}/include" | sed "s#$prefix#$prefix_real#")
 libdir=$(echo "${exec_prefix}/lib" | sed "s#$prefix#$prefix_real#")
-CFLAGS=$(echo "-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O3 -ffunction-sections -pipe -isystem /home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/include -fdebug-prefix-map=/croot/python-split_1749743939142/work=/usr/local/src/conda/python-3.13.5 -fdebug-prefix-map=/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading=/usr/local/src/conda-prefix -fuse-linker-plugin -ffat-lto-objects -flto-partition=none -flto" | sed "s#$prefix#$prefix_real#")
+CFLAGS=$(echo "-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O3 -ffunction-sections -pipe -isystem /home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/python-split_1750061167312/work=/usr/local/src/conda/python-3.13.5 -fdebug-prefix-map=/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading=/usr/local/src/conda-prefix -fuse-linker-plugin -ffat-lto-objects -flto-partition=none -flto" | sed "s#$prefix#$prefix_real#")
 VERSION="3.13"
 LIBM="-lm"
 LIBC=""

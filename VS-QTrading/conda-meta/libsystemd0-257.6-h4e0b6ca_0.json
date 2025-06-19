@@ -1,0 +1,56 @@
+{
+  "build": "h4e0b6ca_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "__glibc >=2.17,<3.0.a0",
+    "libcap >=2.75,<2.76.0a0",
+    "libgcc >=13",
+    "libgcrypt-lib >=1.11.1,<2.0a0",
+    "liblzma >=5.8.1,<6.0a0",
+    "lz4-c >=1.10.0,<1.11.0a0",
+    "zstd >=1.5.7,<1.6.0a0"
+  ],
+  "extracted_package_dir": "/home/santi_cruz/anaconda3/pkgs/libsystemd0-257.6-h4e0b6ca_0",
+  "files": [
+    "lib/libsystemd.so.0",
+    "lib/libsystemd.so.0.40.0"
+  ],
+  "fn": "libsystemd0-257.6-h4e0b6ca_0.conda",
+  "license": "LGPL-2.1-or-later",
+  "link": {
+    "source": "/home/santi_cruz/anaconda3/pkgs/libsystemd0-257.6-h4e0b6ca_0",
+    "type": 1
+  },
+  "md5": "071409970083d0f99ab7b569352771c9",
+  "name": "libsystemd0",
+  "package_tarball_full_path": "/home/santi_cruz/anaconda3/pkgs/libsystemd0-257.6-h4e0b6ca_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/libsystemd.so.0",
+        "path_type": "softlink",
+        "sha256": "0c5332f099c4b88278d00831bce8b43b3d47c7ed9429382299c1b87cd4f329a8",
+        "size_in_bytes": 1340144
+      },
+      {
+        "_path": "lib/libsystemd.so.0.40.0",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/systemd-split_1748886067353/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256": "0c5332f099c4b88278d00831bce8b43b3d47c7ed9429382299c1b87cd4f329a8",
+        "sha256_in_prefix": "209d2032dab5d12b11e77205d9a032a76b8db3d6263d9e23e16aae2f2db9ebe9",
+        "size_in_bytes": 1340144
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "139b89421a651c004aba9c5e351e61674d98723f3f19d45cdbcde1fd6e8a59df",
+  "size": 489524,
+  "subdir": "linux-64",
+  "timestamp": 1748886391000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/libsystemd0-257.6-h4e0b6ca_0.conda",
+  "version": "257.6"
+}

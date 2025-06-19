@@ -1,0 +1,532 @@
+{
+  "build": "py313heb4b809_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "__glibc >=2.17,<3.0.a0",
+    "cairo >=1.18.0,<2.0a0",
+    "libffi >=3.4,<4.0a0",
+    "libgcc >=13",
+    "libgirepository",
+    "libglib >=2.82.1,<3.0a0",
+    "libiconv",
+    "pycairo",
+    "python >=3.13,<3.14.0a0",
+    "python_abi 3.13.* *_cp313"
+  ],
+  "extracted_package_dir": "/home/santi_cruz/anaconda3/pkgs/pygobject-3.50.0-py313heb4b809_1",
+  "files": [
+    "include/pygobject-3.0/pygobject.h",
+    "lib/pkgconfig/pygobject-3.0.pc",
+    "lib/python3.13/site-packages/PyGObject-3.50.0.dist-info/METADATA",
+    "lib/python3.13/site-packages/gi/__init__.py",
+    "lib/python3.13/site-packages/gi/__pycache__/__init__.cpython-313.pyc",
+    "lib/python3.13/site-packages/gi/__pycache__/_constants.cpython-313.pyc",
+    "lib/python3.13/site-packages/gi/__pycache__/_error.cpython-313.pyc",
+    "lib/python3.13/site-packages/gi/__pycache__/_gtktemplate.cpython-313.pyc",
+    "lib/python3.13/site-packages/gi/__pycache__/_option.cpython-313.pyc",
+    "lib/python3.13/site-packages/gi/__pycache__/_ossighelper.cpython-313.pyc",
+    "lib/python3.13/site-packages/gi/__pycache__/_propertyhelper.cpython-313.pyc",
+    "lib/python3.13/site-packages/gi/__pycache__/_signalhelper.cpython-313.pyc",
+    "lib/python3.13/site-packages/gi/__pycache__/docstring.cpython-313.pyc",
+    "lib/python3.13/site-packages/gi/__pycache__/events.cpython-313.pyc",
+    "lib/python3.13/site-packages/gi/__pycache__/importer.cpython-313.pyc",
+    "lib/python3.13/site-packages/gi/__pycache__/module.cpython-313.pyc",
+    "lib/python3.13/site-packages/gi/__pycache__/pygtkcompat.cpython-313.pyc",
+    "lib/python3.13/site-packages/gi/__pycache__/types.cpython-313.pyc",
+    "lib/python3.13/site-packages/gi/_constants.py",
+    "lib/python3.13/site-packages/gi/_error.py",
+    "lib/python3.13/site-packages/gi/_gi.cpython-313-x86_64-linux-gnu.so",
+    "lib/python3.13/site-packages/gi/_gi_cairo.cpython-313-x86_64-linux-gnu.so",
+    "lib/python3.13/site-packages/gi/_gtktemplate.py",
+    "lib/python3.13/site-packages/gi/_option.py",
+    "lib/python3.13/site-packages/gi/_ossighelper.py",
+    "lib/python3.13/site-packages/gi/_propertyhelper.py",
+    "lib/python3.13/site-packages/gi/_signalhelper.py",
+    "lib/python3.13/site-packages/gi/docstring.py",
+    "lib/python3.13/site-packages/gi/events.py",
+    "lib/python3.13/site-packages/gi/importer.py",
+    "lib/python3.13/site-packages/gi/module.py",
+    "lib/python3.13/site-packages/gi/overrides/GIMarshallingTests.py",
+    "lib/python3.13/site-packages/gi/overrides/GLib.py",
+    "lib/python3.13/site-packages/gi/overrides/GObject.py",
+    "lib/python3.13/site-packages/gi/overrides/Gdk.py",
+    "lib/python3.13/site-packages/gi/overrides/GdkPixbuf.py",
+    "lib/python3.13/site-packages/gi/overrides/Gio.py",
+    "lib/python3.13/site-packages/gi/overrides/Gtk.py",
+    "lib/python3.13/site-packages/gi/overrides/Pango.py",
+    "lib/python3.13/site-packages/gi/overrides/__init__.py",
+    "lib/python3.13/site-packages/gi/overrides/__pycache__/GIMarshallingTests.cpython-313.pyc",
+    "lib/python3.13/site-packages/gi/overrides/__pycache__/GLib.cpython-313.pyc",
+    "lib/python3.13/site-packages/gi/overrides/__pycache__/GObject.cpython-313.pyc",
+    "lib/python3.13/site-packages/gi/overrides/__pycache__/Gdk.cpython-313.pyc",
+    "lib/python3.13/site-packages/gi/overrides/__pycache__/GdkPixbuf.cpython-313.pyc",
+    "lib/python3.13/site-packages/gi/overrides/__pycache__/Gio.cpython-313.pyc",
+    "lib/python3.13/site-packages/gi/overrides/__pycache__/Gtk.cpython-313.pyc",
+    "lib/python3.13/site-packages/gi/overrides/__pycache__/Pango.cpython-313.pyc",
+    "lib/python3.13/site-packages/gi/overrides/__pycache__/__init__.cpython-313.pyc",
+    "lib/python3.13/site-packages/gi/overrides/__pycache__/keysyms.cpython-313.pyc",
+    "lib/python3.13/site-packages/gi/overrides/keysyms.py",
+    "lib/python3.13/site-packages/gi/pygtkcompat.py",
+    "lib/python3.13/site-packages/gi/repository/__init__.py",
+    "lib/python3.13/site-packages/gi/repository/__pycache__/__init__.cpython-313.pyc",
+    "lib/python3.13/site-packages/gi/types.py",
+    "lib/python3.13/site-packages/pygtkcompat/__init__.py",
+    "lib/python3.13/site-packages/pygtkcompat/__pycache__/__init__.cpython-313.pyc",
+    "lib/python3.13/site-packages/pygtkcompat/__pycache__/generictreemodel.cpython-313.pyc",
+    "lib/python3.13/site-packages/pygtkcompat/__pycache__/pygtkcompat.cpython-313.pyc",
+    "lib/python3.13/site-packages/pygtkcompat/generictreemodel.py",
+    "lib/python3.13/site-packages/pygtkcompat/pygtkcompat.py"
+  ],
+  "fn": "pygobject-3.50.0-py313heb4b809_1.conda",
+  "license": "LGPL-2.1-or-later",
+  "link": {
+    "source": "/home/santi_cruz/anaconda3/pkgs/pygobject-3.50.0-py313heb4b809_1",
+    "type": 1
+  },
+  "md5": "ee144a98b05f6a34d6871b91034507d2",
+  "name": "pygobject",
+  "package_tarball_full_path": "/home/santi_cruz/anaconda3/pkgs/pygobject-3.50.0-py313heb4b809_1.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "include/pygobject-3.0/pygobject.h",
+        "path_type": "hardlink",
+        "sha256": "35ba17a841c7214542dac99ff560a0a30c4d7f70bd3854bc35cece7a99bf84e3",
+        "sha256_in_prefix": "35ba17a841c7214542dac99ff560a0a30c4d7f70bd3854bc35cece7a99bf84e3",
+        "size_in_bytes": 24522
+      },
+      {
+        "_path": "lib/pkgconfig/pygobject-3.0.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/pygobject_1728635208901/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "5c270f09e8b4ad931550c9b50f338a3167912252cf20f2b13d103274ec02aabf",
+        "sha256_in_prefix": "554f74ce2494ae4468c62c73197ecba3bea063f253116049ccb6d36fffdbe706",
+        "size_in_bytes": 957
+      },
+      {
+        "_path": "lib/python3.13/site-packages/PyGObject-3.50.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "6d011448b1044eae8a2071a6ec4429792f8304615e1dcdd0c9b15ae6743395de",
+        "sha256_in_prefix": "6d011448b1044eae8a2071a6ec4429792f8304615e1dcdd0c9b15ae6743395de",
+        "size_in_bytes": 832
+      },
+      {
+        "_path": "lib/python3.13/site-packages/gi/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "3401cb33d0e557e20cb92c79634d4f550569a9ab065623e10cce0328067d3e5a",
+        "sha256_in_prefix": "3401cb33d0e557e20cb92c79634d4f550569a9ab065623e10cce0328067d3e5a",
+        "size_in_bytes": 5754
+      },
+      {
+        "_path": "lib/python3.13/site-packages/gi/__pycache__/__init__.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "890d34af950cb173adaab6c089ffc7f4f20dc3d3716f270cfc1bf186bf0b3597",
+        "sha256_in_prefix": "890d34af950cb173adaab6c089ffc7f4f20dc3d3716f270cfc1bf186bf0b3597",
+        "size_in_bytes": 6027
+      },
+      {
+        "_path": "lib/python3.13/site-packages/gi/__pycache__/_constants.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "38e66230dbb9e599b3fa34b7a2b9c0cbd38c9c785bdb93c8662cc45160be2133",
+        "sha256_in_prefix": "38e66230dbb9e599b3fa34b7a2b9c0cbd38c9c785bdb93c8662cc45160be2133",
+        "size_in_bytes": 2537
+      },
+      {
+        "_path": "lib/python3.13/site-packages/gi/__pycache__/_error.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "7fe2fd90a3a2ae1bd20052e98819792827ff087c23d1b41d75b55b27ef608afe",
+        "sha256_in_prefix": "7fe2fd90a3a2ae1bd20052e98819792827ff087c23d1b41d75b55b27ef608afe",
+        "size_in_bytes": 2053
+      },
+      {
+        "_path": "lib/python3.13/site-packages/gi/__pycache__/_gtktemplate.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "b1580d88a033f982655010db4b7ec9a3c33b644bd49d13cffdbd503b1ae7863a",
+        "sha256_in_prefix": "b1580d88a033f982655010db4b7ec9a3c33b644bd49d13cffdbd503b1ae7863a",
+        "size_in_bytes": 12858
+      },
+      {
+        "_path": "lib/python3.13/site-packages/gi/__pycache__/_option.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "4b2798a8a5fbf9bcf0404e15ddac88ab8365a3dea0b042888e9b88830f57723a",
+        "sha256_in_prefix": "4b2798a8a5fbf9bcf0404e15ddac88ab8365a3dea0b042888e9b88830f57723a",
+        "size_in_bytes": 17721
+      },
+      {
+        "_path": "lib/python3.13/site-packages/gi/__pycache__/_ossighelper.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "639fe4dc2f99210a617e45705f95d7963069439bab95b88b88e8332cf7d04945",
+        "sha256_in_prefix": "639fe4dc2f99210a617e45705f95d7963069439bab95b88b88e8332cf7d04945",
+        "size_in_bytes": 10623
+      },
+      {
+        "_path": "lib/python3.13/site-packages/gi/__pycache__/_propertyhelper.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "806eb7062eab5c4050f9d0c0fff455a341c9c6f15d7a63d84846f51bb9dc0e9e",
+        "sha256_in_prefix": "806eb7062eab5c4050f9d0c0fff455a341c9c6f15d7a63d84846f51bb9dc0e9e",
+        "size_in_bytes": 16197
+      },
+      {
+        "_path": "lib/python3.13/site-packages/gi/__pycache__/_signalhelper.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "6228cde53e7dfdba479dc088baaea399078f7f8f3e8aecf3df68fea78d2b1d06",
+        "sha256_in_prefix": "6228cde53e7dfdba479dc088baaea399078f7f8f3e8aecf3df68fea78d2b1d06",
+        "size_in_bytes": 10524
+      },
+      {
+        "_path": "lib/python3.13/site-packages/gi/__pycache__/docstring.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "e0fb3bf8df013e8d34be97c886001b205073dea65a981e0743d341be535a55b1",
+        "sha256_in_prefix": "e0fb3bf8df013e8d34be97c886001b205073dea65a981e0743d341be535a55b1",
+        "size_in_bytes": 7043
+      },
+      {
+        "_path": "lib/python3.13/site-packages/gi/__pycache__/events.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "b9457311f690fded1e9e582c0bc419fe2d0f249a808cb7ade34cc490d89274c6",
+        "sha256_in_prefix": "b9457311f690fded1e9e582c0bc419fe2d0f249a808cb7ade34cc490d89274c6",
+        "size_in_bytes": 31888
+      },
+      {
+        "_path": "lib/python3.13/site-packages/gi/__pycache__/importer.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "ab8c254f1f550dae72aaef575f838778d5e7d5bb938ddb198fb069c4742ac52a",
+        "sha256_in_prefix": "ab8c254f1f550dae72aaef575f838778d5e7d5bb938ddb198fb069c4742ac52a",
+        "size_in_bytes": 5252
+      },
+      {
+        "_path": "lib/python3.13/site-packages/gi/__pycache__/module.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "90fce6d9f756d664ba4e272bbe7f83898aa4e9b5216d4f28cde8d2ad020ed7cf",
+        "sha256_in_prefix": "90fce6d9f756d664ba4e272bbe7f83898aa4e9b5216d4f28cde8d2ad020ed7cf",
+        "size_in_bytes": 9637
+      },
+      {
+        "_path": "lib/python3.13/site-packages/gi/__pycache__/pygtkcompat.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "49eae5450b13c38624e9d87ac7c29df34cad0a26c192ecb725390ebc6b10b192",
+        "sha256_in_prefix": "49eae5450b13c38624e9d87ac7c29df34cad0a26c192ecb725390ebc6b10b192",
+        "size_in_bytes": 597
+      },
+      {
+        "_path": "lib/python3.13/site-packages/gi/__pycache__/types.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "092c3b636050ad1f35665cbff481809391e47e9c2214a843b0ed3491f04dba88",
+        "sha256_in_prefix": "092c3b636050ad1f35665cbff481809391e47e9c2214a843b0ed3491f04dba88",
+        "size_in_bytes": 13749
+      },
+      {
+        "_path": "lib/python3.13/site-packages/gi/_constants.py",
+        "path_type": "hardlink",
+        "sha256": "385f285afd878f81e3632eb5ac82b0de78da8d3cd31deef16d40d388527f5fd5",
+        "sha256_in_prefix": "385f285afd878f81e3632eb5ac82b0de78da8d3cd31deef16d40d388527f5fd5",
+        "size_in_bytes": 1969
+      },
+      {
+        "_path": "lib/python3.13/site-packages/gi/_error.py",
+        "path_type": "hardlink",
+        "sha256": "cf35897069c0cf53509cb11ea1e9c299ef958a969e4539ef11be28257854d8a7",
+        "sha256_in_prefix": "cf35897069c0cf53509cb11ea1e9c299ef958a969e4539ef11be28257854d8a7",
+        "size_in_bytes": 2082
+      },
+      {
+        "_path": "lib/python3.13/site-packages/gi/_gi.cpython-313-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "b66d73482ca7e3fbc70f4808ed6d7dfcc2a2ff37ba45d013cfc2e241c4517826",
+        "sha256_in_prefix": "b66d73482ca7e3fbc70f4808ed6d7dfcc2a2ff37ba45d013cfc2e241c4517826",
+        "size_in_bytes": 427136
+      },
+      {
+        "_path": "lib/python3.13/site-packages/gi/_gi_cairo.cpython-313-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "6164af9f16fad4b485547754ef3fb128d8aa30b17853b0b1116ded72cfad2c1d",
+        "sha256_in_prefix": "6164af9f16fad4b485547754ef3fb128d8aa30b17853b0b1116ded72cfad2c1d",
+        "size_in_bytes": 27448
+      },
+      {
+        "_path": "lib/python3.13/site-packages/gi/_gtktemplate.py",
+        "path_type": "hardlink",
+        "sha256": "949108466f2d057fe20b1b54217cc712629b5e23a67c46dfd9f1c37d966c84b2",
+        "sha256_in_prefix": "949108466f2d057fe20b1b54217cc712629b5e23a67c46dfd9f1c37d966c84b2",
+        "size_in_bytes": 10193
+      },
+      {
+        "_path": "lib/python3.13/site-packages/gi/_option.py",
+        "path_type": "hardlink",
+        "sha256": "3b788eef9c2341180c3610853a076d0c46398d9115e84ba7d0e5f546a551f809",
+        "sha256_in_prefix": "3b788eef9c2341180c3610853a076d0c46398d9115e84ba7d0e5f546a551f809",
+        "size_in_bytes": 13717
+      },
+      {
+        "_path": "lib/python3.13/site-packages/gi/_ossighelper.py",
+        "path_type": "hardlink",
+        "sha256": "dbfed782ee61635e027c9a16842a5d528800129e56b8863846edf2de88ef34e8",
+        "sha256_in_prefix": "dbfed782ee61635e027c9a16842a5d528800129e56b8863846edf2de88ef34e8",
+        "size_in_bytes": 8538
+      },
+      {
+        "_path": "lib/python3.13/site-packages/gi/_propertyhelper.py",
+        "path_type": "hardlink",
+        "sha256": "2ee25012e4e50602f67b3ff19c69e9da127ef220fffcd522a2a64dc8b884fb3a",
+        "sha256_in_prefix": "2ee25012e4e50602f67b3ff19c69e9da127ef220fffcd522a2a64dc8b884fb3a",
+        "size_in_bytes": 14163
+      },
+      {
+        "_path": "lib/python3.13/site-packages/gi/_signalhelper.py",
+        "path_type": "hardlink",
+        "sha256": "a6c6310c0ec589c6791af9c4727f2e80a677147af38171bf3f4dc62952e22063",
+        "sha256_in_prefix": "a6c6310c0ec589c6791af9c4727f2e80a677147af38171bf3f4dc62952e22063",
+        "size_in_bytes": 9303
+      },
+      {
+        "_path": "lib/python3.13/site-packages/gi/docstring.py",
+        "path_type": "hardlink",
+        "sha256": "46abcd79831160c540fea77d52b4e05f67b28ed4d581560bab43c4ba9973f752",
+        "sha256_in_prefix": "46abcd79831160c540fea77d52b4e05f67b28ed4d581560bab43c4ba9973f752",
+        "size_in_bytes": 6726
+      },
+      {
+        "_path": "lib/python3.13/site-packages/gi/events.py",
+        "path_type": "hardlink",
+        "sha256": "ccc48767e35087e2ff213893d04a83027a4aee565d03fd47b7646148a30cd436",
+        "sha256_in_prefix": "ccc48767e35087e2ff213893d04a83027a4aee565d03fd47b7646148a30cd436",
+        "size_in_bytes": 24373
+      },
+      {
+        "_path": "lib/python3.13/site-packages/gi/importer.py",
+        "path_type": "hardlink",
+        "sha256": "102e616fcdef9e34eb4dc60e503e82491d941074fe00e06015f28ff9d54be200",
+        "sha256_in_prefix": "102e616fcdef9e34eb4dc60e503e82491d941074fe00e06015f28ff9d54be200",
+        "size_in_bytes": 5412
+      },
+      {
+        "_path": "lib/python3.13/site-packages/gi/module.py",
+        "path_type": "hardlink",
+        "sha256": "6d35194ecbe51cea15afff774d710802c7e61bc0ef93d6587f3e4974d1edad7f",
+        "sha256_in_prefix": "6d35194ecbe51cea15afff774d710802c7e61bc0ef93d6587f3e4974d1edad7f",
+        "size_in_bytes": 9979
+      },
+      {
+        "_path": "lib/python3.13/site-packages/gi/overrides/GIMarshallingTests.py",
+        "path_type": "hardlink",
+        "sha256": "8a893c5442e4398cc0129e78467ae8b9d1f80db39adf463f76de70d3a2dfe33d",
+        "sha256_in_prefix": "8a893c5442e4398cc0129e78467ae8b9d1f80db39adf463f76de70d3a2dfe33d",
+        "size_in_bytes": 2242
+      },
+      {
+        "_path": "lib/python3.13/site-packages/gi/overrides/GLib.py",
+        "path_type": "hardlink",
+        "sha256": "5322c43f43119c2521e6da92fe72f25fd582877855b22037c1389e8140ba7f34",
+        "sha256_in_prefix": "5322c43f43119c2521e6da92fe72f25fd582877855b22037c1389e8140ba7f34",
+        "size_in_bytes": 29989
+      },
+      {
+        "_path": "lib/python3.13/site-packages/gi/overrides/GObject.py",
+        "path_type": "hardlink",
+        "sha256": "5ad56a48856291f1fbc1815de9f580274b284a4cadf3d484924b035c593f27b6",
+        "sha256_in_prefix": "5ad56a48856291f1fbc1815de9f580274b284a4cadf3d484924b035c593f27b6",
+        "size_in_bytes": 24610
+      },
+      {
+        "_path": "lib/python3.13/site-packages/gi/overrides/Gdk.py",
+        "path_type": "hardlink",
+        "sha256": "3aabaf1fdbe95adb491f036ee9f4a1e2c6fb27318c810df939d222c6baa3c628",
+        "sha256_in_prefix": "3aabaf1fdbe95adb491f036ee9f4a1e2c6fb27318c810df939d222c6baa3c628",
+        "size_in_bytes": 16189
+      },
+      {
+        "_path": "lib/python3.13/site-packages/gi/overrides/GdkPixbuf.py",
+        "path_type": "hardlink",
+        "sha256": "9de15ec2a6c8d30f9514ceae057d40e4efc187f6950c4e1b76bee346aa0b64a4",
+        "sha256_in_prefix": "9de15ec2a6c8d30f9514ceae057d40e4efc187f6950c4e1b76bee346aa0b64a4",
+        "size_in_bytes": 1724
+      },
+      {
+        "_path": "lib/python3.13/site-packages/gi/overrides/Gio.py",
+        "path_type": "hardlink",
+        "sha256": "2ea8e728bcad630592b5474a0dd4f11318664d63cbc1305293b020cf713617e1",
+        "sha256_in_prefix": "2ea8e728bcad630592b5474a0dd4f11318664d63cbc1305293b020cf713617e1",
+        "size_in_bytes": 21089
+      },
+      {
+        "_path": "lib/python3.13/site-packages/gi/overrides/Gtk.py",
+        "path_type": "hardlink",
+        "sha256": "90e7fc3fee2427643dad08bc183f0707b9f944ea92d5fae6ab117795f876859e",
+        "sha256_in_prefix": "90e7fc3fee2427643dad08bc183f0707b9f944ea92d5fae6ab117795f876859e",
+        "size_in_bytes": 63104
+      },
+      {
+        "_path": "lib/python3.13/site-packages/gi/overrides/Pango.py",
+        "path_type": "hardlink",
+        "sha256": "11fbc1a5d6f8fcef50134298ebf4e2fe904cc5032430006854fd74274119cbcb",
+        "sha256_in_prefix": "11fbc1a5d6f8fcef50134298ebf4e2fe904cc5032430006854fd74274119cbcb",
+        "size_in_bytes": 1774
+      },
+      {
+        "_path": "lib/python3.13/site-packages/gi/overrides/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "582c3851244ef769d50ecd6599e371390fff32b40b0355422d3c96c9cd79cf9a",
+        "sha256_in_prefix": "582c3851244ef769d50ecd6599e371390fff32b40b0355422d3c96c9cd79cf9a",
+        "size_in_bytes": 12940
+      },
+      {
+        "_path": "lib/python3.13/site-packages/gi/overrides/__pycache__/GIMarshallingTests.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "d821cb3d2651bac472b0784ff7058acc5010b000b30061e2b7af5a70bd276d04",
+        "sha256_in_prefix": "d821cb3d2651bac472b0784ff7058acc5010b000b30061e2b7af5a70bd276d04",
+        "size_in_bytes": 2692
+      },
+      {
+        "_path": "lib/python3.13/site-packages/gi/overrides/__pycache__/GLib.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "eb8bdd2fd90796d090162e4f958d20837aa4b29640977f826a23368bbd060c6b",
+        "sha256_in_prefix": "eb8bdd2fd90796d090162e4f958d20837aa4b29640977f826a23368bbd060c6b",
+        "size_in_bytes": 38667
+      },
+      {
+        "_path": "lib/python3.13/site-packages/gi/overrides/__pycache__/GObject.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "0ff86b2ecc644743e9b2687dd18047e3d9acab70e53263081c7f20fff8933243",
+        "sha256_in_prefix": "0ff86b2ecc644743e9b2687dd18047e3d9acab70e53263081c7f20fff8933243",
+        "size_in_bytes": 27949
+      },
+      {
+        "_path": "lib/python3.13/site-packages/gi/overrides/__pycache__/Gdk.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "651bf8f4730ce3de0f669ce3bc45cca3a1682b41995d020d5aa587fe582c32fe",
+        "sha256_in_prefix": "651bf8f4730ce3de0f669ce3bc45cca3a1682b41995d020d5aa587fe582c32fe",
+        "size_in_bytes": 20683
+      },
+      {
+        "_path": "lib/python3.13/site-packages/gi/overrides/__pycache__/GdkPixbuf.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "786eda485224fc068c9dcec2d1a482db60eacbba1f51859248797200a706a6c5",
+        "sha256_in_prefix": "786eda485224fc068c9dcec2d1a482db60eacbba1f51859248797200a706a6c5",
+        "size_in_bytes": 1534
+      },
+      {
+        "_path": "lib/python3.13/site-packages/gi/overrides/__pycache__/Gio.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "1a2bf421ab997f72a96cdf51645a1a11858e79968329d7acbbaa317a1f2027b7",
+        "sha256_in_prefix": "1a2bf421ab997f72a96cdf51645a1a11858e79968329d7acbbaa317a1f2027b7",
+        "size_in_bytes": 26955
+      },
+      {
+        "_path": "lib/python3.13/site-packages/gi/overrides/__pycache__/Gtk.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "8d179628c2b3196ac101ffed36bdb333672cb946a53549d1593685ac4bad6c37",
+        "sha256_in_prefix": "8d179628c2b3196ac101ffed36bdb333672cb946a53549d1593685ac4bad6c37",
+        "size_in_bytes": 87332
+      },
+      {
+        "_path": "lib/python3.13/site-packages/gi/overrides/__pycache__/Pango.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "fad2537522e11586f275ccdba97bb52361ddaf3512539ddf6d23dac1149e2654",
+        "sha256_in_prefix": "fad2537522e11586f275ccdba97bb52361ddaf3512539ddf6d23dac1149e2654",
+        "size_in_bytes": 2183
+      },
+      {
+        "_path": "lib/python3.13/site-packages/gi/overrides/__pycache__/__init__.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "d782c6ef65dc90f1a633bc94db9eff66509b36e1f9913233b7b22b54a3c6a8ee",
+        "sha256_in_prefix": "d782c6ef65dc90f1a633bc94db9eff66509b36e1f9913233b7b22b54a3c6a8ee",
+        "size_in_bytes": 15547
+      },
+      {
+        "_path": "lib/python3.13/site-packages/gi/overrides/__pycache__/keysyms.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "1d5d138ef7f3d7f66adc60673d95699da3f895cfb13fd0446f361480e36db142",
+        "sha256_in_prefix": "1d5d138ef7f3d7f66adc60673d95699da3f895cfb13fd0446f361480e36db142",
+        "size_in_bytes": 1251
+      },
+      {
+        "_path": "lib/python3.13/site-packages/gi/overrides/keysyms.py",
+        "path_type": "hardlink",
+        "sha256": "2b018f18b9e451114c019b04155cebd081439b2b2bb3c8136d52943b5695d9ce",
+        "sha256_in_prefix": "2b018f18b9e451114c019b04155cebd081439b2b2bb3c8136d52943b5695d9ce",
+        "size_in_bytes": 1705
+      },
+      {
+        "_path": "lib/python3.13/site-packages/gi/pygtkcompat.py",
+        "path_type": "hardlink",
+        "sha256": "2d6fb183923cff5af13672a479a77109edb4864f0098c779c91cea560be98f84",
+        "sha256_in_prefix": "2d6fb183923cff5af13672a479a77109edb4864f0098c779c91cea560be98f84",
+        "size_in_bytes": 727
+      },
+      {
+        "_path": "lib/python3.13/site-packages/gi/repository/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "13b40edcdd3d959d6e3e05daa348f7fa3018dcd0eb7145bf2f6967abf7268502",
+        "sha256_in_prefix": "13b40edcdd3d959d6e3e05daa348f7fa3018dcd0eb7145bf2f6967abf7268502",
+        "size_in_bytes": 1002
+      },
+      {
+        "_path": "lib/python3.13/site-packages/gi/repository/__pycache__/__init__.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "67e6dcd5af78f32100f90ef406866d8108e0662b810d2015a23daa00e1c99f15",
+        "sha256_in_prefix": "67e6dcd5af78f32100f90ef406866d8108e0662b810d2015a23daa00e1c99f15",
+        "size_in_bytes": 358
+      },
+      {
+        "_path": "lib/python3.13/site-packages/gi/types.py",
+        "path_type": "hardlink",
+        "sha256": "018d67aff885ab1f10978aaf4739730515a39b2e2e284ec58890f68bbef40801",
+        "sha256_in_prefix": "018d67aff885ab1f10978aaf4739730515a39b2e2e284ec58890f68bbef40801",
+        "size_in_bytes": 13543
+      },
+      {
+        "_path": "lib/python3.13/site-packages/pygtkcompat/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "5edbf10e1a91e6ef26dbead58e175be30c8d57396da2b9a049ac7264675319f1",
+        "sha256_in_prefix": "5edbf10e1a91e6ef26dbead58e175be30c8d57396da2b9a049ac7264675319f1",
+        "size_in_bytes": 547
+      },
+      {
+        "_path": "lib/python3.13/site-packages/pygtkcompat/__pycache__/__init__.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "c5093912ebc83b19799955bd41d9cf2d0ba4aefaf83ce5396349015ae1adaf3b",
+        "sha256_in_prefix": "c5093912ebc83b19799955bd41d9cf2d0ba4aefaf83ce5396349015ae1adaf3b",
+        "size_in_bytes": 392
+      },
+      {
+        "_path": "lib/python3.13/site-packages/pygtkcompat/__pycache__/generictreemodel.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "a0a5f01fb2d777bcaf8718ff97e41267f2584b2c6d8e083e38c4f117b1797092",
+        "sha256_in_prefix": "a0a5f01fb2d777bcaf8718ff97e41267f2584b2c6d8e083e38c4f117b1797092",
+        "size_in_bytes": 18420
+      },
+      {
+        "_path": "lib/python3.13/site-packages/pygtkcompat/__pycache__/pygtkcompat.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "1c01f43a63992b37bddfb70ba41dcc0e0cca0c1dad983a336b8d638e3b22851f",
+        "sha256_in_prefix": "1c01f43a63992b37bddfb70ba41dcc0e0cca0c1dad983a336b8d638e3b22851f",
+        "size_in_bytes": 32766
+      },
+      {
+        "_path": "lib/python3.13/site-packages/pygtkcompat/generictreemodel.py",
+        "path_type": "hardlink",
+        "sha256": "42ecba44d6d22e4630398bc1ed22f6802bb97f0137bc872fd02754e9b4f0ec46",
+        "sha256_in_prefix": "42ecba44d6d22e4630398bc1ed22f6802bb97f0137bc872fd02754e9b4f0ec46",
+        "size_in_bytes": 14365
+      },
+      {
+        "_path": "lib/python3.13/site-packages/pygtkcompat/pygtkcompat.py",
+        "path_type": "hardlink",
+        "sha256": "b69e4e848719e0043f99e958fe8701c185f7f5bd6d5928ec154fd058bf3eae1f",
+        "sha256_in_prefix": "b69e4e848719e0043f99e958fe8701c185f7f5bd6d5928ec154fd058bf3eae1f",
+        "size_in_bytes": 20807
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "pygobject",
+  "sha256": "694ab60ca07e4a639327171adda027c3ce0bd8b6e5448fa00db55cde9e6444e9",
+  "size": 351289,
+  "subdir": "linux-64",
+  "timestamp": 1728635363000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pygobject-3.50.0-py313heb4b809_1.conda",
+  "version": "3.50.0"
+}

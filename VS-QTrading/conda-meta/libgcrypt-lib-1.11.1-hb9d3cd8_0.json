@@ -1,0 +1,61 @@
+{
+  "build": "hb9d3cd8_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "__glibc >=2.17,<3.0.a0",
+    "libgcc >=13",
+    "libgpg-error >=1.55,<2.0a0"
+  ],
+  "extracted_package_dir": "/home/santi_cruz/anaconda3/pkgs/libgcrypt-lib-1.11.1-hb9d3cd8_0",
+  "files": [
+    "lib/libgcrypt.so.20",
+    "lib/libgcrypt.so.20.5.1",
+    "lib/pkgconfig/libgcrypt.pc"
+  ],
+  "fn": "libgcrypt-lib-1.11.1-hb9d3cd8_0.conda",
+  "license": "LGPL-2.1-or-later",
+  "link": {
+    "source": "/home/santi_cruz/anaconda3/pkgs/libgcrypt-lib-1.11.1-hb9d3cd8_0",
+    "type": 1
+  },
+  "md5": "8504a291085c9fb809b66cabd5834307",
+  "name": "libgcrypt-lib",
+  "package_tarball_full_path": "/home/santi_cruz/anaconda3/pkgs/libgcrypt-lib-1.11.1-hb9d3cd8_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/libgcrypt.so.20",
+        "path_type": "hardlink",
+        "sha256": "d45a148dcbf2ec7a74b58e67af097e584e1b37fc849742b7c0f2ce6b67708e4a",
+        "sha256_in_prefix": "d45a148dcbf2ec7a74b58e67af097e584e1b37fc849742b7c0f2ce6b67708e4a",
+        "size_in_bytes": 2363712
+      },
+      {
+        "_path": "lib/libgcrypt.so.20.5.1",
+        "path_type": "hardlink",
+        "sha256": "d45a148dcbf2ec7a74b58e67af097e584e1b37fc849742b7c0f2ce6b67708e4a",
+        "sha256_in_prefix": "d45a148dcbf2ec7a74b58e67af097e584e1b37fc849742b7c0f2ce6b67708e4a",
+        "size_in_bytes": 2363712
+      },
+      {
+        "_path": "lib/pkgconfig/libgcrypt.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/libgcrypt-split_1747060409921/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "52679d751b6055434dda6784b0ba4d4d2d86c25afa3db3c994adbf39700a4afc",
+        "sha256_in_prefix": "a23cea09c318eab9ba09c13e6825480ff12a8c4ea8f47a2d3152bf8cd07052b8",
+        "size_in_bytes": 905
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "dc9c7d7a6c0e6639deee6fde2efdc7e119e7739a6b229fa5f9049a449bae6109",
+  "size": 590353,
+  "subdir": "linux-64",
+  "timestamp": 1747060639000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/libgcrypt-lib-1.11.1-hb9d3cd8_0.conda",
+  "version": "1.11.1"
+}

@@ -191,7 +191,7 @@
 
 #ifndef __CYGWIN__
 #define TkpPrintWindowId(buf,w) \
-	snprintf((buf), TCL_INTEGER_SPACE, "0x%08lx", (unsigned long) (w))
+	sprintf((buf), "0x%08lx", (unsigned long) (w))
 #endif
 
 #endif /* _UNIXPORT */

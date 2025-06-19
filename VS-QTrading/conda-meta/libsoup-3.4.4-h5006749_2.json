@@ -1,0 +1,973 @@
+{
+  "build": "h5006749_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "glib-networking",
+    "libbrotlicommon >=1.1.0,<1.2.0a0",
+    "libbrotlidec >=1.1.0,<1.2.0a0",
+    "libbrotlienc >=1.1.0,<1.2.0a0",
+    "libgcc-ng >=12",
+    "libglib >=2.78.3,<3.0a0",
+    "libnghttp2 >=1.58.0,<2.0a0",
+    "libpsl",
+    "libsqlite >=3.44.2,<4.0a0",
+    "libxml2 >=2.12.3,<2.14.0a0",
+    "libzlib >=1.2.13,<2.0.0a0"
+  ],
+  "extracted_package_dir": "/home/santi_cruz/anaconda3/pkgs/libsoup-3.4.4-h5006749_2",
+  "files": [
+    "include/libsoup-3.0/libsoup/soup-auth-domain-basic.h",
+    "include/libsoup-3.0/libsoup/soup-auth-domain-digest.h",
+    "include/libsoup-3.0/libsoup/soup-auth-domain.h",
+    "include/libsoup-3.0/libsoup/soup-auth-manager.h",
+    "include/libsoup-3.0/libsoup/soup-auth.h",
+    "include/libsoup-3.0/libsoup/soup-cache.h",
+    "include/libsoup-3.0/libsoup/soup-content-decoder.h",
+    "include/libsoup-3.0/libsoup/soup-content-sniffer.h",
+    "include/libsoup-3.0/libsoup/soup-cookie-jar-db.h",
+    "include/libsoup-3.0/libsoup/soup-cookie-jar-text.h",
+    "include/libsoup-3.0/libsoup/soup-cookie-jar.h",
+    "include/libsoup-3.0/libsoup/soup-cookie.h",
+    "include/libsoup-3.0/libsoup/soup-date-utils.h",
+    "include/libsoup-3.0/libsoup/soup-enum-types.h",
+    "include/libsoup-3.0/libsoup/soup-form.h",
+    "include/libsoup-3.0/libsoup/soup-headers.h",
+    "include/libsoup-3.0/libsoup/soup-hsts-enforcer-db.h",
+    "include/libsoup-3.0/libsoup/soup-hsts-enforcer.h",
+    "include/libsoup-3.0/libsoup/soup-hsts-policy.h",
+    "include/libsoup-3.0/libsoup/soup-logger.h",
+    "include/libsoup-3.0/libsoup/soup-message-body.h",
+    "include/libsoup-3.0/libsoup/soup-message-headers.h",
+    "include/libsoup-3.0/libsoup/soup-message-metrics.h",
+    "include/libsoup-3.0/libsoup/soup-message.h",
+    "include/libsoup-3.0/libsoup/soup-method.h",
+    "include/libsoup-3.0/libsoup/soup-multipart-input-stream.h",
+    "include/libsoup-3.0/libsoup/soup-multipart.h",
+    "include/libsoup-3.0/libsoup/soup-server-message.h",
+    "include/libsoup-3.0/libsoup/soup-server.h",
+    "include/libsoup-3.0/libsoup/soup-session-feature.h",
+    "include/libsoup-3.0/libsoup/soup-session.h",
+    "include/libsoup-3.0/libsoup/soup-status.h",
+    "include/libsoup-3.0/libsoup/soup-tld.h",
+    "include/libsoup-3.0/libsoup/soup-types.h",
+    "include/libsoup-3.0/libsoup/soup-uri-utils.h",
+    "include/libsoup-3.0/libsoup/soup-version.h",
+    "include/libsoup-3.0/libsoup/soup-websocket-connection.h",
+    "include/libsoup-3.0/libsoup/soup-websocket-extension-deflate.h",
+    "include/libsoup-3.0/libsoup/soup-websocket-extension-manager.h",
+    "include/libsoup-3.0/libsoup/soup-websocket-extension.h",
+    "include/libsoup-3.0/libsoup/soup-websocket.h",
+    "include/libsoup-3.0/libsoup/soup.h",
+    "lib/girepository-1.0/Soup-3.0.typelib",
+    "lib/libsoup-3.0.so",
+    "lib/libsoup-3.0.so.0",
+    "lib/libsoup-3.0.so.0.7.1",
+    "lib/pkgconfig/libsoup-3.0.pc",
+    "share/gir-1.0/Soup-3.0.gir",
+    "share/locale/ab/LC_MESSAGES/libsoup-3.0.mo",
+    "share/locale/an/LC_MESSAGES/libsoup-3.0.mo",
+    "share/locale/as/LC_MESSAGES/libsoup-3.0.mo",
+    "share/locale/be/LC_MESSAGES/libsoup-3.0.mo",
+    "share/locale/bg/LC_MESSAGES/libsoup-3.0.mo",
+    "share/locale/bn_IN/LC_MESSAGES/libsoup-3.0.mo",
+    "share/locale/bs/LC_MESSAGES/libsoup-3.0.mo",
+    "share/locale/ca/LC_MESSAGES/libsoup-3.0.mo",
+    "share/locale/ca@valencia/LC_MESSAGES/libsoup-3.0.mo",
+    "share/locale/cs/LC_MESSAGES/libsoup-3.0.mo",
+    "share/locale/da/LC_MESSAGES/libsoup-3.0.mo",
+    "share/locale/de/LC_MESSAGES/libsoup-3.0.mo",
+    "share/locale/el/LC_MESSAGES/libsoup-3.0.mo",
+    "share/locale/en_GB/LC_MESSAGES/libsoup-3.0.mo",
+    "share/locale/eo/LC_MESSAGES/libsoup-3.0.mo",
+    "share/locale/es/LC_MESSAGES/libsoup-3.0.mo",
+    "share/locale/et/LC_MESSAGES/libsoup-3.0.mo",
+    "share/locale/eu/LC_MESSAGES/libsoup-3.0.mo",
+    "share/locale/fa/LC_MESSAGES/libsoup-3.0.mo",
+    "share/locale/fi/LC_MESSAGES/libsoup-3.0.mo",
+    "share/locale/fr/LC_MESSAGES/libsoup-3.0.mo",
+    "share/locale/fur/LC_MESSAGES/libsoup-3.0.mo",
+    "share/locale/gd/LC_MESSAGES/libsoup-3.0.mo",
+    "share/locale/gl/LC_MESSAGES/libsoup-3.0.mo",
+    "share/locale/gu/LC_MESSAGES/libsoup-3.0.mo",
+    "share/locale/he/LC_MESSAGES/libsoup-3.0.mo",
+    "share/locale/hi/LC_MESSAGES/libsoup-3.0.mo",
+    "share/locale/hr/LC_MESSAGES/libsoup-3.0.mo",
+    "share/locale/hu/LC_MESSAGES/libsoup-3.0.mo",
+    "share/locale/id/LC_MESSAGES/libsoup-3.0.mo",
+    "share/locale/it/LC_MESSAGES/libsoup-3.0.mo",
+    "share/locale/ja/LC_MESSAGES/libsoup-3.0.mo",
+    "share/locale/ka/LC_MESSAGES/libsoup-3.0.mo",
+    "share/locale/kn/LC_MESSAGES/libsoup-3.0.mo",
+    "share/locale/ko/LC_MESSAGES/libsoup-3.0.mo",
+    "share/locale/lt/LC_MESSAGES/libsoup-3.0.mo",
+    "share/locale/lv/LC_MESSAGES/libsoup-3.0.mo",
+    "share/locale/ml/LC_MESSAGES/libsoup-3.0.mo",
+    "share/locale/mr/LC_MESSAGES/libsoup-3.0.mo",
+    "share/locale/ms/LC_MESSAGES/libsoup-3.0.mo",
+    "share/locale/nb/LC_MESSAGES/libsoup-3.0.mo",
+    "share/locale/ne/LC_MESSAGES/libsoup-3.0.mo",
+    "share/locale/nl/LC_MESSAGES/libsoup-3.0.mo",
+    "share/locale/oc/LC_MESSAGES/libsoup-3.0.mo",
+    "share/locale/or/LC_MESSAGES/libsoup-3.0.mo",
+    "share/locale/pa/LC_MESSAGES/libsoup-3.0.mo",
+    "share/locale/pl/LC_MESSAGES/libsoup-3.0.mo",
+    "share/locale/pt/LC_MESSAGES/libsoup-3.0.mo",
+    "share/locale/pt_BR/LC_MESSAGES/libsoup-3.0.mo",
+    "share/locale/ro/LC_MESSAGES/libsoup-3.0.mo",
+    "share/locale/ru/LC_MESSAGES/libsoup-3.0.mo",
+    "share/locale/sk/LC_MESSAGES/libsoup-3.0.mo",
+    "share/locale/sl/LC_MESSAGES/libsoup-3.0.mo",
+    "share/locale/sr/LC_MESSAGES/libsoup-3.0.mo",
+    "share/locale/sr@latin/LC_MESSAGES/libsoup-3.0.mo",
+    "share/locale/sv/LC_MESSAGES/libsoup-3.0.mo",
+    "share/locale/ta/LC_MESSAGES/libsoup-3.0.mo",
+    "share/locale/te/LC_MESSAGES/libsoup-3.0.mo",
+    "share/locale/tg/LC_MESSAGES/libsoup-3.0.mo",
+    "share/locale/th/LC_MESSAGES/libsoup-3.0.mo",
+    "share/locale/tr/LC_MESSAGES/libsoup-3.0.mo",
+    "share/locale/ug/LC_MESSAGES/libsoup-3.0.mo",
+    "share/locale/uk/LC_MESSAGES/libsoup-3.0.mo",
+    "share/locale/uz@cyrillic/LC_MESSAGES/libsoup-3.0.mo",
+    "share/locale/vi/LC_MESSAGES/libsoup-3.0.mo",
+    "share/locale/zh_CN/LC_MESSAGES/libsoup-3.0.mo",
+    "share/locale/zh_HK/LC_MESSAGES/libsoup-3.0.mo",
+    "share/locale/zh_TW/LC_MESSAGES/libsoup-3.0.mo"
+  ],
+  "fn": "libsoup-3.4.4-h5006749_2.conda",
+  "license": "LGPL-2.1-or-later",
+  "link": {
+    "source": "/home/santi_cruz/anaconda3/pkgs/libsoup-3.4.4-h5006749_2",
+    "type": 1
+  },
+  "md5": "d12deec2b9ad988bd082070eb8f3aa82",
+  "name": "libsoup",
+  "package_tarball_full_path": "/home/santi_cruz/anaconda3/pkgs/libsoup-3.4.4-h5006749_2.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "include/libsoup-3.0/libsoup/soup-auth-domain-basic.h",
+        "path_type": "hardlink",
+        "sha256": "ef346ca2eec00b8e3b342872f75100cbfca58265534467d0f3e351db49e3e68b",
+        "sha256_in_prefix": "ef346ca2eec00b8e3b342872f75100cbfca58265534467d0f3e351db49e3e68b",
+        "size_in_bytes": 990
+      },
+      {
+        "_path": "include/libsoup-3.0/libsoup/soup-auth-domain-digest.h",
+        "path_type": "hardlink",
+        "sha256": "eb349b2ffcd9d1c5b184b36480a885ef3ba35226d15400489f449aee8a1927a5",
+        "sha256_in_prefix": "eb349b2ffcd9d1c5b184b36480a885ef3ba35226d15400489f449aee8a1927a5",
+        "size_in_bytes": 1120
+      },
+      {
+        "_path": "include/libsoup-3.0/libsoup/soup-auth-domain.h",
+        "path_type": "hardlink",
+        "sha256": "ab3f8e8f8a37880f0d1cef7727399c6bb64816a6266ec37eaf639aba7187431b",
+        "sha256_in_prefix": "ab3f8e8f8a37880f0d1cef7727399c6bb64816a6266ec37eaf639aba7187431b",
+        "size_in_bytes": 2556
+      },
+      {
+        "_path": "include/libsoup-3.0/libsoup/soup-auth-manager.h",
+        "path_type": "hardlink",
+        "sha256": "307016678e96fc8073dcf5fc0f35c7d955bb1e280ef2c1663d941d5ff96d6d2b",
+        "sha256_in_prefix": "307016678e96fc8073dcf5fc0f35c7d955bb1e280ef2c1663d941d5ff96d6d2b",
+        "size_in_bytes": 624
+      },
+      {
+        "_path": "include/libsoup-3.0/libsoup/soup-auth.h",
+        "path_type": "hardlink",
+        "sha256": "1fb8c206175945f1c11d4a24c5d3bcb1516485c0f2015ae9a429e9007ca923ec",
+        "sha256_in_prefix": "1fb8c206175945f1c11d4a24c5d3bcb1516485c0f2015ae9a429e9007ca923ec",
+        "size_in_bytes": 3503
+      },
+      {
+        "_path": "include/libsoup-3.0/libsoup/soup-cache.h",
+        "path_type": "hardlink",
+        "sha256": "ac7d4b5f0769989f4c1e49bcf00ab00a56a541dc9a647e0094c0700674d6c458",
+        "sha256_in_prefix": "ac7d4b5f0769989f4c1e49bcf00ab00a56a541dc9a647e0094c0700674d6c458",
+        "size_in_bytes": 2216
+      },
+      {
+        "_path": "include/libsoup-3.0/libsoup/soup-content-decoder.h",
+        "path_type": "hardlink",
+        "sha256": "0516d2d55855f109e2963fde314fb750418eee99e376b4bd9f477b63f10cd56d",
+        "sha256_in_prefix": "0516d2d55855f109e2963fde314fb750418eee99e376b4bd9f477b63f10cd56d",
+        "size_in_bytes": 418
+      },
+      {
+        "_path": "include/libsoup-3.0/libsoup/soup-content-sniffer.h",
+        "path_type": "hardlink",
+        "sha256": "f7b121059b86a953b6fd01240484b70d46a8d90151ded0cbb4f21ab41b408cf1",
+        "sha256_in_prefix": "f7b121059b86a953b6fd01240484b70d46a8d90151ded0cbb4f21ab41b408cf1",
+        "size_in_bytes": 825
+      },
+      {
+        "_path": "include/libsoup-3.0/libsoup/soup-cookie-jar-db.h",
+        "path_type": "hardlink",
+        "sha256": "580ba11036c038a6a7875cf55dde502842112d47c734201ebc36f736d391db54",
+        "sha256_in_prefix": "580ba11036c038a6a7875cf55dde502842112d47c734201ebc36f736d391db54",
+        "size_in_bytes": 504
+      },
+      {
+        "_path": "include/libsoup-3.0/libsoup/soup-cookie-jar-text.h",
+        "path_type": "hardlink",
+        "sha256": "1a7d5ab1ab1e78e9cafa77780bafe68da61045bba05514af7b6bf4c2cf2efd7c",
+        "sha256_in_prefix": "1a7d5ab1ab1e78e9cafa77780bafe68da61045bba05514af7b6bf4c2cf2efd7c",
+        "size_in_bytes": 503
+      },
+      {
+        "_path": "include/libsoup-3.0/libsoup/soup-cookie-jar.h",
+        "path_type": "hardlink",
+        "sha256": "1727ed396816d66c2a8619a8c6c50c38cabcd58152edfd12fc5f80cf5b84844f",
+        "sha256_in_prefix": "1727ed396816d66c2a8619a8c6c50c38cabcd58152edfd12fc5f80cf5b84844f",
+        "size_in_bytes": 4008
+      },
+      {
+        "_path": "include/libsoup-3.0/libsoup/soup-cookie.h",
+        "path_type": "hardlink",
+        "sha256": "aa5dbff571676af59d715201c08b18618cd628becb7b82cca4fe6ee440692905",
+        "sha256_in_prefix": "aa5dbff571676af59d715201c08b18618cd628becb7b82cca4fe6ee440692905",
+        "size_in_bytes": 4745
+      },
+      {
+        "_path": "include/libsoup-3.0/libsoup/soup-date-utils.h",
+        "path_type": "hardlink",
+        "sha256": "57d8896ee883be7549e463c86c255de4dd92160d33baba299a6deb50547d9fc5",
+        "sha256_in_prefix": "57d8896ee883be7549e463c86c255de4dd92160d33baba299a6deb50547d9fc5",
+        "size_in_bytes": 1240
+      },
+      {
+        "_path": "include/libsoup-3.0/libsoup/soup-enum-types.h",
+        "path_type": "hardlink",
+        "sha256": "3ac3ed93883b33e6ac8c6732fb0061f679936902ef3430d714f288982f5cbdcb",
+        "sha256_in_prefix": "3ac3ed93883b33e6ac8c6732fb0061f679936902ef3430d714f288982f5cbdcb",
+        "size_in_bytes": 4091
+      },
+      {
+        "_path": "include/libsoup-3.0/libsoup/soup-form.h",
+        "path_type": "hardlink",
+        "sha256": "75153c3920ba83a92d572da754e525378954c816a6c32ae8cf5126e358faa8c9",
+        "sha256_in_prefix": "75153c3920ba83a92d572da754e525378954c816a6c32ae8cf5126e358faa8c9",
+        "size_in_bytes": 1164
+      },
+      {
+        "_path": "include/libsoup-3.0/libsoup/soup-headers.h",
+        "path_type": "hardlink",
+        "sha256": "e85b941ebe17fd2170361c1127b65848a98c12c6ceb301fb57d8682fb1b0c7b7",
+        "sha256_in_prefix": "e85b941ebe17fd2170361c1127b65848a98c12c6ceb301fb57d8682fb1b0c7b7",
+        "size_in_bytes": 2617
+      },
+      {
+        "_path": "include/libsoup-3.0/libsoup/soup-hsts-enforcer-db.h",
+        "path_type": "hardlink",
+        "sha256": "b665226b15632ee23f36022b603d794bd4d3e191cad1357ecb4e661d48980744",
+        "sha256_in_prefix": "b665226b15632ee23f36022b603d794bd4d3e191cad1357ecb4e661d48980744",
+        "size_in_bytes": 550
+      },
+      {
+        "_path": "include/libsoup-3.0/libsoup/soup-hsts-enforcer.h",
+        "path_type": "hardlink",
+        "sha256": "077fec156c98ab03ce376478799951b80967a3dc3de15229a968c703bd07d2e2",
+        "sha256_in_prefix": "077fec156c98ab03ce376478799951b80967a3dc3de15229a968c703bd07d2e2",
+        "size_in_bytes": 2588
+      },
+      {
+        "_path": "include/libsoup-3.0/libsoup/soup-hsts-policy.h",
+        "path_type": "hardlink",
+        "sha256": "755429bf7bc5d9984a5fc3af14c3346a050833a649eeaf80fd3701bd3b792fb2",
+        "sha256_in_prefix": "755429bf7bc5d9984a5fc3af14c3346a050833a649eeaf80fd3701bd3b792fb2",
+        "size_in_bytes": 2064
+      },
+      {
+        "_path": "include/libsoup-3.0/libsoup/soup-logger.h",
+        "path_type": "hardlink",
+        "sha256": "5405770e9096c0aff484025285b8724482c8ba3cf23000741739481536af6400",
+        "sha256_in_prefix": "5405770e9096c0aff484025285b8724482c8ba3cf23000741739481536af6400",
+        "size_in_bytes": 1825
+      },
+      {
+        "_path": "include/libsoup-3.0/libsoup/soup-message-body.h",
+        "path_type": "hardlink",
+        "sha256": "a425cd1f7363f6941dd1908804d072cd4d7c3ad14ce8c16a0273ee02f39913d3",
+        "sha256_in_prefix": "a425cd1f7363f6941dd1908804d072cd4d7c3ad14ce8c16a0273ee02f39913d3",
+        "size_in_bytes": 2148
+      },
+      {
+        "_path": "include/libsoup-3.0/libsoup/soup-message-headers.h",
+        "path_type": "hardlink",
+        "sha256": "80600352864ab3c603ba9404c37547b23fe04d425148953e938faca4a9d634c0",
+        "sha256_in_prefix": "80600352864ab3c603ba9404c37547b23fe04d425148953e938faca4a9d634c0",
+        "size_in_bytes": 6176
+      },
+      {
+        "_path": "include/libsoup-3.0/libsoup/soup-message-metrics.h",
+        "path_type": "hardlink",
+        "sha256": "9164167fbf22da7bb700d972ed01cf1809cafa8bdf77c6fd7e90ba0a46e145cb",
+        "sha256_in_prefix": "9164167fbf22da7bb700d972ed01cf1809cafa8bdf77c6fd7e90ba0a46e145cb",
+        "size_in_bytes": 2485
+      },
+      {
+        "_path": "include/libsoup-3.0/libsoup/soup-message.h",
+        "path_type": "hardlink",
+        "sha256": "ff2f3f06995acd5d3eadde13937d586b039d105eff2a10d3e93ca11093d33f42",
+        "sha256_in_prefix": "ff2f3f06995acd5d3eadde13937d586b039d105eff2a10d3e93ca11093d33f42",
+        "size_in_bytes": 7383
+      },
+      {
+        "_path": "include/libsoup-3.0/libsoup/soup-method.h",
+        "path_type": "hardlink",
+        "sha256": "57b6320e5aa9a9eaa698a361960c50456547a08b76796ce5545a671286e06ca7",
+        "sha256_in_prefix": "57b6320e5aa9a9eaa698a361960c50456547a08b76796ce5545a671286e06ca7",
+        "size_in_bytes": 2885
+      },
+      {
+        "_path": "include/libsoup-3.0/libsoup/soup-multipart-input-stream.h",
+        "path_type": "hardlink",
+        "sha256": "0986f06a811803a3e959bd6c4cc9a5b28b554dab05a2e20ee878bfc63ece7a8c",
+        "sha256_in_prefix": "0986f06a811803a3e959bd6c4cc9a5b28b554dab05a2e20ee878bfc63ece7a8c",
+        "size_in_bytes": 1567
+      },
+      {
+        "_path": "include/libsoup-3.0/libsoup/soup-multipart.h",
+        "path_type": "hardlink",
+        "sha256": "2dabaa6e05b53f32679128b5579f96899edbc0a6396f951228a427379503a419",
+        "sha256_in_prefix": "2dabaa6e05b53f32679128b5579f96899edbc0a6396f951228a427379503a419",
+        "size_in_bytes": 1936
+      },
+      {
+        "_path": "include/libsoup-3.0/libsoup/soup-server-message.h",
+        "path_type": "hardlink",
+        "sha256": "fd35cc5fe27571729665bdb14775c5c91d6a632250facaa01aa9744f7aa1c118",
+        "sha256_in_prefix": "fd35cc5fe27571729665bdb14775c5c91d6a632250facaa01aa9744f7aa1c118",
+        "size_in_bytes": 3888
+      },
+      {
+        "_path": "include/libsoup-3.0/libsoup/soup-server.h",
+        "path_type": "hardlink",
+        "sha256": "a9d0d7780f565d6690e6d0b88a158ef5e1d4aa1a19c8045966aaa8a357f4edcc",
+        "sha256_in_prefix": "a9d0d7780f565d6690e6d0b88a158ef5e1d4aa1a19c8045966aaa8a357f4edcc",
+        "size_in_bytes": 6165
+      },
+      {
+        "_path": "include/libsoup-3.0/libsoup/soup-session-feature.h",
+        "path_type": "hardlink",
+        "sha256": "6f15ada6743c694ad53c929c6a6522e705bebe9a37d8aaeadb276f9402459912",
+        "sha256_in_prefix": "6f15ada6743c694ad53c929c6a6522e705bebe9a37d8aaeadb276f9402459912",
+        "size_in_bytes": 375
+      },
+      {
+        "_path": "include/libsoup-3.0/libsoup/soup-session.h",
+        "path_type": "hardlink",
+        "sha256": "fd849b56366cae2f74c77bca46f2a974e7ad21da971bd68fbd1f4c2e90150db2",
+        "sha256_in_prefix": "fd849b56366cae2f74c77bca46f2a974e7ad21da971bd68fbd1f4c2e90150db2",
+        "size_in_bytes": 9634
+      },
+      {
+        "_path": "include/libsoup-3.0/libsoup/soup-status.h",
+        "path_type": "hardlink",
+        "sha256": "7c3fc1be318a7ab2052044253ae3951a2a53a75ad52459e901463c657fdbe6c1",
+        "sha256_in_prefix": "7c3fc1be318a7ab2052044253ae3951a2a53a75ad52459e901463c657fdbe6c1",
+        "size_in_bytes": 3996
+      },
+      {
+        "_path": "include/libsoup-3.0/libsoup/soup-tld.h",
+        "path_type": "hardlink",
+        "sha256": "769d49351644193d8c60ec60e320fd60145bc77b522f6066f177cee08e7e9ac1",
+        "sha256_in_prefix": "769d49351644193d8c60ec60e320fd60145bc77b522f6066f177cee08e7e9ac1",
+        "size_in_bytes": 849
+      },
+      {
+        "_path": "include/libsoup-3.0/libsoup/soup-types.h",
+        "path_type": "hardlink",
+        "sha256": "2e2a56dd5c2b8679e2a88a307b1d5ed254b67d041ea12e173c701ee14b999389",
+        "sha256_in_prefix": "2e2a56dd5c2b8679e2a88a307b1d5ed254b67d041ea12e173c701ee14b999389",
+        "size_in_bytes": 1313
+      },
+      {
+        "_path": "include/libsoup-3.0/libsoup/soup-uri-utils.h",
+        "path_type": "hardlink",
+        "sha256": "6760fac9625c6546476720644732326c41ec673e79e51b3f708b4d25358141e5",
+        "sha256_in_prefix": "6760fac9625c6546476720644732326c41ec673e79e51b3f708b4d25358141e5",
+        "size_in_bytes": 884
+      },
+      {
+        "_path": "include/libsoup-3.0/libsoup/soup-version.h",
+        "path_type": "hardlink",
+        "sha256": "31b33baa4c5ecbfd001537ed682a72df753f8685be7d7e405e4f8849810d7135",
+        "sha256_in_prefix": "31b33baa4c5ecbfd001537ed682a72df753f8685be7d7e405e4f8849810d7135",
+        "size_in_bytes": 7829
+      },
+      {
+        "_path": "include/libsoup-3.0/libsoup/soup-websocket-connection.h",
+        "path_type": "hardlink",
+        "sha256": "65b48fdd2fdfa6bdbaa51a78a34223d98564a1e3c59b8818feedb3f9a786131c",
+        "sha256_in_prefix": "65b48fdd2fdfa6bdbaa51a78a34223d98564a1e3c59b8818feedb3f9a786131c",
+        "size_in_bytes": 4012
+      },
+      {
+        "_path": "include/libsoup-3.0/libsoup/soup-websocket-extension-deflate.h",
+        "path_type": "hardlink",
+        "sha256": "03bd220ea36afcfb7aed313c47399db57f100609279b6c0e2bb9d6e182baf889",
+        "sha256_in_prefix": "03bd220ea36afcfb7aed313c47399db57f100609279b6c0e2bb9d6e182baf889",
+        "size_in_bytes": 1278
+      },
+      {
+        "_path": "include/libsoup-3.0/libsoup/soup-websocket-extension-manager.h",
+        "path_type": "hardlink",
+        "sha256": "ab13cb6588a0ae19a5068e179c60bae99ab9438a4f5174da34cd4a4146e93c18",
+        "sha256_in_prefix": "ab13cb6588a0ae19a5068e179c60bae99ab9438a4f5174da34cd4a4146e93c18",
+        "size_in_bytes": 1249
+      },
+      {
+        "_path": "include/libsoup-3.0/libsoup/soup-websocket-extension.h",
+        "path_type": "hardlink",
+        "sha256": "4a91ea58d9bbd647bcb83243b771d1f8ed5d017dfc4faf298462a821b092a725",
+        "sha256_in_prefix": "4a91ea58d9bbd647bcb83243b771d1f8ed5d017dfc4faf298462a821b092a725",
+        "size_in_bytes": 3394
+      },
+      {
+        "_path": "include/libsoup-3.0/libsoup/soup-websocket.h",
+        "path_type": "hardlink",
+        "sha256": "a7073a9c559134e97729362daedd2db0249e59b92b1eb3006b0abc732c00268b",
+        "sha256_in_prefix": "a7073a9c559134e97729362daedd2db0249e59b92b1eb3006b0abc732c00268b",
+        "size_in_bytes": 3249
+      },
+      {
+        "_path": "include/libsoup-3.0/libsoup/soup.h",
+        "path_type": "hardlink",
+        "sha256": "de046237db5e9aad9bdf59caee27bf2c521007f19e54694e7747c8a7ae5fa430",
+        "sha256_in_prefix": "de046237db5e9aad9bdf59caee27bf2c521007f19e54694e7747c8a7ae5fa430",
+        "size_in_bytes": 1718
+      },
+      {
+        "_path": "lib/girepository-1.0/Soup-3.0.typelib",
+        "path_type": "hardlink",
+        "sha256": "b15149d668a4c683753a3f2a94ff030d294bb5b2e9af701e501f82c7f2605f1d",
+        "sha256_in_prefix": "b15149d668a4c683753a3f2a94ff030d294bb5b2e9af701e501f82c7f2605f1d",
+        "size_in_bytes": 70404
+      },
+      {
+        "_path": "lib/libsoup-3.0.so",
+        "path_type": "softlink",
+        "sha256": "e55b75516d8fd1e1cf9879d7b000baf17d1695f17ab6ed2bb4b990961054bd8e",
+        "size_in_bytes": 753152
+      },
+      {
+        "_path": "lib/libsoup-3.0.so.0",
+        "path_type": "softlink",
+        "sha256": "e55b75516d8fd1e1cf9879d7b000baf17d1695f17ab6ed2bb4b990961054bd8e",
+        "size_in_bytes": 753152
+      },
+      {
+        "_path": "lib/libsoup-3.0.so.0.7.1",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/libsoup_1704297426112/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "e55b75516d8fd1e1cf9879d7b000baf17d1695f17ab6ed2bb4b990961054bd8e",
+        "sha256_in_prefix": "bb2f917a8288dbc6648f6b7b00a5b8a9b33009d8ad2dd29bec4a458f694a5418",
+        "size_in_bytes": 753152
+      },
+      {
+        "_path": "lib/pkgconfig/libsoup-3.0.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/libsoup_1704297426112/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+        "sha256": "24d9c16e9967d4fe565de44a73ebcabc615bafa5bc82ff70c060b5c2466da16e",
+        "sha256_in_prefix": "940d275b74dfdfb6ab8bb950266325a26feb1f67978afb533aecee459d0f4a50",
+        "size_in_bytes": 643
+      },
+      {
+        "_path": "share/gir-1.0/Soup-3.0.gir",
+        "path_type": "hardlink",
+        "sha256": "50adde4d2eee921620d7c2ce6cbbd7d80122d61a4227640d8c6b53331457d230",
+        "sha256_in_prefix": "50adde4d2eee921620d7c2ce6cbbd7d80122d61a4227640d8c6b53331457d230",
+        "size_in_bytes": 892191
+      },
+      {
+        "_path": "share/locale/ab/LC_MESSAGES/libsoup-3.0.mo",
+        "path_type": "hardlink",
+        "sha256": "2b04310b2ccfe4a7bb3a4144cef7e077ee62d2a23b57e704fa257df055bb97af",
+        "sha256_in_prefix": "2b04310b2ccfe4a7bb3a4144cef7e077ee62d2a23b57e704fa257df055bb97af",
+        "size_in_bytes": 5101
+      },
+      {
+        "_path": "share/locale/an/LC_MESSAGES/libsoup-3.0.mo",
+        "path_type": "hardlink",
+        "sha256": "2cfa40d0f03a0b4addb5892659cca0add505e6a41c7ebbf4529b608d696342b6",
+        "sha256_in_prefix": "2cfa40d0f03a0b4addb5892659cca0add505e6a41c7ebbf4529b608d696342b6",
+        "size_in_bytes": 3875
+      },
+      {
+        "_path": "share/locale/as/LC_MESSAGES/libsoup-3.0.mo",
+        "path_type": "hardlink",
+        "sha256": "eba0016f86282dab225e94efb474a865590dd1420b48a42335215e496fef6ae9",
+        "sha256_in_prefix": "eba0016f86282dab225e94efb474a865590dd1420b48a42335215e496fef6ae9",
+        "size_in_bytes": 3614
+      },
+      {
+        "_path": "share/locale/be/LC_MESSAGES/libsoup-3.0.mo",
+        "path_type": "hardlink",
+        "sha256": "d0f8778f9c74122df583f987fec5118246ed49c0cd9c44e7b98509ab97f6eb9b",
+        "sha256_in_prefix": "d0f8778f9c74122df583f987fec5118246ed49c0cd9c44e7b98509ab97f6eb9b",
+        "size_in_bytes": 5208
+      },
+      {
+        "_path": "share/locale/bg/LC_MESSAGES/libsoup-3.0.mo",
+        "path_type": "hardlink",
+        "sha256": "8c0daf9ae3f3f43d4b8db681f6a975878ec844504c63b4913b27602fda8c2714",
+        "sha256_in_prefix": "8c0daf9ae3f3f43d4b8db681f6a975878ec844504c63b4913b27602fda8c2714",
+        "size_in_bytes": 5378
+      },
+      {
+        "_path": "share/locale/bn_IN/LC_MESSAGES/libsoup-3.0.mo",
+        "path_type": "hardlink",
+        "sha256": "82130270f682f16ce1954888991f0ba4f3e37da4b5317878aacc3b319f7e588a",
+        "sha256_in_prefix": "82130270f682f16ce1954888991f0ba4f3e37da4b5317878aacc3b319f7e588a",
+        "size_in_bytes": 3579
+      },
+      {
+        "_path": "share/locale/bs/LC_MESSAGES/libsoup-3.0.mo",
+        "path_type": "hardlink",
+        "sha256": "493563c4810a5a9b4c2efcf053e494bff3c7db2b4410d2f1aa344196599be286",
+        "sha256_in_prefix": "493563c4810a5a9b4c2efcf053e494bff3c7db2b4410d2f1aa344196599be286",
+        "size_in_bytes": 2578
+      },
+      {
+        "_path": "share/locale/ca/LC_MESSAGES/libsoup-3.0.mo",
+        "path_type": "hardlink",
+        "sha256": "bad0ecff8f3e1d6956b0df8a79a288059cf44fd437d2ae2e97a3f4b933aed592",
+        "sha256_in_prefix": "bad0ecff8f3e1d6956b0df8a79a288059cf44fd437d2ae2e97a3f4b933aed592",
+        "size_in_bytes": 4489
+      },
+      {
+        "_path": "share/locale/ca@valencia/LC_MESSAGES/libsoup-3.0.mo",
+        "path_type": "hardlink",
+        "sha256": "27a069524a626b2839a53ffbd47e145474acf5bf3249d09ffe45f71f437b0382",
+        "sha256_in_prefix": "27a069524a626b2839a53ffbd47e145474acf5bf3249d09ffe45f71f437b0382",
+        "size_in_bytes": 4060
+      },
+      {
+        "_path": "share/locale/cs/LC_MESSAGES/libsoup-3.0.mo",
+        "path_type": "hardlink",
+        "sha256": "36a31bcbbcafa9c76a5f42551f1ecebaa2481362cb0344db1878581fc3e4ef4f",
+        "sha256_in_prefix": "36a31bcbbcafa9c76a5f42551f1ecebaa2481362cb0344db1878581fc3e4ef4f",
+        "size_in_bytes": 4236
+      },
+      {
+        "_path": "share/locale/da/LC_MESSAGES/libsoup-3.0.mo",
+        "path_type": "hardlink",
+        "sha256": "313d19d255352487da315d3f2d0278fe0ff60282b9724d065fc3848a4290c01e",
+        "sha256_in_prefix": "313d19d255352487da315d3f2d0278fe0ff60282b9724d065fc3848a4290c01e",
+        "size_in_bytes": 4130
+      },
+      {
+        "_path": "share/locale/de/LC_MESSAGES/libsoup-3.0.mo",
+        "path_type": "hardlink",
+        "sha256": "56795d5d3f9d70bd34edf4125b86ba11b742b0008255bb3128a609cad97963f7",
+        "sha256_in_prefix": "56795d5d3f9d70bd34edf4125b86ba11b742b0008255bb3128a609cad97963f7",
+        "size_in_bytes": 4253
+      },
+      {
+        "_path": "share/locale/el/LC_MESSAGES/libsoup-3.0.mo",
+        "path_type": "hardlink",
+        "sha256": "7618a020ab33ffe963b98ef373f3408a11453c07a6f7795605fc829e7ff47fc3",
+        "sha256_in_prefix": "7618a020ab33ffe963b98ef373f3408a11453c07a6f7795605fc829e7ff47fc3",
+        "size_in_bytes": 5693
+      },
+      {
+        "_path": "share/locale/en_GB/LC_MESSAGES/libsoup-3.0.mo",
+        "path_type": "hardlink",
+        "sha256": "1de2dc691174d22bd879528a08dd189c4821c313a7b14c71467ca0d3e850f4dc",
+        "sha256_in_prefix": "1de2dc691174d22bd879528a08dd189c4821c313a7b14c71467ca0d3e850f4dc",
+        "size_in_bytes": 4147
+      },
+      {
+        "_path": "share/locale/eo/LC_MESSAGES/libsoup-3.0.mo",
+        "path_type": "hardlink",
+        "sha256": "b5569cb08084d1201d7a1b953a8241e3c3931a2c8a3206c7a530d22f28d6c50b",
+        "sha256_in_prefix": "b5569cb08084d1201d7a1b953a8241e3c3931a2c8a3206c7a530d22f28d6c50b",
+        "size_in_bytes": 3945
+      },
+      {
+        "_path": "share/locale/es/LC_MESSAGES/libsoup-3.0.mo",
+        "path_type": "hardlink",
+        "sha256": "17ca24ce20351699269c722ef28dc4fb241afbd4a5b9d2eb583a28ca2f48a7f3",
+        "sha256_in_prefix": "17ca24ce20351699269c722ef28dc4fb241afbd4a5b9d2eb583a28ca2f48a7f3",
+        "size_in_bytes": 4378
+      },
+      {
+        "_path": "share/locale/et/LC_MESSAGES/libsoup-3.0.mo",
+        "path_type": "hardlink",
+        "sha256": "4b3f6489c5ffe4ef5b1b80fdedb99b340d3f7837713555962a5ff7ab4abf20f6",
+        "sha256_in_prefix": "4b3f6489c5ffe4ef5b1b80fdedb99b340d3f7837713555962a5ff7ab4abf20f6",
+        "size_in_bytes": 3669
+      },
+      {
+        "_path": "share/locale/eu/LC_MESSAGES/libsoup-3.0.mo",
+        "path_type": "hardlink",
+        "sha256": "57994c09871923abdc07c4d47d0594e18459cb3966098fa9511e14d6309b3217",
+        "sha256_in_prefix": "57994c09871923abdc07c4d47d0594e18459cb3966098fa9511e14d6309b3217",
+        "size_in_bytes": 4126
+      },
+      {
+        "_path": "share/locale/fa/LC_MESSAGES/libsoup-3.0.mo",
+        "path_type": "hardlink",
+        "sha256": "87e6a45124e9a3a8ba1f48b55f08348cd90ad846a45312f26e556a030b085663",
+        "sha256_in_prefix": "87e6a45124e9a3a8ba1f48b55f08348cd90ad846a45312f26e556a030b085663",
+        "size_in_bytes": 4935
+      },
+      {
+        "_path": "share/locale/fi/LC_MESSAGES/libsoup-3.0.mo",
+        "path_type": "hardlink",
+        "sha256": "d535d7d1d78ac9d058ad5bba266c6c1bd12987539074d5560d7400e4ba4b2b11",
+        "sha256_in_prefix": "d535d7d1d78ac9d058ad5bba266c6c1bd12987539074d5560d7400e4ba4b2b11",
+        "size_in_bytes": 2787
+      },
+      {
+        "_path": "share/locale/fr/LC_MESSAGES/libsoup-3.0.mo",
+        "path_type": "hardlink",
+        "sha256": "dfc9b276f8204a4121cf5f31602f8728755907c6e29caf014ccbdf6f4b692543",
+        "sha256_in_prefix": "dfc9b276f8204a4121cf5f31602f8728755907c6e29caf014ccbdf6f4b692543",
+        "size_in_bytes": 4442
+      },
+      {
+        "_path": "share/locale/fur/LC_MESSAGES/libsoup-3.0.mo",
+        "path_type": "hardlink",
+        "sha256": "3b5d15e113d8ee17c015cce1e67cdbecd3198c45e09359f94c90abcfeed67ac0",
+        "sha256_in_prefix": "3b5d15e113d8ee17c015cce1e67cdbecd3198c45e09359f94c90abcfeed67ac0",
+        "size_in_bytes": 4203
+      },
+      {
+        "_path": "share/locale/gd/LC_MESSAGES/libsoup-3.0.mo",
+        "path_type": "hardlink",
+        "sha256": "e53f5edc892664d68a5a4b3cb605714e0a021f366700a65826b34a7f18c1a11d",
+        "sha256_in_prefix": "e53f5edc892664d68a5a4b3cb605714e0a021f366700a65826b34a7f18c1a11d",
+        "size_in_bytes": 4237
+      },
+      {
+        "_path": "share/locale/gl/LC_MESSAGES/libsoup-3.0.mo",
+        "path_type": "hardlink",
+        "sha256": "0edc40d29434fc02abb16f5b018ffb41fade4ba9b2dbb1b9a5cd68fff61778b6",
+        "sha256_in_prefix": "0edc40d29434fc02abb16f5b018ffb41fade4ba9b2dbb1b9a5cd68fff61778b6",
+        "size_in_bytes": 4420
+      },
+      {
+        "_path": "share/locale/gu/LC_MESSAGES/libsoup-3.0.mo",
+        "path_type": "hardlink",
+        "sha256": "605f21d20b3952f4241fd9da5c5387dcea1d947069e6c9ace6cc10f000a194ab",
+        "sha256_in_prefix": "605f21d20b3952f4241fd9da5c5387dcea1d947069e6c9ace6cc10f000a194ab",
+        "size_in_bytes": 3555
+      },
+      {
+        "_path": "share/locale/he/LC_MESSAGES/libsoup-3.0.mo",
+        "path_type": "hardlink",
+        "sha256": "0845f3fa55ddac0d5b4d644adb1beb6c06907c64b5c887e122bd564c4b3d3b03",
+        "sha256_in_prefix": "0845f3fa55ddac0d5b4d644adb1beb6c06907c64b5c887e122bd564c4b3d3b03",
+        "size_in_bytes": 4470
+      },
+      {
+        "_path": "share/locale/hi/LC_MESSAGES/libsoup-3.0.mo",
+        "path_type": "hardlink",
+        "sha256": "d555a9b0f12d711a67bced28cef34c5141f8d021ab57547b595c4f9e3ce1cdee",
+        "sha256_in_prefix": "d555a9b0f12d711a67bced28cef34c5141f8d021ab57547b595c4f9e3ce1cdee",
+        "size_in_bytes": 3681
+      },
+      {
+        "_path": "share/locale/hr/LC_MESSAGES/libsoup-3.0.mo",
+        "path_type": "hardlink",
+        "sha256": "73ca5bdfe38335632739eec6e82e09fdc89a00b2f34a2b2b9b7e35a5719d1d36",
+        "sha256_in_prefix": "73ca5bdfe38335632739eec6e82e09fdc89a00b2f34a2b2b9b7e35a5719d1d36",
+        "size_in_bytes": 4126
+      },
+      {
+        "_path": "share/locale/hu/LC_MESSAGES/libsoup-3.0.mo",
+        "path_type": "hardlink",
+        "sha256": "9139f61c3814bf1d3cd53f03136f1ad832c95412263254bc824cdfe08290a270",
+        "sha256_in_prefix": "9139f61c3814bf1d3cd53f03136f1ad832c95412263254bc824cdfe08290a270",
+        "size_in_bytes": 4292
+      },
+      {
+        "_path": "share/locale/id/LC_MESSAGES/libsoup-3.0.mo",
+        "path_type": "hardlink",
+        "sha256": "7e589512366363675a818b00902c2d75cb301fc0d68a3178f523beb0a2895bb0",
+        "sha256_in_prefix": "7e589512366363675a818b00902c2d75cb301fc0d68a3178f523beb0a2895bb0",
+        "size_in_bytes": 4028
+      },
+      {
+        "_path": "share/locale/it/LC_MESSAGES/libsoup-3.0.mo",
+        "path_type": "hardlink",
+        "sha256": "f00860174aa37e9b2a4c65306d52774aeae2182e47ce654df471a5e169c1c221",
+        "sha256_in_prefix": "f00860174aa37e9b2a4c65306d52774aeae2182e47ce654df471a5e169c1c221",
+        "size_in_bytes": 4243
+      },
+      {
+        "_path": "share/locale/ja/LC_MESSAGES/libsoup-3.0.mo",
+        "path_type": "hardlink",
+        "sha256": "f507a79fcd2a53bee588e0d86022b2fe6deade06becc6878490da464e31ebf73",
+        "sha256_in_prefix": "f507a79fcd2a53bee588e0d86022b2fe6deade06becc6878490da464e31ebf73",
+        "size_in_bytes": 5050
+      },
+      {
+        "_path": "share/locale/ka/LC_MESSAGES/libsoup-3.0.mo",
+        "path_type": "hardlink",
+        "sha256": "56b731a054a99a8d0d530ff2583cab627ad5b11ddcfb378d70311e9ccb0e70e9",
+        "sha256_in_prefix": "56b731a054a99a8d0d530ff2583cab627ad5b11ddcfb378d70311e9ccb0e70e9",
+        "size_in_bytes": 6286
+      },
+      {
+        "_path": "share/locale/kn/LC_MESSAGES/libsoup-3.0.mo",
+        "path_type": "hardlink",
+        "sha256": "8e49548624b66de20af3b72f603cf86df80e534397392901204ff145335de724",
+        "sha256_in_prefix": "8e49548624b66de20af3b72f603cf86df80e534397392901204ff145335de724",
+        "size_in_bytes": 4214
+      },
+      {
+        "_path": "share/locale/ko/LC_MESSAGES/libsoup-3.0.mo",
+        "path_type": "hardlink",
+        "sha256": "fbe7f3e6d8430c434acb171e31c1ae44a4902ac88ca2aa8e152db17198b15f07",
+        "sha256_in_prefix": "fbe7f3e6d8430c434acb171e31c1ae44a4902ac88ca2aa8e152db17198b15f07",
+        "size_in_bytes": 4567
+      },
+      {
+        "_path": "share/locale/lt/LC_MESSAGES/libsoup-3.0.mo",
+        "path_type": "hardlink",
+        "sha256": "d1050e74e8973deb5bd187b9e7b10d4b8e8cd6149b905e8f23d94b2864f3dce7",
+        "sha256_in_prefix": "d1050e74e8973deb5bd187b9e7b10d4b8e8cd6149b905e8f23d94b2864f3dce7",
+        "size_in_bytes": 4217
+      },
+      {
+        "_path": "share/locale/lv/LC_MESSAGES/libsoup-3.0.mo",
+        "path_type": "hardlink",
+        "sha256": "76839226d273b89c784183559d08c475ddc58f54233cda868bd9ba910612361f",
+        "sha256_in_prefix": "76839226d273b89c784183559d08c475ddc58f54233cda868bd9ba910612361f",
+        "size_in_bytes": 4215
+      },
+      {
+        "_path": "share/locale/ml/LC_MESSAGES/libsoup-3.0.mo",
+        "path_type": "hardlink",
+        "sha256": "5d55b4d0d37fbe185eac744274d71036b2ff56558dd7fe095ec3e0fa43626d71",
+        "sha256_in_prefix": "5d55b4d0d37fbe185eac744274d71036b2ff56558dd7fe095ec3e0fa43626d71",
+        "size_in_bytes": 3327
+      },
+      {
+        "_path": "share/locale/mr/LC_MESSAGES/libsoup-3.0.mo",
+        "path_type": "hardlink",
+        "sha256": "08373065f0a9c76e4040cee90d5aad1bb9cddaf07bc922463d9d8cde1f3d3226",
+        "sha256_in_prefix": "08373065f0a9c76e4040cee90d5aad1bb9cddaf07bc922463d9d8cde1f3d3226",
+        "size_in_bytes": 3490
+      },
+      {
+        "_path": "share/locale/ms/LC_MESSAGES/libsoup-3.0.mo",
+        "path_type": "hardlink",
+        "sha256": "b5f75cb1e4d5ddf21223408640b3ab6ae9b4e870550054ad491aef72b2ec9234",
+        "sha256_in_prefix": "b5f75cb1e4d5ddf21223408640b3ab6ae9b4e870550054ad491aef72b2ec9234",
+        "size_in_bytes": 4064
+      },
+      {
+        "_path": "share/locale/nb/LC_MESSAGES/libsoup-3.0.mo",
+        "path_type": "hardlink",
+        "sha256": "f1eccc878b3e27dd119fa7616fedd929b37ce99b8c68f3c3f79ea01b597c35ab",
+        "sha256_in_prefix": "f1eccc878b3e27dd119fa7616fedd929b37ce99b8c68f3c3f79ea01b597c35ab",
+        "size_in_bytes": 3628
+      },
+      {
+        "_path": "share/locale/ne/LC_MESSAGES/libsoup-3.0.mo",
+        "path_type": "hardlink",
+        "sha256": "d520ed231e9d62adafd2f530d48144f79366e1958ad16b312232e9e4430ffd88",
+        "sha256_in_prefix": "d520ed231e9d62adafd2f530d48144f79366e1958ad16b312232e9e4430ffd88",
+        "size_in_bytes": 5949
+      },
+      {
+        "_path": "share/locale/nl/LC_MESSAGES/libsoup-3.0.mo",
+        "path_type": "hardlink",
+        "sha256": "8a92e3d378db6439a9011f05e81b92a055fe3c55f3d8db3f3d4cfd69c54716e3",
+        "sha256_in_prefix": "8a92e3d378db6439a9011f05e81b92a055fe3c55f3d8db3f3d4cfd69c54716e3",
+        "size_in_bytes": 4091
+      },
+      {
+        "_path": "share/locale/oc/LC_MESSAGES/libsoup-3.0.mo",
+        "path_type": "hardlink",
+        "sha256": "e4991617a9e4a666da5f678d1d6bc8e048eb3b7dda3dd8f8ca46089730982c3e",
+        "sha256_in_prefix": "e4991617a9e4a666da5f678d1d6bc8e048eb3b7dda3dd8f8ca46089730982c3e",
+        "size_in_bytes": 4317
+      },
+      {
+        "_path": "share/locale/or/LC_MESSAGES/libsoup-3.0.mo",
+        "path_type": "hardlink",
+        "sha256": "97e114e8a6fb73ad33929bb54dd6b16f00d11b19aaa407435831f4e67849a88a",
+        "sha256_in_prefix": "97e114e8a6fb73ad33929bb54dd6b16f00d11b19aaa407435831f4e67849a88a",
+        "size_in_bytes": 3761
+      },
+      {
+        "_path": "share/locale/pa/LC_MESSAGES/libsoup-3.0.mo",
+        "path_type": "hardlink",
+        "sha256": "8c8d32307804c9ddae48a6c8a237b924dacc0984d6b5984006d902b7a525e686",
+        "sha256_in_prefix": "8c8d32307804c9ddae48a6c8a237b924dacc0984d6b5984006d902b7a525e686",
+        "size_in_bytes": 3555
+      },
+      {
+        "_path": "share/locale/pl/LC_MESSAGES/libsoup-3.0.mo",
+        "path_type": "hardlink",
+        "sha256": "7c5d8a8444bce9be4086bf3479cc02c05f96c423661c3971698abcccf1454e34",
+        "sha256_in_prefix": "7c5d8a8444bce9be4086bf3479cc02c05f96c423661c3971698abcccf1454e34",
+        "size_in_bytes": 4298
+      },
+      {
+        "_path": "share/locale/pt/LC_MESSAGES/libsoup-3.0.mo",
+        "path_type": "hardlink",
+        "sha256": "9f4e7c0e1a9428983fea23d82c6851fc006d31dd9cd97e8704257946988af224",
+        "sha256_in_prefix": "9f4e7c0e1a9428983fea23d82c6851fc006d31dd9cd97e8704257946988af224",
+        "size_in_bytes": 4180
+      },
+      {
+        "_path": "share/locale/pt_BR/LC_MESSAGES/libsoup-3.0.mo",
+        "path_type": "hardlink",
+        "sha256": "63504133b0a0beefd5b8d80e78fa692f8492bcbc673ec6d1724080beb45bb903",
+        "sha256_in_prefix": "63504133b0a0beefd5b8d80e78fa692f8492bcbc673ec6d1724080beb45bb903",
+        "size_in_bytes": 4333
+      },
+      {
+        "_path": "share/locale/ro/LC_MESSAGES/libsoup-3.0.mo",
+        "path_type": "hardlink",
+        "sha256": "0f555596f556341573830be2ca85b42721ba58863d91538fe6014987409caac0",
+        "sha256_in_prefix": "0f555596f556341573830be2ca85b42721ba58863d91538fe6014987409caac0",
+        "size_in_bytes": 4245
+      },
+      {
+        "_path": "share/locale/ru/LC_MESSAGES/libsoup-3.0.mo",
+        "path_type": "hardlink",
+        "sha256": "d6ab92314c46a2217bd65a45d33c0cd34843b17d447774b5798c1cb0fd38ab59",
+        "sha256_in_prefix": "d6ab92314c46a2217bd65a45d33c0cd34843b17d447774b5798c1cb0fd38ab59",
+        "size_in_bytes": 5403
+      },
+      {
+        "_path": "share/locale/sk/LC_MESSAGES/libsoup-3.0.mo",
+        "path_type": "hardlink",
+        "sha256": "3ecf069373fba1e627d0233374067dd92d4ed05906ff946e507cabc54db91304",
+        "sha256_in_prefix": "3ecf069373fba1e627d0233374067dd92d4ed05906ff946e507cabc54db91304",
+        "size_in_bytes": 4364
+      },
+      {
+        "_path": "share/locale/sl/LC_MESSAGES/libsoup-3.0.mo",
+        "path_type": "hardlink",
+        "sha256": "848f344f90be528b660318badc3b8a7978cdb5292278de142cab6eddb5b19133",
+        "sha256_in_prefix": "848f344f90be528b660318badc3b8a7978cdb5292278de142cab6eddb5b19133",
+        "size_in_bytes": 4219
+      },
+      {
+        "_path": "share/locale/sr/LC_MESSAGES/libsoup-3.0.mo",
+        "path_type": "hardlink",
+        "sha256": "5d25b995464d973e07b30cd606c4b4f23c29a5cc3c8b55e97f02dba0d285fe14",
+        "sha256_in_prefix": "5d25b995464d973e07b30cd606c4b4f23c29a5cc3c8b55e97f02dba0d285fe14",
+        "size_in_bytes": 5407
+      },
+      {
+        "_path": "share/locale/sr@latin/LC_MESSAGES/libsoup-3.0.mo",
+        "path_type": "hardlink",
+        "sha256": "aff58b07880b0fa8ef8562588e2aca9e339e8ecb1abff0f3280b6f421bf9f396",
+        "sha256_in_prefix": "aff58b07880b0fa8ef8562588e2aca9e339e8ecb1abff0f3280b6f421bf9f396",
+        "size_in_bytes": 3932
+      },
+      {
+        "_path": "share/locale/sv/LC_MESSAGES/libsoup-3.0.mo",
+        "path_type": "hardlink",
+        "sha256": "38abff2fc4eaf987e4a3308c4e7820fad85588597a63fd9a8a0f37aee2fcd14a",
+        "sha256_in_prefix": "38abff2fc4eaf987e4a3308c4e7820fad85588597a63fd9a8a0f37aee2fcd14a",
+        "size_in_bytes": 4033
+      },
+      {
+        "_path": "share/locale/ta/LC_MESSAGES/libsoup-3.0.mo",
+        "path_type": "hardlink",
+        "sha256": "f2574bd4a55e690f6e9390003cc4e690030222cf0e9d1bc40d108550c5c9bac6",
+        "sha256_in_prefix": "f2574bd4a55e690f6e9390003cc4e690030222cf0e9d1bc40d108550c5c9bac6",
+        "size_in_bytes": 4150
+      },
+      {
+        "_path": "share/locale/te/LC_MESSAGES/libsoup-3.0.mo",
+        "path_type": "hardlink",
+        "sha256": "68fbf9bbd6c9370e673b8d575c14d88c3bcc988fef001db317602adb15705723",
+        "sha256_in_prefix": "68fbf9bbd6c9370e673b8d575c14d88c3bcc988fef001db317602adb15705723",
+        "size_in_bytes": 3726
+      },
+      {
+        "_path": "share/locale/tg/LC_MESSAGES/libsoup-3.0.mo",
+        "path_type": "hardlink",
+        "sha256": "9afaec2fad96d4ca47e64100a79bcd511fcbd3c0ce0ebfd76046ca6cad55b6e4",
+        "sha256_in_prefix": "9afaec2fad96d4ca47e64100a79bcd511fcbd3c0ce0ebfd76046ca6cad55b6e4",
+        "size_in_bytes": 2561
+      },
+      {
+        "_path": "share/locale/th/LC_MESSAGES/libsoup-3.0.mo",
+        "path_type": "hardlink",
+        "sha256": "e039593f7e6882c2c64554bebfed5e7c91e2d6326e4fb57d74294a9a25bec366",
+        "sha256_in_prefix": "e039593f7e6882c2c64554bebfed5e7c91e2d6326e4fb57d74294a9a25bec366",
+        "size_in_bytes": 5206
+      },
+      {
+        "_path": "share/locale/tr/LC_MESSAGES/libsoup-3.0.mo",
+        "path_type": "hardlink",
+        "sha256": "35783c66018cf4333553267b4e6aa17f394f126d4d54b902b3fe3d515189c308",
+        "sha256_in_prefix": "35783c66018cf4333553267b4e6aa17f394f126d4d54b902b3fe3d515189c308",
+        "size_in_bytes": 4074
+      },
+      {
+        "_path": "share/locale/ug/LC_MESSAGES/libsoup-3.0.mo",
+        "path_type": "hardlink",
+        "sha256": "47bbb09272ec06c0144a271154eaea2c06b9afd1f41c08b6ab706cf77497bff5",
+        "sha256_in_prefix": "47bbb09272ec06c0144a271154eaea2c06b9afd1f41c08b6ab706cf77497bff5",
+        "size_in_bytes": 2454
+      },
+      {
+        "_path": "share/locale/uk/LC_MESSAGES/libsoup-3.0.mo",
+        "path_type": "hardlink",
+        "sha256": "a6df0a8973ad99e20ec647f4bf5378fc1a2a93d147f0da1092050512e8cf4f79",
+        "sha256_in_prefix": "a6df0a8973ad99e20ec647f4bf5378fc1a2a93d147f0da1092050512e8cf4f79",
+        "size_in_bytes": 5384
+      },
+      {
+        "_path": "share/locale/uz@cyrillic/LC_MESSAGES/libsoup-3.0.mo",
+        "path_type": "hardlink",
+        "sha256": "4e61cdbe7688aa75d03f2a4d1c20aaf6d2404dded5ec74ee8723bbd8c4316fca",
+        "sha256_in_prefix": "4e61cdbe7688aa75d03f2a4d1c20aaf6d2404dded5ec74ee8723bbd8c4316fca",
+        "size_in_bytes": 1795
+      },
+      {
+        "_path": "share/locale/vi/LC_MESSAGES/libsoup-3.0.mo",
+        "path_type": "hardlink",
+        "sha256": "1114b6a3ff601ec64290ce5aee5e96d92280a5779e726f480361889fb17131e6",
+        "sha256_in_prefix": "1114b6a3ff601ec64290ce5aee5e96d92280a5779e726f480361889fb17131e6",
+        "size_in_bytes": 4044
+      },
+      {
+        "_path": "share/locale/zh_CN/LC_MESSAGES/libsoup-3.0.mo",
+        "path_type": "hardlink",
+        "sha256": "e79a0e195537bc802d4a472021526b2381fadfb2e7e5b17fb7a4a0447f83929b",
+        "sha256_in_prefix": "e79a0e195537bc802d4a472021526b2381fadfb2e7e5b17fb7a4a0447f83929b",
+        "size_in_bytes": 3809
+      },
+      {
+        "_path": "share/locale/zh_HK/LC_MESSAGES/libsoup-3.0.mo",
+        "path_type": "hardlink",
+        "sha256": "660a245cf1d3707d5a22618fc3a93fbb0a80b3421b5e695f56ff8c93da4e1e64",
+        "sha256_in_prefix": "660a245cf1d3707d5a22618fc3a93fbb0a80b3421b5e695f56ff8c93da4e1e64",
+        "size_in_bytes": 2445
+      },
+      {
+        "_path": "share/locale/zh_TW/LC_MESSAGES/libsoup-3.0.mo",
+        "path_type": "hardlink",
+        "sha256": "d83e91966fa2b7017eb373f244799613e79fbbd07df95417c04963dc04a309c7",
+        "sha256_in_prefix": "d83e91966fa2b7017eb373f244799613e79fbbd07df95417c04963dc04a309c7",
+        "size_in_bytes": 3853
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "bf62daf239100bcd8347da4785aacc56e38aecaaa22e2bce3e34511509e9addb",
+  "size": 427617,
+  "subdir": "linux-64",
+  "timestamp": 1704297673000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/libsoup-3.4.4-h5006749_2.conda",
+  "version": "3.4.4"
+}

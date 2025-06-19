@@ -1,0 +1,11 @@
+prefix=/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading
+exec_prefix=/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading
+libdir=/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/lib
+includedir=/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/include
+
+Name: libpsx
+Description: libpsx - linux posix syscall API for threads
+Version: 2.75
+Libs: -L${libdir} -Wl,--no-as-needed -Wl,--whole-archive -lpsx -Wl,--no-whole-archive -Wl,--as-needed -lpthread
+Libs.private: 
+Cflags: -I${includedir}

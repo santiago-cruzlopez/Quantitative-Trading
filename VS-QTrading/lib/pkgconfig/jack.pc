@@ -1,0 +1,12 @@
+prefix=/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading
+exec_prefix=/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading
+libdir=/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/lib
+includedir=/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/include
+server_libs=-L/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/lib -ljackserver
+jack_implementation=jack2
+
+Name: jack
+Description: the Jack Audio Connection Kit: a low-latency synchronous callback-based media server
+Version: 1.9.22
+Libs: -L${libdir} -ljack
+Cflags: -I${includedir}

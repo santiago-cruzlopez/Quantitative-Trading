@@ -29,10 +29,10 @@ MODLIBS=           $(LOCALMODLIBS) $(BASEMODLIBS)
 
 # === Variables set by configure
 VERSION=	3.13
-srcdir=		/croot/python-split_1749743939142/work
-VPATH=		/croot/python-split_1749743939142/work
-abs_srcdir=	/croot/python-split_1749743939142/work
-abs_builddir=	/croot/python-split_1749743939142/work/build-static
+srcdir=		/home/conda/feedstock_root/build_artifacts/python-split_1750061167312/work
+VPATH=		/home/conda/feedstock_root/build_artifacts/python-split_1750061167312/work
+abs_srcdir=	/home/conda/feedstock_root/build_artifacts/python-split_1750061167312/work
+abs_builddir=	/home/conda/feedstock_root/build_artifacts/python-split_1750061167312/work/build-static
 
 
 CC=		x86_64-conda-linux-gnu-gcc -pthread
@@ -84,11 +84,11 @@ MAKESETUP=      $(srcdir)/Modules/makesetup
 OPT=		-DNDEBUG -O2 -Wall
 BASECFLAGS=	 -fno-strict-overflow -Wsign-compare
 BASECPPFLAGS=	-IObjects -IInclude -IPython
-CONFIGURE_CFLAGS=	-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/include -fdebug-prefix-map=/croot/python-split_1749743939142/work=/usr/local/src/conda/python-3.13.5 -fdebug-prefix-map=/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading=/usr/local/src/conda-prefix    
+CONFIGURE_CFLAGS=	-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/python-split_1750061167312/work=/usr/local/src/conda/python-3.13.5 -fdebug-prefix-map=/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading=/usr/local/src/conda-prefix    
 # CFLAGS_NODIST is used for building the interpreter and stdlib C extensions.
 # Use it when a compiler flag should _not_ be part of the distutils CFLAGS
 # once Python is installed (Issue #21121).
-CONFIGURE_CFLAGS_NODIST= -fno-semantic-interposition     -g -std=c11 -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wstrict-prototypes -Werror=implicit-function-declaration -fvisibility=hidden
+CONFIGURE_CFLAGS_NODIST= -D_Py_TIER2=3 -D_Py_JIT -fno-semantic-interposition     -g -std=c11 -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -Wstrict-prototypes -Werror=implicit-function-declaration -fvisibility=hidden
 # LDFLAGS_NODIST is used in the same manner as CFLAGS_NODIST.
 # Use it when a linker flag should _not_ be part of the distutils LDFLAGS
 # once Python is installed (bpo-35257)
@@ -97,7 +97,7 @@ CONFIGURE_LDFLAGS_NODIST= -fno-semantic-interposition     -g
 # of _bootstrap_python and _freeze_module tools, which don't need LTO.
 CONFIGURE_LDFLAGS_NOLTO=-fno-lto
 CONFIGURE_CPPFLAGS=	-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/include -I/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/include
-CONFIGURE_LDFLAGS=	-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/lib -Wl,-rpath-link,/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/lib -L/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/lib
+CONFIGURE_LDFLAGS=	-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/lib -Wl,-rpath-link,/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/lib -L/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/lib
 # Avoid assigning CFLAGS, LDFLAGS, etc. so users can use them on the
 # command line to append to these values without stomping the pre-set
 # values.
@@ -307,11 +307,11 @@ MODULE__CTYPES_CFLAGS=-fno-strict-overflow -I/home/santi_cruz/Documents/Quantita
 MODULE__CTYPES_LDFLAGS=-L/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/lib -lffi -ldl
 MODULE__CURSES_STATE=yes
 MODULE__CURSES_CFLAGS=-D_GNU_SOURCE -DNCURSES_WIDECHAR -I/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/include/ncursesw -I/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/include
-MODULE__CURSES_LDFLAGS=-L/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/lib -Wl,-O2 -Wl,--sort-common -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/lib -Wl,-rpath-link,/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/lib -lncursesw -ltinfow
+MODULE__CURSES_LDFLAGS=-L/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/lib -Wl,-O2 -Wl,--sort-common -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/lib -Wl,-rpath-link,/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/lib -lncursesw -ltinfow
 
 MODULE__CURSES_PANEL_STATE=yes
 MODULE__CURSES_PANEL_CFLAGS=-D_GNU_SOURCE -DNCURSES_WIDECHAR -D_GNU_SOURCE -DNCURSES_WIDECHAR -I/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/include/ncursesw -I/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/include -I/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/include/ncursesw -I/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/include -D_GNU_SOURCE -DNCURSES_WIDECHAR -I/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/include/ncursesw -I/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/include
-MODULE__CURSES_PANEL_LDFLAGS=-L/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/lib -Wl,-O2 -Wl,--sort-common -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/lib -Wl,-rpath-link,/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/lib -lpanelw -L/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/lib -Wl,-O2 -Wl,--sort-common -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/lib -Wl,-rpath-link,/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/lib -lncursesw -ltinfow
+MODULE__CURSES_PANEL_LDFLAGS=-L/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/lib -Wl,-O2 -Wl,--sort-common -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/lib -Wl,-rpath-link,/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/lib -lpanelw -L/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/lib -Wl,-O2 -Wl,--sort-common -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/lib -Wl,-rpath-link,/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/lib -lncursesw -ltinfow
 
 MODULE__DECIMAL_STATE=yes
 MODULE__DECIMAL_CFLAGS=-I/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/include
@@ -319,8 +319,8 @@ MODULE__DECIMAL_LDFLAGS=-L/home/santi_cruz/Documents/Quantitative-Trading/VS-QTr
 MODULE__DBM_STATE=missing
 MODULE__GDBM_STATE=missing
 MODULE_READLINE_STATE=yes
-MODULE_READLINE_CFLAGS=
-MODULE_READLINE_LDFLAGS=-lreadline
+MODULE_READLINE_CFLAGS=-D_GNU_SOURCE -I/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/include -I/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/include/ncurses -I/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/include
+MODULE_READLINE_LDFLAGS=-L/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/lib -lreadline
 MODULE__SQLITE3_STATE=yes
 MODULE__SQLITE3_CFLAGS=-I/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/include -I$(srcdir)/Modules/_sqlite
 MODULE__SQLITE3_LDFLAGS=-L/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/lib -lsqlite3
@@ -380,7 +380,7 @@ EXEMODE=	755
 FILEMODE=	644
 
 # configure script arguments
-CONFIG_ARGS=	 '--prefix=/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading' '--build=x86_64-conda-linux-gnu' '--host=x86_64-conda-linux-gnu' '--enable-ipv6' '--with-ensurepip=no' '--with-tzpath=/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/share/zoneinfo' '--with-computed-gotos' '--with-system-expat' '--enable-loadable-sqlite-extensions' '--with-tcltk-includes=-I/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/include' '--with-tcltk-libs=-L/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/lib -ltcl8.6 -ltk8.6' '--with-platlibdir=lib' '--with-system-libmpdec=yes' '--with-lto=full' '--enable-optimizations' '-oldincludedir=/croot/python-split_1749743939142/_build_env/x86_64-conda-linux-gnu/sysroot/usr/include' '--disable-shared' 'PROFILE_TASK=-m test --pgo' 'build_alias=x86_64-conda-linux-gnu' 'host_alias=x86_64-conda-linux-gnu' 'PKG_CONFIG_PATH=/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/lib/pkgconfig' 'MACHDEP=linux' 'CC=x86_64-conda-linux-gnu-gcc' 'CFLAGS=-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/include -fdebug-prefix-map=/croot/python-split_1749743939142/work=/usr/local/src/conda/python-3.13.5 -fdebug-prefix-map=/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading=/usr/local/src/conda-prefix    ' 'LDFLAGS=-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/lib -Wl,-rpath-link,/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/lib -L/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/lib' 'CPPFLAGS=-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/include -I/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/include' 'CPP=/croot/python-split_1749743939142/_build_env/bin/x86_64-conda-linux-gnu-cpp'
+CONFIG_ARGS=	 '--prefix=/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading' '--build=x86_64-conda-linux-gnu' '--host=x86_64-conda-linux-gnu' '--enable-ipv6' '--with-ensurepip=no' '--with-tzpath=/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/share/zoneinfo' '--with-computed-gotos' '--with-system-expat' '--enable-loadable-sqlite-extensions' '--with-tcltk-includes=-I/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/include' '--with-tcltk-libs=-L/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/lib -ltcl8.6 -ltk8.6' '--with-platlibdir=lib' '--enable-experimental-jit=yes-off' '--with-lto=full' '--enable-optimizations' '-oldincludedir=/home/conda/feedstock_root/build_artifacts/python-split_1750061167312/_build_env/x86_64-conda-linux-gnu/sysroot/usr/include' '--disable-shared' 'PROFILE_TASK=-m test --pgo' 'build_alias=x86_64-conda-linux-gnu' 'host_alias=x86_64-conda-linux-gnu' 'PKG_CONFIG_PATH=/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/lib/pkgconfig' 'MACHDEP=linux' 'CC=x86_64-conda-linux-gnu-gcc' 'CFLAGS=-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/include -fdebug-prefix-map=/home/conda/feedstock_root/build_artifacts/python-split_1750061167312/work=/usr/local/src/conda/python-3.13.5 -fdebug-prefix-map=/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading=/usr/local/src/conda-prefix    ' 'LDFLAGS=-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/lib -Wl,-rpath-link,/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/lib -L/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/lib' 'CPPFLAGS=-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/include -I/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/include' 'CPP=/home/conda/feedstock_root/build_artifacts/python-split_1750061167312/_build_env/bin/x86_64-conda-linux-gnu-cpp'
 
 
 # Subdirectories with code
@@ -430,7 +430,7 @@ BUILDPYTHON=	python$(BUILDEXE)
 
 HOSTRUNNER= 
 
-PYTHON_FOR_REGEN?=python3
+PYTHON_FOR_REGEN?=python3.13
 UPDATE_FILE=$(PYTHON_FOR_REGEN) $(srcdir)/Tools/build/update_file.py
 PYTHON_FOR_BUILD=./$(BUILDPYTHON) -E
 # Single-platform builds depend on $(BUILDPYTHON). Cross builds use an
@@ -1519,7 +1519,7 @@ sharedmods: $(SHAREDMODS) pybuilddir.txt
 # dependency on BUILDPYTHON ensures that the target is run last
 .PHONY: checksharedmods
 checksharedmods: sharedmods $(PYTHON_FOR_BUILD_DEPS) $(BUILDPYTHON)
-	@$(RUNSHARED) $(PYTHON_FOR_BUILD) $(srcdir)/Tools/build/check_extension_modules.py
+	@$(RUNSHARED) $(srcdir)/if_runnable.sh $(PYTHON_FOR_BUILD) $(srcdir)/Tools/build/check_extension_modules.py
 
 .PHONY: rundsymutil
 rundsymutil: sharedmods $(PYTHON_FOR_BUILD_DEPS) $(BUILDPYTHON)
@@ -3017,14 +3017,14 @@ JIT_DEPS = \
 		pyconfig.h
 
 jit_stencils.h: $(JIT_DEPS)
-	
+	$(PYTHON_FOR_REGEN) $(srcdir)/Tools/jit/build.py x86_64-conda-linux-gnu
 
-Python/jit.o: $(srcdir)/Python/jit.c 
+Python/jit.o: $(srcdir)/Python/jit.c jit_stencils.h
 	$(CC) -c $(PY_CORE_CFLAGS) -o $@ $<
 
 .PHONY: regen-jit
 regen-jit:
-	
+	$(PYTHON_FOR_REGEN) $(srcdir)/Tools/jit/build.py x86_64-conda-linux-gnu
 
 # Some make's put the object file in the current directory
 .c.o:

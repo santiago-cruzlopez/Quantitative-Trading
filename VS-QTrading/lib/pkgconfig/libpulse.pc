@@ -1,0 +1,12 @@
+prefix=/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading
+exec_prefix=/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading
+libdir=/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/lib
+includedir=/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/include
+modlibexecdir=/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/lib/pulseaudio/modules
+
+Name: libpulse
+Description: PulseAudio Client Interface
+Version: 17.0
+Libs: -L${libdir} -lpulse -pthread
+Libs.private: -L${libdir}/pulseaudio -lpulsecommon-17.0
+Cflags: -I${includedir} -D_REENTRANT

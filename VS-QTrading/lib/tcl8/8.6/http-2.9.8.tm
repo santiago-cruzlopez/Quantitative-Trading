@@ -2356,7 +2356,7 @@ proc http::error {token} {
 #	token	The token returned from http::geturl
 #
 # Side Effects
-#	Unsets the state array.
+#	unsets the state array
 
 proc http::cleanup {token} {
     variable $token
@@ -2375,7 +2375,7 @@ proc http::cleanup {token} {
 
 # http::Connect
 #
-#	This callback is made when an asynchronous connection completes.
+#	This callback is made when an asyncronous connection completes.
 #
 # Arguments
 #	token	The token returned from http::geturl
@@ -3250,7 +3250,7 @@ proc http::CopyChunk {token chunk} {
 #
 # Arguments
 #	token	The token returned from http::geturl
-#	count	The amount transferred
+#	count	The amount transfered
 #
 # Side Effects
 #	Invokes callbacks
@@ -3293,7 +3293,7 @@ proc http::CopyDone {token count {error {}}} {
 #	reason	- "eof" means premature EOF (not EOF as the natural end of
 #		  the response)
 #		- "" means completion of response, with or without EOF
-#		- anything else describes an error condition other than
+#		- anything else describes an error confition other than
 #		  premature EOF.
 #
 # Side Effects

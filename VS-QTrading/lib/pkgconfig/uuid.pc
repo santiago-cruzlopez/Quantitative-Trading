@@ -5,7 +5,7 @@ includedir=/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/include
 
 Name: uuid
 Description: Universally unique id library
-Version: 2.32.1
+Version: 2.38.1
 Requires:
 Cflags: -I${includedir}/uuid
 Libs: -L${libdir} -luuid

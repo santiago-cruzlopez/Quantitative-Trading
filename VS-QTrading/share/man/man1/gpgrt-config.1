@@ -1,0 +1,66 @@
+.\" Created from Texinfo source by yat2m 1.55-unknown
+.TH GPGRT-CONFIG 1 2025-04-25 "Libgpg-error 1.55-unknown" "GnuPG"
+.SH NAME
+.B gpgrt-config
+\- Helper script to get information about the installed version of gpg libraries
+.SH SYNOPSIS
+.B  gpgrt-config
+.RI [ options ]
+.I [ module ]
+
+.SH DESCRIPTION
+\fBgpgrt\-config\fP is a script tool that is used by the autoconf macros
+shipped with gnupg software (e.g., AM_PATH_GPG_ERROR and AM_PATH_GPGME) to
+determine the compiler and linker flags that should be used to compile
+and link programs that use the specific library (e.g., libgpg-error or
+libgpgme). \fBgpgrt\-config\fP uses pkg-config .pc files as data source.
+
+Apart from options \fBgpgrt\-config\fP accepts a single argument
+\fBmodule\fP specifying the basename (without the ".pc"-suffix) of the
+pkg-config file to be used as input. \fBmodule\fP will default to
+\fBgpg\-error\fP if it is not specified.
+
+.SH OPTIONS
+
+\fBgpgrt\-config\fP accepts the following options:
+
+.TP
+.B  \-\-libdir=\fILIBDIR\fP
+Parent directory path of pkgconfig file search path.
+e.g., \(oqgpgrt\-config \-\-libdir=/usr/lib \-\-exists gpgme\(cq
+will parse \(oq\fI/usr/lib/pkgconfig/gpgme.pc\fP\(cq.
+
+.TP
+.B   \-\-exists
+Test whether the pkg-config file \(oq\fImodule.pc\fP\(cq exist and exits with
+success or error accordingly.
+
+.TP
+.B  \-\-modversion
+Print the currently installed version of \fBmodule\fP on the standard output.
+
+.TP
+.B  \-\-libs
+Print the linker flags that are necessary to link a program using the
+\fBmodule\fP.
+
+.TP
+.B  \-\-cflags
+Print the compiler flags that are necessary to compile a program using the
+\fBmodule\fP.
+
+.TP
+.B  \-\-static
+Modifies output if linking statically instead of dynamically.
+
+.TP
+.B  \-\-variable=\fIVARNAME\fP
+Output variable VARNAME from the module's pkg-config file.
+
+.P
+
+.SH BUGS
+
+\fBgpgrt\-config\fP is tried to be compatible to pkg-config, and to
+support cross build well, but it is not intended to be a replacement.
+

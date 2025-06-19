@@ -62,7 +62,6 @@ proc floorDisplay {w active} {
 
     $w create window 600 100 -anchor w -window $w.entry
     $w create text 600 100 -anchor e -text "Room: "
-
     $w config -scrollregion [$w bbox all]
 }
 
@@ -1369,4 +1368,4 @@ if {[tk windowingsystem] eq "aqua" && ![package vsatisfies [package provide Tk] 
 }
 bind $c <Destroy> "unset currentRoom"
 set currentRoom ""
-trace add variable currentRoom write "roomChanged $c"
+trace variable currentRoom w "roomChanged $c"

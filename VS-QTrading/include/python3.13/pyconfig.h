@@ -1023,7 +1023,7 @@
 /* #undef HAVE_PWRITEV2 */
 
 /* Define to 1 if you have the <readline/readline.h> header file. */
-#define HAVE_READLINE_READLINE_H 1
+/* #undef HAVE_READLINE_READLINE_H */
 
 /* Define to 1 if you have the `readlink' function. */
 #define HAVE_READLINK 1
@@ -1882,7 +1882,7 @@
 
 
 /* Define if WINDOW in curses.h offers a field _flags. */
-#define WINDOW_HAS_FLAGS 1
+/* #undef WINDOW_HAS_FLAGS */
 
 /* Define if you want build the _decimal module using a coroutine-local rather
    than a thread-local context */

@@ -1,0 +1,12 @@
+prefix=/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading
+exec_prefix=/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading
+libdir=/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/lib
+includedir=/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/include
+
+Name: FLAC
+Description: Free Lossless Audio Codec Library
+Version: 1.4.3
+Requires.private: ogg
+Libs: -L${libdir} -lFLAC
+Libs.private: -lm
+Cflags: -I${includedir}

@@ -1,0 +1,12 @@
+prefix=/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading
+exec_prefix=/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: libbrotlienc
+URL: https://github.com/google/brotli
+Description: Brotli encoder library
+Version: 1.1.0
+Libs: -L${libdir} -lbrotlienc
+Requires.private: libbrotlicommon >= 1.1.0
+Cflags: -I${includedir}

@@ -1,0 +1,14 @@
+prefix=/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+libva_version=2.22.0
+va_api_version=1.22.0
+display=x11
+
+Name: va-x11
+Description: Userspace Video Acceleration (VA) X11 interface
+Version: 1.22.0
+Requires: libva
+Libs: -L${libdir} -lva-x11
+Cflags: -I${includedir}

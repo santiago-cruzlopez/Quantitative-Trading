@@ -1,0 +1,11 @@
+prefix=/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: ocl-icd
+Description: Open Computing Language generic Installable Client Driver support
+Requires: OpenCL-Headers
+Version: 2.3.3
+Libs: -L${libdir}
+Cflags: -I${includedir}

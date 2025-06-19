@@ -1,0 +1,463 @@
+{
+  "build": "ha85cff8_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "__glibc >=2.17,<3.0.a0",
+    "libgcc >=13",
+    "libzlib >=1.3.1,<2.0a0",
+    "libgl >=1.7.0,<2.0a0",
+    "xorg-libxfixes >=6.0.1,<7.0a0",
+    "libegl >=1.7.0,<2.0a0",
+    "xorg-libxext >=1.3.6,<2.0a0",
+    "libxcb >=1.17.0,<2.0a0",
+    "xorg-libx11 >=1.8.12,<2.0a0",
+    "libiconv >=1.18,<2.0a0",
+    "xorg-libxdamage >=1.1.6,<2.0a0",
+    "libexpat >=2.7.0,<3.0a0",
+    "x264 >=1!164.3095,<1!165",
+    "xorg-libxxf86vm >=1.1.6,<2.0a0",
+    "xorg-libxau >=1.0.12,<2.0a0",
+    "libglib >=2.84.1,<3.0a0",
+    "xorg-libxrender >=0.9.12,<0.10.0a0",
+    "libdrm >=2.4.124,<2.5.0a0",
+    "gst-plugins-base >=1.24.11,<1.25.0a0",
+    "gstreamer >=1.24.11,<1.25.0a0",
+    "gstreamer 1.24.11.*"
+  ],
+  "extracted_package_dir": "/home/santi_cruz/anaconda3/pkgs/gst-plugins-ugly-1.24.11-ha85cff8_0",
+  "files": [
+    "lib/gstreamer-1.0/libgstasf.so",
+    "lib/gstreamer-1.0/libgstdvdlpcmdec.so",
+    "lib/gstreamer-1.0/libgstdvdsub.so",
+    "lib/gstreamer-1.0/libgstrealmedia.so",
+    "lib/gstreamer-1.0/libgstx264.so",
+    "share/gstreamer-1.0/presets/GstX264Enc.prs",
+    "share/locale/af/LC_MESSAGES/gst-plugins-ugly-1.0.mo",
+    "share/locale/ast/LC_MESSAGES/gst-plugins-ugly-1.0.mo",
+    "share/locale/az/LC_MESSAGES/gst-plugins-ugly-1.0.mo",
+    "share/locale/bg/LC_MESSAGES/gst-plugins-ugly-1.0.mo",
+    "share/locale/ca/LC_MESSAGES/gst-plugins-ugly-1.0.mo",
+    "share/locale/cs/LC_MESSAGES/gst-plugins-ugly-1.0.mo",
+    "share/locale/da/LC_MESSAGES/gst-plugins-ugly-1.0.mo",
+    "share/locale/de/LC_MESSAGES/gst-plugins-ugly-1.0.mo",
+    "share/locale/el/LC_MESSAGES/gst-plugins-ugly-1.0.mo",
+    "share/locale/en_GB/LC_MESSAGES/gst-plugins-ugly-1.0.mo",
+    "share/locale/eo/LC_MESSAGES/gst-plugins-ugly-1.0.mo",
+    "share/locale/es/LC_MESSAGES/gst-plugins-ugly-1.0.mo",
+    "share/locale/eu/LC_MESSAGES/gst-plugins-ugly-1.0.mo",
+    "share/locale/fi/LC_MESSAGES/gst-plugins-ugly-1.0.mo",
+    "share/locale/fr/LC_MESSAGES/gst-plugins-ugly-1.0.mo",
+    "share/locale/fur/LC_MESSAGES/gst-plugins-ugly-1.0.mo",
+    "share/locale/gl/LC_MESSAGES/gst-plugins-ugly-1.0.mo",
+    "share/locale/hr/LC_MESSAGES/gst-plugins-ugly-1.0.mo",
+    "share/locale/hu/LC_MESSAGES/gst-plugins-ugly-1.0.mo",
+    "share/locale/id/LC_MESSAGES/gst-plugins-ugly-1.0.mo",
+    "share/locale/it/LC_MESSAGES/gst-plugins-ugly-1.0.mo",
+    "share/locale/ja/LC_MESSAGES/gst-plugins-ugly-1.0.mo",
+    "share/locale/ka/LC_MESSAGES/gst-plugins-ugly-1.0.mo",
+    "share/locale/lt/LC_MESSAGES/gst-plugins-ugly-1.0.mo",
+    "share/locale/lv/LC_MESSAGES/gst-plugins-ugly-1.0.mo",
+    "share/locale/ms/LC_MESSAGES/gst-plugins-ugly-1.0.mo",
+    "share/locale/mt/LC_MESSAGES/gst-plugins-ugly-1.0.mo",
+    "share/locale/nb/LC_MESSAGES/gst-plugins-ugly-1.0.mo",
+    "share/locale/nl/LC_MESSAGES/gst-plugins-ugly-1.0.mo",
+    "share/locale/or/LC_MESSAGES/gst-plugins-ugly-1.0.mo",
+    "share/locale/pl/LC_MESSAGES/gst-plugins-ugly-1.0.mo",
+    "share/locale/pt_BR/LC_MESSAGES/gst-plugins-ugly-1.0.mo",
+    "share/locale/ro/LC_MESSAGES/gst-plugins-ugly-1.0.mo",
+    "share/locale/ru/LC_MESSAGES/gst-plugins-ugly-1.0.mo",
+    "share/locale/sk/LC_MESSAGES/gst-plugins-ugly-1.0.mo",
+    "share/locale/sl/LC_MESSAGES/gst-plugins-ugly-1.0.mo",
+    "share/locale/sq/LC_MESSAGES/gst-plugins-ugly-1.0.mo",
+    "share/locale/sr/LC_MESSAGES/gst-plugins-ugly-1.0.mo",
+    "share/locale/sv/LC_MESSAGES/gst-plugins-ugly-1.0.mo",
+    "share/locale/ta/LC_MESSAGES/gst-plugins-ugly-1.0.mo",
+    "share/locale/tr/LC_MESSAGES/gst-plugins-ugly-1.0.mo",
+    "share/locale/uk/LC_MESSAGES/gst-plugins-ugly-1.0.mo",
+    "share/locale/vi/LC_MESSAGES/gst-plugins-ugly-1.0.mo",
+    "share/locale/zh_CN/LC_MESSAGES/gst-plugins-ugly-1.0.mo",
+    "share/locale/zh_TW/LC_MESSAGES/gst-plugins-ugly-1.0.mo"
+  ],
+  "fn": "gst-plugins-ugly-1.24.11-ha85cff8_0.conda",
+  "license": "LGPL-2.1-or-later",
+  "link": {
+    "source": "/home/santi_cruz/anaconda3/pkgs/gst-plugins-ugly-1.24.11-ha85cff8_0",
+    "type": 1
+  },
+  "md5": "19e192c0453a81338ceb1e13632f7bc7",
+  "name": "gst-plugins-ugly",
+  "package_tarball_full_path": "/home/santi_cruz/anaconda3/pkgs/gst-plugins-ugly-1.24.11-ha85cff8_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/gstreamer-1.0/libgstasf.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/gst-plugins-ugly_1745175933276/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "sha256": "7c4f8663f3c1503fda12d2f65de786217666a0a40c9ec0a3e7a117e65f5a1c02",
+        "sha256_in_prefix": "364391fa53345fc36848952bf1a9a6084f725eb71258be2ecd41afc6c9250c5c",
+        "size_in_bytes": 165688
+      },
+      {
+        "_path": "lib/gstreamer-1.0/libgstdvdlpcmdec.so",
+        "path_type": "hardlink",
+        "sha256": "b96c2c7a5fd11a6d3ab997c18f97f03083c626969bb2a7b2b73b0c4d7b4132a1",
+        "sha256_in_prefix": "b96c2c7a5fd11a6d3ab997c18f97f03083c626969bb2a7b2b73b0c4d7b4132a1",
+        "size_in_bytes": 35608
+      },
+      {
+        "_path": "lib/gstreamer-1.0/libgstdvdsub.so",
+        "path_type": "hardlink",
+        "sha256": "472439ca9fae09426d18295ae77a2e3e7b1e45a5ebd83a0cc9a2330cc4b45228",
+        "sha256_in_prefix": "472439ca9fae09426d18295ae77a2e3e7b1e45a5ebd83a0cc9a2330cc4b45228",
+        "size_in_bytes": 49944
+      },
+      {
+        "_path": "lib/gstreamer-1.0/libgstrealmedia.so",
+        "path_type": "hardlink",
+        "sha256": "57b5548e0f17fbe67ffd339b872042b26b244fdf64d12c75598262765045cc67",
+        "sha256_in_prefix": "57b5548e0f17fbe67ffd339b872042b26b244fdf64d12c75598262765045cc67",
+        "size_in_bytes": 96224
+      },
+      {
+        "_path": "lib/gstreamer-1.0/libgstx264.so",
+        "path_type": "hardlink",
+        "sha256": "2791f585e3dd15db1dc452f027702e270a9676710dd1f82da781345d87f98bfb",
+        "sha256_in_prefix": "2791f585e3dd15db1dc452f027702e270a9676710dd1f82da781345d87f98bfb",
+        "size_in_bytes": 88792
+      },
+      {
+        "_path": "share/gstreamer-1.0/presets/GstX264Enc.prs",
+        "path_type": "hardlink",
+        "sha256": "f383eb52736f161240d71dd2d114b145eea18a5f0faef6645a74fc5ca2ae8112",
+        "sha256_in_prefix": "f383eb52736f161240d71dd2d114b145eea18a5f0faef6645a74fc5ca2ae8112",
+        "size_in_bytes": 738
+      },
+      {
+        "_path": "share/locale/af/LC_MESSAGES/gst-plugins-ugly-1.0.mo",
+        "path_type": "hardlink",
+        "sha256": "df067e2d20b7f03d9fa7d74e688e548a371c1b07aa13a0a978991c6ec7bca1b5",
+        "sha256_in_prefix": "df067e2d20b7f03d9fa7d74e688e548a371c1b07aa13a0a978991c6ec7bca1b5",
+        "size_in_bytes": 458
+      },
+      {
+        "_path": "share/locale/ast/LC_MESSAGES/gst-plugins-ugly-1.0.mo",
+        "path_type": "hardlink",
+        "sha256": "51313407ca7228adf3fd96337ead772816c34e88a53bc57521041dc1e72b5a50",
+        "sha256_in_prefix": "51313407ca7228adf3fd96337ead772816c34e88a53bc57521041dc1e72b5a50",
+        "size_in_bytes": 1619
+      },
+      {
+        "_path": "share/locale/az/LC_MESSAGES/gst-plugins-ugly-1.0.mo",
+        "path_type": "hardlink",
+        "sha256": "43b3794bd4d4104d20810ceda275f264b568ce09dbdc04053c7fa5898f3980d2",
+        "sha256_in_prefix": "43b3794bd4d4104d20810ceda275f264b568ce09dbdc04053c7fa5898f3980d2",
+        "size_in_bytes": 521
+      },
+      {
+        "_path": "share/locale/bg/LC_MESSAGES/gst-plugins-ugly-1.0.mo",
+        "path_type": "hardlink",
+        "sha256": "a24b9ef46e5b367415889b8659931f3803b8de3f2a89c6b88c8bff199ae23688",
+        "sha256_in_prefix": "a24b9ef46e5b367415889b8659931f3803b8de3f2a89c6b88c8bff199ae23688",
+        "size_in_bytes": 2038
+      },
+      {
+        "_path": "share/locale/ca/LC_MESSAGES/gst-plugins-ugly-1.0.mo",
+        "path_type": "hardlink",
+        "sha256": "7f1ce89749104266b9002375c40e09a8fd5602a30afb1511a7a3d9847816694f",
+        "sha256_in_prefix": "7f1ce89749104266b9002375c40e09a8fd5602a30afb1511a7a3d9847816694f",
+        "size_in_bytes": 1634
+      },
+      {
+        "_path": "share/locale/cs/LC_MESSAGES/gst-plugins-ugly-1.0.mo",
+        "path_type": "hardlink",
+        "sha256": "8ef9b603763809d46262a6dcaec28c2a27b9b9d20d27800487e474063645afc9",
+        "sha256_in_prefix": "8ef9b603763809d46262a6dcaec28c2a27b9b9d20d27800487e474063645afc9",
+        "size_in_bytes": 1699
+      },
+      {
+        "_path": "share/locale/da/LC_MESSAGES/gst-plugins-ugly-1.0.mo",
+        "path_type": "hardlink",
+        "sha256": "96f222ae7faead9a7916d55e9a7713a6ac967d3e00fafcae889a11e16301f684",
+        "sha256_in_prefix": "96f222ae7faead9a7916d55e9a7713a6ac967d3e00fafcae889a11e16301f684",
+        "size_in_bytes": 1493
+      },
+      {
+        "_path": "share/locale/de/LC_MESSAGES/gst-plugins-ugly-1.0.mo",
+        "path_type": "hardlink",
+        "sha256": "aa44eadf719ecfa47a67a535618a2e6ee904101d7b1e4c7db1b49727b26756f0",
+        "sha256_in_prefix": "aa44eadf719ecfa47a67a535618a2e6ee904101d7b1e4c7db1b49727b26756f0",
+        "size_in_bytes": 1792
+      },
+      {
+        "_path": "share/locale/el/LC_MESSAGES/gst-plugins-ugly-1.0.mo",
+        "path_type": "hardlink",
+        "sha256": "31f87b765ed37d5603c85ea81836775b4d7c46805d6d097205d71145e77cd1e4",
+        "sha256_in_prefix": "31f87b765ed37d5603c85ea81836775b4d7c46805d6d097205d71145e77cd1e4",
+        "size_in_bytes": 2199
+      },
+      {
+        "_path": "share/locale/en_GB/LC_MESSAGES/gst-plugins-ugly-1.0.mo",
+        "path_type": "hardlink",
+        "sha256": "10a852ed5e59145c4e5ebcc74dfa62a9eda9c36cb2b16a3f06923e025a87f0a3",
+        "sha256_in_prefix": "10a852ed5e59145c4e5ebcc74dfa62a9eda9c36cb2b16a3f06923e025a87f0a3",
+        "size_in_bytes": 462
+      },
+      {
+        "_path": "share/locale/eo/LC_MESSAGES/gst-plugins-ugly-1.0.mo",
+        "path_type": "hardlink",
+        "sha256": "e5e300c252332299c7be6497cf9d57ef9d02d62639461d056eb73b8e0b7e9a2c",
+        "sha256_in_prefix": "e5e300c252332299c7be6497cf9d57ef9d02d62639461d056eb73b8e0b7e9a2c",
+        "size_in_bytes": 1614
+      },
+      {
+        "_path": "share/locale/es/LC_MESSAGES/gst-plugins-ugly-1.0.mo",
+        "path_type": "hardlink",
+        "sha256": "1bf49d203ec6de86f184e081b09cade25d52617d1faa7be67165370623898263",
+        "sha256_in_prefix": "1bf49d203ec6de86f184e081b09cade25d52617d1faa7be67165370623898263",
+        "size_in_bytes": 1621
+      },
+      {
+        "_path": "share/locale/eu/LC_MESSAGES/gst-plugins-ugly-1.0.mo",
+        "path_type": "hardlink",
+        "sha256": "46138669cc840f492a523b9bcbfa54988b526041a3aee33aed9125ee1f5044a9",
+        "sha256_in_prefix": "46138669cc840f492a523b9bcbfa54988b526041a3aee33aed9125ee1f5044a9",
+        "size_in_bytes": 1334
+      },
+      {
+        "_path": "share/locale/fi/LC_MESSAGES/gst-plugins-ugly-1.0.mo",
+        "path_type": "hardlink",
+        "sha256": "865b20d76903e188c2f5e7de800440519857561ac9ad1609b4d6142f00678400",
+        "sha256_in_prefix": "865b20d76903e188c2f5e7de800440519857561ac9ad1609b4d6142f00678400",
+        "size_in_bytes": 1307
+      },
+      {
+        "_path": "share/locale/fr/LC_MESSAGES/gst-plugins-ugly-1.0.mo",
+        "path_type": "hardlink",
+        "sha256": "119d18c0e94fb9fbb406f79997f3ec16cedc6234bddb95a5f65bbaeb47b03400",
+        "sha256_in_prefix": "119d18c0e94fb9fbb406f79997f3ec16cedc6234bddb95a5f65bbaeb47b03400",
+        "size_in_bytes": 1599
+      },
+      {
+        "_path": "share/locale/fur/LC_MESSAGES/gst-plugins-ugly-1.0.mo",
+        "path_type": "hardlink",
+        "sha256": "106cbdfab971ced895f1f291d498a56b8173c0870601bbbd94c7e993ddd9df29",
+        "sha256_in_prefix": "106cbdfab971ced895f1f291d498a56b8173c0870601bbbd94c7e993ddd9df29",
+        "size_in_bytes": 1606
+      },
+      {
+        "_path": "share/locale/gl/LC_MESSAGES/gst-plugins-ugly-1.0.mo",
+        "path_type": "hardlink",
+        "sha256": "2e0a1297ed2d1a75ddcebc5515dc998491cffe6f9a9fa4f56076c7fcf65cd939",
+        "sha256_in_prefix": "2e0a1297ed2d1a75ddcebc5515dc998491cffe6f9a9fa4f56076c7fcf65cd939",
+        "size_in_bytes": 1705
+      },
+      {
+        "_path": "share/locale/hr/LC_MESSAGES/gst-plugins-ugly-1.0.mo",
+        "path_type": "hardlink",
+        "sha256": "4906a7779e5421572df14f5725fd7b1c197d065b099725c9139c595435a4574c",
+        "sha256_in_prefix": "4906a7779e5421572df14f5725fd7b1c197d065b099725c9139c595435a4574c",
+        "size_in_bytes": 1652
+      },
+      {
+        "_path": "share/locale/hu/LC_MESSAGES/gst-plugins-ugly-1.0.mo",
+        "path_type": "hardlink",
+        "sha256": "59faf97985738207e2d9a68b1af44272e9aa3be4c91320044b615007752b6496",
+        "sha256_in_prefix": "59faf97985738207e2d9a68b1af44272e9aa3be4c91320044b615007752b6496",
+        "size_in_bytes": 1631
+      },
+      {
+        "_path": "share/locale/id/LC_MESSAGES/gst-plugins-ugly-1.0.mo",
+        "path_type": "hardlink",
+        "sha256": "19cb6f52183c9c38b2d486d0b96c403f20445ea732536fc9925b3a47b06f6c51",
+        "sha256_in_prefix": "19cb6f52183c9c38b2d486d0b96c403f20445ea732536fc9925b3a47b06f6c51",
+        "size_in_bytes": 1508
+      },
+      {
+        "_path": "share/locale/it/LC_MESSAGES/gst-plugins-ugly-1.0.mo",
+        "path_type": "hardlink",
+        "sha256": "1fe92f558564bf696917cdd7306ed4be4d954937848f0e42c056942340ca61cc",
+        "sha256_in_prefix": "1fe92f558564bf696917cdd7306ed4be4d954937848f0e42c056942340ca61cc",
+        "size_in_bytes": 1660
+      },
+      {
+        "_path": "share/locale/ja/LC_MESSAGES/gst-plugins-ugly-1.0.mo",
+        "path_type": "hardlink",
+        "sha256": "f3077686140651ca06c37cc6056ea6f59b0776fff84f55beadb5b82db83ce0d7",
+        "sha256_in_prefix": "f3077686140651ca06c37cc6056ea6f59b0776fff84f55beadb5b82db83ce0d7",
+        "size_in_bytes": 1879
+      },
+      {
+        "_path": "share/locale/ka/LC_MESSAGES/gst-plugins-ugly-1.0.mo",
+        "path_type": "hardlink",
+        "sha256": "6b7b9b154a9943394e9887ae8e1aad6b6c69a7bdfa6fc99a96c5770b57f8b268",
+        "sha256_in_prefix": "6b7b9b154a9943394e9887ae8e1aad6b6c69a7bdfa6fc99a96c5770b57f8b268",
+        "size_in_bytes": 2285
+      },
+      {
+        "_path": "share/locale/lt/LC_MESSAGES/gst-plugins-ugly-1.0.mo",
+        "path_type": "hardlink",
+        "sha256": "cbf5605fb657c5cedddd7b03c66c211564bc74eb622a69a170fb7afd56d88a4f",
+        "sha256_in_prefix": "cbf5605fb657c5cedddd7b03c66c211564bc74eb622a69a170fb7afd56d88a4f",
+        "size_in_bytes": 1103
+      },
+      {
+        "_path": "share/locale/lv/LC_MESSAGES/gst-plugins-ugly-1.0.mo",
+        "path_type": "hardlink",
+        "sha256": "f64ff78f1fc2bf178b75481df40b6a5b124d91dfe30db87d6f3b969cb7774b2b",
+        "sha256_in_prefix": "f64ff78f1fc2bf178b75481df40b6a5b124d91dfe30db87d6f3b969cb7774b2b",
+        "size_in_bytes": 1634
+      },
+      {
+        "_path": "share/locale/ms/LC_MESSAGES/gst-plugins-ugly-1.0.mo",
+        "path_type": "hardlink",
+        "sha256": "d851c6df871dff78fbd3e9d999e9268e188c6a0b3a0cb186bbe0f398737d7740",
+        "sha256_in_prefix": "d851c6df871dff78fbd3e9d999e9268e188c6a0b3a0cb186bbe0f398737d7740",
+        "size_in_bytes": 1234
+      },
+      {
+        "_path": "share/locale/mt/LC_MESSAGES/gst-plugins-ugly-1.0.mo",
+        "path_type": "hardlink",
+        "sha256": "04e5f51f1c25ff067839b3a338eccc517db567d9edb6d50cc23a57866f61f166",
+        "sha256_in_prefix": "04e5f51f1c25ff067839b3a338eccc517db567d9edb6d50cc23a57866f61f166",
+        "size_in_bytes": 1366
+      },
+      {
+        "_path": "share/locale/nb/LC_MESSAGES/gst-plugins-ugly-1.0.mo",
+        "path_type": "hardlink",
+        "sha256": "b44d537b117d5aa327b6fe053c49ca98d4a1c74859605e2d3639a01b493b58d1",
+        "sha256_in_prefix": "b44d537b117d5aa327b6fe053c49ca98d4a1c74859605e2d3639a01b493b58d1",
+        "size_in_bytes": 1561
+      },
+      {
+        "_path": "share/locale/nl/LC_MESSAGES/gst-plugins-ugly-1.0.mo",
+        "path_type": "hardlink",
+        "sha256": "caf5e589e9d363e9c39b5fd000ab5d55071f53fc2879d29004d2b76aab10243f",
+        "sha256_in_prefix": "caf5e589e9d363e9c39b5fd000ab5d55071f53fc2879d29004d2b76aab10243f",
+        "size_in_bytes": 1625
+      },
+      {
+        "_path": "share/locale/or/LC_MESSAGES/gst-plugins-ugly-1.0.mo",
+        "path_type": "hardlink",
+        "sha256": "839e34b101a914dbfd45e6c1a1e270cea971326c9f586d39fb276e7cacc7fc44",
+        "sha256_in_prefix": "839e34b101a914dbfd45e6c1a1e270cea971326c9f586d39fb276e7cacc7fc44",
+        "size_in_bytes": 537
+      },
+      {
+        "_path": "share/locale/pl/LC_MESSAGES/gst-plugins-ugly-1.0.mo",
+        "path_type": "hardlink",
+        "sha256": "e8ae139db5c965aa4eaa030443a1b8bbba728383627b1728197ff686b4c2e359",
+        "sha256_in_prefix": "e8ae139db5c965aa4eaa030443a1b8bbba728383627b1728197ff686b4c2e359",
+        "size_in_bytes": 1643
+      },
+      {
+        "_path": "share/locale/pt_BR/LC_MESSAGES/gst-plugins-ugly-1.0.mo",
+        "path_type": "hardlink",
+        "sha256": "ff88ddea48b089140cc83da0cf6d13fb761b371704dccfae14b026b150091d59",
+        "sha256_in_prefix": "ff88ddea48b089140cc83da0cf6d13fb761b371704dccfae14b026b150091d59",
+        "size_in_bytes": 1748
+      },
+      {
+        "_path": "share/locale/ro/LC_MESSAGES/gst-plugins-ugly-1.0.mo",
+        "path_type": "hardlink",
+        "sha256": "c75334467aedc8f55071fd8f61f9842c85c54f0adaf87e2f9bd9f7e1d626a39a",
+        "sha256_in_prefix": "c75334467aedc8f55071fd8f61f9842c85c54f0adaf87e2f9bd9f7e1d626a39a",
+        "size_in_bytes": 1766
+      },
+      {
+        "_path": "share/locale/ru/LC_MESSAGES/gst-plugins-ugly-1.0.mo",
+        "path_type": "hardlink",
+        "sha256": "6e7389fee87e8466402ae22576880e8a78261522cc88caee24f58fd612fe1dd1",
+        "sha256_in_prefix": "6e7389fee87e8466402ae22576880e8a78261522cc88caee24f58fd612fe1dd1",
+        "size_in_bytes": 1993
+      },
+      {
+        "_path": "share/locale/sk/LC_MESSAGES/gst-plugins-ugly-1.0.mo",
+        "path_type": "hardlink",
+        "sha256": "dd614d186dd33424061ae9f6b07280ba5ea092c3957992298d67f1ee53e3b2ae",
+        "sha256_in_prefix": "dd614d186dd33424061ae9f6b07280ba5ea092c3957992298d67f1ee53e3b2ae",
+        "size_in_bytes": 1729
+      },
+      {
+        "_path": "share/locale/sl/LC_MESSAGES/gst-plugins-ugly-1.0.mo",
+        "path_type": "hardlink",
+        "sha256": "0f3674ddf7c32f7d38a2a0c60d45976164371e8158c98ab71007e0a56609bc64",
+        "sha256_in_prefix": "0f3674ddf7c32f7d38a2a0c60d45976164371e8158c98ab71007e0a56609bc64",
+        "size_in_bytes": 1612
+      },
+      {
+        "_path": "share/locale/sq/LC_MESSAGES/gst-plugins-ugly-1.0.mo",
+        "path_type": "hardlink",
+        "sha256": "105b9412bdc22f7a750cb15012ac0e209a0296a0b48d11ee0445ebd24db20dd0",
+        "sha256_in_prefix": "105b9412bdc22f7a750cb15012ac0e209a0296a0b48d11ee0445ebd24db20dd0",
+        "size_in_bytes": 1749
+      },
+      {
+        "_path": "share/locale/sr/LC_MESSAGES/gst-plugins-ugly-1.0.mo",
+        "path_type": "hardlink",
+        "sha256": "852abdd8d64f80afc2867042c62b8d04cad878e6b1d2a203a50fa19b150a4da9",
+        "sha256_in_prefix": "852abdd8d64f80afc2867042c62b8d04cad878e6b1d2a203a50fa19b150a4da9",
+        "size_in_bytes": 2006
+      },
+      {
+        "_path": "share/locale/sv/LC_MESSAGES/gst-plugins-ugly-1.0.mo",
+        "path_type": "hardlink",
+        "sha256": "cd755905736229bffcb1ad5748088a58c6b9e3e7bff4b9d355482179fb5efdff",
+        "sha256_in_prefix": "cd755905736229bffcb1ad5748088a58c6b9e3e7bff4b9d355482179fb5efdff",
+        "size_in_bytes": 1576
+      },
+      {
+        "_path": "share/locale/ta/LC_MESSAGES/gst-plugins-ugly-1.0.mo",
+        "path_type": "hardlink",
+        "sha256": "cd3b0f66be195534fbde88a3f8d632d8ff81e3cb21a93c787b0388327e4255ea",
+        "sha256_in_prefix": "cd3b0f66be195534fbde88a3f8d632d8ff81e3cb21a93c787b0388327e4255ea",
+        "size_in_bytes": 2527
+      },
+      {
+        "_path": "share/locale/tr/LC_MESSAGES/gst-plugins-ugly-1.0.mo",
+        "path_type": "hardlink",
+        "sha256": "cd3c8d29609b5a078f1d5000631939388da457fda95d9cadc39f92505d9a5e27",
+        "sha256_in_prefix": "cd3c8d29609b5a078f1d5000631939388da457fda95d9cadc39f92505d9a5e27",
+        "size_in_bytes": 1562
+      },
+      {
+        "_path": "share/locale/uk/LC_MESSAGES/gst-plugins-ugly-1.0.mo",
+        "path_type": "hardlink",
+        "sha256": "56f5339b9e821a43d27ba42fca5ac61672d167c9ac9c8fcff18fb00a63286baa",
+        "sha256_in_prefix": "56f5339b9e821a43d27ba42fca5ac61672d167c9ac9c8fcff18fb00a63286baa",
+        "size_in_bytes": 2070
+      },
+      {
+        "_path": "share/locale/vi/LC_MESSAGES/gst-plugins-ugly-1.0.mo",
+        "path_type": "hardlink",
+        "sha256": "19cccf579a232da6ee74633ed8c2d046823db26f9a3863774ac17779274505f8",
+        "sha256_in_prefix": "19cccf579a232da6ee74633ed8c2d046823db26f9a3863774ac17779274505f8",
+        "size_in_bytes": 1844
+      },
+      {
+        "_path": "share/locale/zh_CN/LC_MESSAGES/gst-plugins-ugly-1.0.mo",
+        "path_type": "hardlink",
+        "sha256": "a4fa802d9a5ec0666b31f68da48c7a2b76b5f241c240f5314405639e275228ab",
+        "sha256_in_prefix": "a4fa802d9a5ec0666b31f68da48c7a2b76b5f241c240f5314405639e275228ab",
+        "size_in_bytes": 1484
+      },
+      {
+        "_path": "share/locale/zh_TW/LC_MESSAGES/gst-plugins-ugly-1.0.mo",
+        "path_type": "hardlink",
+        "sha256": "b5de9dc5f38748a1ef9245e2fcce3e23feeb99a67381ecbfb7f7d97bfdb44481",
+        "sha256_in_prefix": "b5de9dc5f38748a1ef9245e2fcce3e23feeb99a67381ecbfb7f7d97bfdb44481",
+        "size_in_bytes": 1516
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "gst-plugins-ugly",
+  "sha256": "5981b80de7e18d6e260680f1049433421eb46179a7ccde4e2fa0b920b59f7dec",
+  "size": 174095,
+  "subdir": "linux-64",
+  "timestamp": 1745176114000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/gst-plugins-ugly-1.24.11-ha85cff8_0.conda",
+  "version": "1.24.11"
+}

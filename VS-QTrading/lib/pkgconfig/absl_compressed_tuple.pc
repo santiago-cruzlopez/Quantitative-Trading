@@ -1,0 +1,12 @@
+prefix=/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading
+exec_prefix=${prefix}
+libdir=/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/lib
+includedir=/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/include
+
+Name: absl_compressed_tuple
+Description: Abseil compressed_tuple library
+URL: https://abseil.io/
+Version: 20250127
+Requires: absl_utility = 20250127
+Libs: -L${libdir}  
+Cflags: -I${includedir} -DNOMINMAX

@@ -1,0 +1,47 @@
+{
+  "build": "hdc3f47d_3",
+  "build_number": 3,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "__glibc >=2.17,<3.0.a0",
+    "libgcc >=13",
+    "libstdcxx >=13",
+    "tbb >=2021.13.0",
+    "pugixml >=1.15,<1.16.0a0",
+    "libopenvino 2025.0.0 hdc3f47d_3",
+    "level-zero >=1.21.2,<2.0a0"
+  ],
+  "extracted_package_dir": "/home/santi_cruz/anaconda3/pkgs/libopenvino-intel-npu-plugin-2025.0.0-hdc3f47d_3",
+  "files": [
+    "lib/openvino-2025.0.0/libopenvino_intel_npu_plugin.so"
+  ],
+  "fn": "libopenvino-intel-npu-plugin-2025.0.0-hdc3f47d_3.conda",
+  "license": "",
+  "link": {
+    "source": "/home/santi_cruz/anaconda3/pkgs/libopenvino-intel-npu-plugin-2025.0.0-hdc3f47d_3",
+    "type": 1
+  },
+  "md5": "f632cad865436394eebd41c3afa2cda3",
+  "name": "libopenvino-intel-npu-plugin",
+  "package_tarball_full_path": "/home/santi_cruz/anaconda3/pkgs/libopenvino-intel-npu-plugin-2025.0.0-hdc3f47d_3.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/openvino-2025.0.0/libopenvino_intel_npu_plugin.so",
+        "path_type": "hardlink",
+        "sha256": "151236c2ee831e6f3c574b37d0a0a72a87a182e8c4256d25bb71a72be0fc50c5",
+        "sha256_in_prefix": "151236c2ee831e6f3c574b37d0a0a72a87a182e8c4256d25bb71a72be0fc50c5",
+        "size_in_bytes": 3632576
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "37ec3e304bf14d2d7b7781c4b6a8b3a54deae90bc7275f6ae160589ef219bcef",
+  "size": 1092544,
+  "subdir": "linux-64",
+  "timestamp": 1742047065000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/libopenvino-intel-npu-plugin-2025.0.0-hdc3f47d_3.conda",
+  "version": "2025.0.0"
+}

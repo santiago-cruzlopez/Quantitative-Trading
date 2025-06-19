@@ -1,0 +1,12 @@
+prefix=/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading
+exec_prefix=${prefix}
+libdir=/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/lib
+includedir=/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/include
+
+Name: absl_crc_cpu_detect
+Description: Abseil crc_cpu_detect library
+URL: https://abseil.io/
+Version: 20250127
+Requires: absl_base = 20250127, absl_config = 20250127, absl_optional = 20250127
+Libs: -L${libdir}  -labsl_crc_cpu_detect 
+Cflags: -I${includedir} -DNOMINMAX

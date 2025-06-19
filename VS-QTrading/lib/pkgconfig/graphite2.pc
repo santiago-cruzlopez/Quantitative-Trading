@@ -1,0 +1,7 @@
+
+Name: Graphite2
+Description: Font rendering engine for Complex Scripts
+Version: 3.0.1
+Libs: -L/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/lib -lgraphite2
+Cflags: -I/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/include
+

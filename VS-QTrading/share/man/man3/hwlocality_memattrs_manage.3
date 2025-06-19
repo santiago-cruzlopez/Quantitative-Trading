@@ -1,0 +1,132 @@
+.TH "hwlocality_memattrs_manage" 3 "Version 2.11.2" "Hardware Locality (hwloc)" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+hwlocality_memattrs_manage \- Managing memory attributes
+.SH SYNOPSIS
+.br
+.PP
+.SS "Enumerations"
+
+.in +1c
+.ti -1c
+.RI "enum \fBhwloc_memattr_flag_e\fP { \fBHWLOC_MEMATTR_FLAG_HIGHER_FIRST\fP = (1UL<<0), \fBHWLOC_MEMATTR_FLAG_LOWER_FIRST\fP = (1UL<<1), \fBHWLOC_MEMATTR_FLAG_NEED_INITIATOR\fP = (1UL<<2) }"
+.br
+.in -1c
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "int \fBhwloc_memattr_get_name\fP (\fBhwloc_topology_t\fP topology, \fBhwloc_memattr_id_t\fP attribute, const char **name)"
+.br
+.ti -1c
+.RI "int \fBhwloc_memattr_get_flags\fP (\fBhwloc_topology_t\fP topology, \fBhwloc_memattr_id_t\fP attribute, unsigned long *flags)"
+.br
+.ti -1c
+.RI "int \fBhwloc_memattr_register\fP (\fBhwloc_topology_t\fP topology, const char *name, unsigned long flags, \fBhwloc_memattr_id_t\fP *id)"
+.br
+.ti -1c
+.RI "int \fBhwloc_memattr_set_value\fP (\fBhwloc_topology_t\fP topology, \fBhwloc_memattr_id_t\fP attribute, \fBhwloc_obj_t\fP target_node, struct \fBhwloc_location\fP *initiator, unsigned long flags, hwloc_uint64_t value)"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+Memory attribues are identified by an ID (\fBhwloc_memattr_id_t\fP) and a name\&. \fBhwloc_memattr_get_name()\fP and \fBhwloc_memattr_get_by_name()\fP convert between them (or return error if the attribute does not exist)\&.
+.PP
+The set of valid \fBhwloc_memattr_id_t\fP is a contigous set starting at \fC0\fP\&. It first contains predefined attributes, as listed in \fBhwloc_memattr_id_e\fP (from \fC0\fP to \fCHWLOC_MEMATTR_ID_MAX-1\fP)\&. Then custom attributes may be dynamically registered with \fBhwloc_memattr_register()\fP\&. They will get the following IDs (\fCHWLOC_MEMATTR_ID_MAX\fP for the first one, etc\&.)\&.
+.PP
+To iterate over all valid attributes (either predefined or dynamically registered custom ones), one may iterate over IDs starting from \fC0\fP until \fBhwloc_memattr_get_name()\fP or \fBhwloc_memattr_get_flags()\fP returns an error\&.
+.PP
+The values for an existing attribute or for custom dynamically registered ones may be set or modified with \fBhwloc_memattr_set_value()\fP\&. 
+.SH "Enumeration Type Documentation"
+.PP 
+.SS "enum \fBhwloc_memattr_flag_e\fP"
+
+.PP
+Memory attribute flags\&. Given to \fBhwloc_memattr_register()\fP and returned by \fBhwloc_memattr_get_flags()\fP\&. 
+.PP
+\fBEnumerator\fP
+.in +1c
+.TP
+\fB\fIHWLOC_MEMATTR_FLAG_HIGHER_FIRST \fP\fP
+The best nodes for this memory attribute are those with the higher values\&. For instance Bandwidth\&. 
+.TP
+\fB\fIHWLOC_MEMATTR_FLAG_LOWER_FIRST \fP\fP
+The best nodes for this memory attribute are those with the lower values\&. For instance Latency\&. 
+.TP
+\fB\fIHWLOC_MEMATTR_FLAG_NEED_INITIATOR \fP\fP
+The value returned for this memory attribute depends on the given initiator\&. For instance Bandwidth and Latency, but not Capacity\&. 
+.SH "Function Documentation"
+.PP 
+.SS "int hwloc_memattr_get_flags (\fBhwloc_topology_t\fP topology, \fBhwloc_memattr_id_t\fP attribute, unsigned long * flags)"
+
+.PP
+Return the flags of the given attribute\&. Flags are a OR'ed set of \fBhwloc_memattr_flag_e\fP\&.
+.PP
+The output pointer \fCflags\fP cannot be \fCNULL\fP\&.
+.PP
+\fBReturns\fP
+.RS 4
+0 on success\&. 
+.PP
+-1 with errno set to \fCEINVAL\fP if the attribute does not exist\&. 
+.RE
+.PP
+
+.SS "int hwloc_memattr_get_name (\fBhwloc_topology_t\fP topology, \fBhwloc_memattr_id_t\fP attribute, const char ** name)"
+
+.PP
+Return the name of a memory attribute\&. The output pointer \fCname\fP cannot be \fCNULL\fP\&.
+.PP
+\fBReturns\fP
+.RS 4
+0 on success\&. 
+.PP
+-1 with errno set to \fCEINVAL\fP if the attribute does not exist\&. 
+.RE
+.PP
+
+.SS "int hwloc_memattr_register (\fBhwloc_topology_t\fP topology, const char * name, unsigned long flags, \fBhwloc_memattr_id_t\fP * id)"
+
+.PP
+Register a new memory attribute\&. Add a new custom memory attribute\&. Flags are a OR'ed set of \fBhwloc_memattr_flag_e\fP\&. It must contain one of \fBHWLOC_MEMATTR_FLAG_HIGHER_FIRST\fP or \fBHWLOC_MEMATTR_FLAG_LOWER_FIRST\fP but not both\&.
+.PP
+The new attribute \fCid\fP is immediately after the last existing attribute ID (which is either the ID of the last registered attribute if any, or the ID of the last predefined attribute in \fBhwloc_memattr_id_e\fP)\&.
+.PP
+\fBReturns\fP
+.RS 4
+0 on success\&. 
+.PP
+-1 with errno set to \fCEINVAL\fP if an invalid set of flags is given\&. 
+.PP
+-1 with errno set to \fCEBUSY\fP if another attribute already uses this name\&. 
+.RE
+.PP
+
+.SS "int hwloc_memattr_set_value (\fBhwloc_topology_t\fP topology, \fBhwloc_memattr_id_t\fP attribute, \fBhwloc_obj_t\fP target_node, struct \fBhwloc_location\fP * initiator, unsigned long flags, hwloc_uint64_t value)"
+
+.PP
+Set an attribute value for a specific target NUMA node\&. If the attribute does not relate to a specific initiator (it does not have the flag \fBHWLOC_MEMATTR_FLAG_NEED_INITIATOR\fP), location \fCinitiator\fP is ignored and may be \fCNULL\fP\&.
+.PP
+The initiator will be copied into the topology, the caller should free anything allocated to store the initiator, for instance the cpuset\&.
+.PP
+\fCtarget_node\fP cannot be \fCNULL\fP\&.
+.PP
+\fCattribute\fP cannot be ::HWLOC_MEMATTR_FLAG_ID_CAPACITY or ::HWLOC_MEMATTR_FLAG_ID_LOCALITY\&.
+.PP
+\fCflags\fP must be \fC0\fP for now\&.
+.PP
+\fBNote\fP
+.RS 4
+The initiator \fCinitiator\fP should be of type \fBHWLOC_LOCATION_TYPE_CPUSET\fP when referring to accesses performed by CPU cores\&. \fBHWLOC_LOCATION_TYPE_OBJECT\fP is currently unused internally by hwloc, but users may for instance use it to provide custom information about host memory accesses performed by GPUs\&.
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+0 on success or -1 on error\&. 
+.RE
+.PP
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Hardware Locality (hwloc) from the source code\&.

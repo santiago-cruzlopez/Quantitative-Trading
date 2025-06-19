@@ -224,3 +224,73 @@
 +conda-forge/linux-64::gst-plugins-good-1.24.11-h5b389ca_0
 +conda-forge/linux-64::gstreamer-1.24.11-hc37bda9_0
 # update specs: ['gst-plugins-bad', 'gst-plugins-base', 'gst-plugins-good', 'gstreamer']
+==> 2025-06-19 17:59:18 <==
+# cmd: /home/santi_cruz/anaconda3/bin/conda install -c conda-forge gst-plugins-ugly
+# conda version: 24.11.3
++conda-forge/linux-64::gst-plugins-ugly-1.24.11-ha85cff8_0
++conda-forge/linux-64::x264-1!164.3095-h166bdaf_2
+# update specs: ['gst-plugins-ugly']
+==> 2025-06-19 17:59:58 <==
+# cmd: /home/santi_cruz/anaconda3/bin/conda install -c conda-forge gst-libav
+# conda version: 24.11.3
++conda-forge/linux-64::aom-3.9.1-hac33072_0
++conda-forge/linux-64::dav1d-1.2.1-hd590300_0
++conda-forge/linux-64::ffmpeg-7.1.1-gpl_hb8f8756_506
++conda-forge/linux-64::fribidi-1.0.10-h36c2ea0_0
++conda-forge/linux-64::gdk-pixbuf-2.42.12-hb9ae30d_0
++conda-forge/linux-64::gmp-6.3.0-hac33072_2
++conda-forge/linux-64::graphite2-1.3.14-h5888daf_0
++conda-forge/linux-64::gst-libav-1.24.11-haf682a7_2
++conda-forge/linux-64::harfbuzz-11.2.1-h3beb420_0
++conda-forge/linux-64::lerc-4.0.0-h0aef613_1
++conda-forge/linux-64::level-zero-1.22.5-h84d6215_0
++conda-forge/linux-64::libabseil-20250127.1-cxx17_hbbce691_0
++conda-forge/linux-64::libass-0.17.3-h52826cd_2
++conda-forge/linux-64::libdeflate-1.24-h86f0d12_0
++conda-forge/linux-64::libhwloc-2.11.2-default_h0d58e46_1001
++conda-forge/linux-64::libopenvino-2025.0.0-hdc3f47d_3
++conda-forge/linux-64::libopenvino-auto-batch-plugin-2025.0.0-h4d9b6c2_3
++conda-forge/linux-64::libopenvino-auto-plugin-2025.0.0-h4d9b6c2_3
++conda-forge/linux-64::libopenvino-hetero-plugin-2025.0.0-h981d57b_3
++conda-forge/linux-64::libopenvino-intel-cpu-plugin-2025.0.0-hdc3f47d_3
++conda-forge/linux-64::libopenvino-intel-gpu-plugin-2025.0.0-hdc3f47d_3
++conda-forge/linux-64::libopenvino-intel-npu-plugin-2025.0.0-hdc3f47d_3
++conda-forge/linux-64::libopenvino-ir-frontend-2025.0.0-h981d57b_3
++conda-forge/linux-64::libopenvino-onnx-frontend-2025.0.0-h0e684df_3
++conda-forge/linux-64::libopenvino-paddle-frontend-2025.0.0-h0e684df_3
++conda-forge/linux-64::libopenvino-pytorch-frontend-2025.0.0-h5888daf_3
++conda-forge/linux-64::libopenvino-tensorflow-frontend-2025.0.0-h684f15b_3
++conda-forge/linux-64::libopenvino-tensorflow-lite-frontend-2025.0.0-h5888daf_3
++conda-forge/linux-64::libprotobuf-5.29.3-h501fc15_1
++conda-forge/linux-64::librsvg-2.58.4-he92a37e_3
++conda-forge/linux-64::libtiff-4.7.0-hf01ce69_5
++conda-forge/linux-64::libudev1-257.6-hbe16f8c_0
++conda-forge/linux-64::libunwind-1.6.2-h9c3ff4c_0
++conda-forge/linux-64::liburing-2.10-h84d6215_0
++conda-forge/linux-64::libusb-1.0.29-h73b1eb8_0
++conda-forge/linux-64::libva-2.22.0-h4f16b4b_2
++conda-forge/linux-64::libvpx-1.14.1-hac33072_0
++conda-forge/linux-64::libwebp-base-1.5.0-h851e524_0
++conda-forge/linux-64::libxkbcommon-1.10.0-h65c71a3_0
++conda-forge/linux-64::ocl-icd-2.3.3-hb9d3cd8_0
++conda-forge/linux-64::opencl-headers-2025.06.13-h5888daf_0
++conda-forge/linux-64::openh264-2.6.0-hc22cd8d_0
++conda-forge/linux-64::pango-1.56.3-h9ac818e_1
++conda-forge/linux-64::pugixml-1.15-h3f63f65_0
++conda-forge/linux-64::sdl2-2.32.54-h3f2d84a_0
++conda-forge/linux-64::sdl3-3.2.16-he3e324a_0
++conda-forge/linux-64::snappy-1.2.1-h8bd8927_1
++conda-forge/linux-64::svt-av1-3.0.2-h5888daf_0
++conda-forge/linux-64::tbb-2022.1.0-h4ce085d_0
++conda-forge/linux-64::wayland-1.23.1-h3e06ad9_1
++conda-forge/linux-64::x265-3.5-h924138e_3
++conda-forge/linux-64::xkeyboard-config-2.45-hb9d3cd8_0
++conda-forge/linux-64::xorg-libxcursor-1.2.3-hb9d3cd8_0
++conda-forge/linux-64::xorg-libxscrnsaver-1.2.4-hb9d3cd8_0
++conda-forge/noarch::wayland-protocols-1.45-hd8ed1ab_0
+# update specs: ['gst-libav']
+==> 2025-06-19 18:11:44 <==
+# cmd: /home/santi_cruz/anaconda3/bin/conda install -c conda-forge gstreamer gst-plugins-base gst-plugins-good gst-plugins-bad gst-plugins-ugly gst-libav gst-python pygobject
+# conda version: 24.11.3
++conda-forge/linux-64::gst-python-1.24.11-py313h54a4610_0
+# update specs: ['gst-libav', 'gst-plugins-bad', 'gst-plugins-base', 'gst-plugins-good', 'gst-plugins-ugly', 'gst-python', 'gstreamer', 'pygobject']

@@ -1,0 +1,45 @@
+{
+  "build": "h981d57b_3",
+  "build_number": 3,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "__glibc >=2.17,<3.0.a0",
+    "libgcc >=13",
+    "libstdcxx >=13",
+    "pugixml >=1.15,<1.16.0a0",
+    "libopenvino 2025.0.0 hdc3f47d_3"
+  ],
+  "extracted_package_dir": "/home/santi_cruz/anaconda3/pkgs/libopenvino-hetero-plugin-2025.0.0-h981d57b_3",
+  "files": [
+    "lib/openvino-2025.0.0/libopenvino_hetero_plugin.so"
+  ],
+  "fn": "libopenvino-hetero-plugin-2025.0.0-h981d57b_3.conda",
+  "license": "",
+  "link": {
+    "source": "/home/santi_cruz/anaconda3/pkgs/libopenvino-hetero-plugin-2025.0.0-h981d57b_3",
+    "type": 1
+  },
+  "md5": "21f7997d68220d7356c1f80dc500bfad",
+  "name": "libopenvino-hetero-plugin",
+  "package_tarball_full_path": "/home/santi_cruz/anaconda3/pkgs/libopenvino-hetero-plugin-2025.0.0-h981d57b_3.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/openvino-2025.0.0/libopenvino_hetero_plugin.so",
+        "path_type": "hardlink",
+        "sha256": "796f88fefe4dd435e5360705094f9ba9ee8639fbdd8e543b429ae1ec35fd8609",
+        "sha256_in_prefix": "796f88fefe4dd435e5360705094f9ba9ee8639fbdd8e543b429ae1ec35fd8609",
+        "size_in_bytes": 510032
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "b2c9ef97907f9c77817290bfb898897b476cc7ccf1737f0b1254437dda3d4903",
+  "size": 196083,
+  "subdir": "linux-64",
+  "timestamp": 1742046974000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/libopenvino-hetero-plugin-2025.0.0-h981d57b_3.conda",
+  "version": "2025.0.0"
+}

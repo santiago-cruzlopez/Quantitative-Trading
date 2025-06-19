@@ -1,0 +1,8 @@
+
+datadir=/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/share
+xkb_root=/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/share/xkeyboard-config-2
+xkb_base=/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/share/X11/xkb
+
+Name: XKeyboardConfig
+Description: X Keyboard configuration data
+Version: 2.45

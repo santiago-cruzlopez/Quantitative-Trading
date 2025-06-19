@@ -1,0 +1,7 @@
+prefix=/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading
+datarootdir=${prefix}/share
+pkgdatadir=${pc_sysrootdir}${datarootdir}/wayland-protocols
+
+Name: Wayland Protocols
+Description: Wayland protocol files
+Version: 1.45

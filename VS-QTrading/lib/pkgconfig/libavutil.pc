@@ -1,0 +1,14 @@
+prefix=/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading
+exec_prefix=${prefix}
+libdir=/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/lib
+includedir=/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/include
+
+Name: libavutil
+Description: FFmpeg utility library
+Version: 59.39.100
+Requires: 
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lavutil 
+Libs.private: -pthread -L/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/lib -lva-drm -lva -L/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/lib -lva-x11 -lva -lm -L/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/lib -ldrm -L/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/lib -lssl -lcrypto -L/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/lib -lva -latomic -L/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/lib -lX11 -ldl
+Cflags: -I${includedir}

@@ -1,0 +1,80 @@
+{
+  "build": "h84d6215_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "__glibc >=2.17,<3.0.a0",
+    "libgcc >=13",
+    "libstdcxx >=13"
+  ],
+  "extracted_package_dir": "/home/santi_cruz/anaconda3/pkgs/level-zero-1.22.5-h84d6215_0",
+  "files": [
+    "lib/libze_loader.so.1",
+    "lib/libze_loader.so.1.22.5",
+    "lib/libze_tracing_layer.so.1",
+    "lib/libze_tracing_layer.so.1.22.5",
+    "lib/libze_validation_layer.so.1",
+    "lib/libze_validation_layer.so.1.22.5"
+  ],
+  "fn": "level-zero-1.22.5-h84d6215_0.conda",
+  "license": "MIT",
+  "link": {
+    "source": "/home/santi_cruz/anaconda3/pkgs/level-zero-1.22.5-h84d6215_0",
+    "type": 1
+  },
+  "md5": "60dd1334c81cda796235dce5820e06bd",
+  "name": "level-zero",
+  "package_tarball_full_path": "/home/santi_cruz/anaconda3/pkgs/level-zero-1.22.5-h84d6215_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/libze_loader.so.1",
+        "path_type": "softlink",
+        "sha256": "8660d32e9388b2fa4e54fca3d5d0fb69860bb0796dd9c97a36bd8fe3d9efd095",
+        "size_in_bytes": 1065448
+      },
+      {
+        "_path": "lib/libze_loader.so.1.22.5",
+        "path_type": "hardlink",
+        "sha256": "8660d32e9388b2fa4e54fca3d5d0fb69860bb0796dd9c97a36bd8fe3d9efd095",
+        "sha256_in_prefix": "8660d32e9388b2fa4e54fca3d5d0fb69860bb0796dd9c97a36bd8fe3d9efd095",
+        "size_in_bytes": 1065448
+      },
+      {
+        "_path": "lib/libze_tracing_layer.so.1",
+        "path_type": "softlink",
+        "sha256": "67c6645b8451ad4d29addff53c7d368a489b5194eb6236e9b524dfcfab7e7236",
+        "size_in_bytes": 860208
+      },
+      {
+        "_path": "lib/libze_tracing_layer.so.1.22.5",
+        "path_type": "hardlink",
+        "sha256": "67c6645b8451ad4d29addff53c7d368a489b5194eb6236e9b524dfcfab7e7236",
+        "sha256_in_prefix": "67c6645b8451ad4d29addff53c7d368a489b5194eb6236e9b524dfcfab7e7236",
+        "size_in_bytes": 860208
+      },
+      {
+        "_path": "lib/libze_validation_layer.so.1",
+        "path_type": "softlink",
+        "sha256": "f9633dadf98ad2e5c53cd0fa9177a3b8139508d62c3bb39f87d748e4fe01d637",
+        "size_in_bytes": 1680264
+      },
+      {
+        "_path": "lib/libze_validation_layer.so.1.22.5",
+        "path_type": "hardlink",
+        "sha256": "f9633dadf98ad2e5c53cd0fa9177a3b8139508d62c3bb39f87d748e4fe01d637",
+        "sha256_in_prefix": "f9633dadf98ad2e5c53cd0fa9177a3b8139508d62c3bb39f87d748e4fe01d637",
+        "size_in_bytes": 1680264
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "99b38c1ad9a02a2c7e2edd185ca24c58712f9af3800b5e4ac50cc785aaf0c612",
+  "size": 570015,
+  "subdir": "linux-64",
+  "timestamp": 1750240876000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/level-zero-1.22.5-h84d6215_0.conda",
+  "version": "1.22.5"
+}

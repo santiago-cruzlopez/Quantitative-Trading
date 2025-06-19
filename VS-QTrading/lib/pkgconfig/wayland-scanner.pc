@@ -1,0 +1,12 @@
+prefix=/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading
+includedir=${prefix}/include
+
+datarootdir=${prefix}/share
+pkgdatadir=${pc_sysrootdir}${datarootdir}/wayland
+bindir=${prefix}/bin
+wayland_scanner=${bindir}/wayland-scanner
+
+Name: Wayland Scanner
+Description: Wayland scanner
+Version: 1.23.1
+Cflags: -I${includedir}

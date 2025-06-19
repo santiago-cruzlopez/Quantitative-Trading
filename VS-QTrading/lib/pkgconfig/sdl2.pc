@@ -1,0 +1,14 @@
+# sdl2_compat pkg-config source file
+
+prefix=/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading
+exec_prefix=${prefix}
+libdir=/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/lib
+includedir=/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/include
+
+Name: sdl2_compat
+Description: An SDL2 compatibility layer that uses SDL3 behind the scenes.
+Version: 2.32.54
+Provides: sdl2 = 2.32.54
+Libs: -L${libdir}  -lSDL2
+#Libs.private: 
+Cflags: -I${includedir} -I${includedir}/SDL2 -D_GNU_SOURCE=1 -D_REENTRANT

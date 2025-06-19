@@ -1,0 +1,12 @@
+prefix=/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading
+exec_prefix=${prefix}
+libdir=/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/lib
+includedir=/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/include
+
+Name: absl_meta
+Description: Abseil meta library
+URL: https://abseil.io/
+Version: 20250127
+Requires: absl_type_traits = 20250127
+Libs: -L${libdir}  
+Cflags: -I${includedir} -DNOMINMAX

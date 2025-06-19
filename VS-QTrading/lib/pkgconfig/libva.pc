@@ -1,0 +1,13 @@
+prefix=/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+libva_version=2.22.0
+va_api_version=1.22.0
+driverdir=/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/lib/dri:/usr/lib/x86_64-linux-gnu/dri:/usr/lib64//dri
+
+Name: va
+Description: Userspace Video Acceleration (VA) core interface
+Version: 1.22.0
+Libs: -L${libdir} -lva
+Cflags: -I${includedir}

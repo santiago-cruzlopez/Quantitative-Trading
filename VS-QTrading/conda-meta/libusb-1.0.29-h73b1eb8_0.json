@@ -1,0 +1,75 @@
+{
+  "build": "h73b1eb8_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "__glibc >=2.17,<3.0.a0",
+    "libgcc >=13",
+    "libudev1 >=257.4"
+  ],
+  "extracted_package_dir": "/home/santi_cruz/anaconda3/pkgs/libusb-1.0.29-h73b1eb8_0",
+  "files": [
+    "include/libusb-1.0/libusb.h",
+    "lib/libusb-1.0.so",
+    "lib/libusb-1.0.so.0",
+    "lib/libusb-1.0.so.0.5.0",
+    "lib/pkgconfig/libusb-1.0.pc"
+  ],
+  "fn": "libusb-1.0.29-h73b1eb8_0.conda",
+  "license": "LGPL-2.1-or-later",
+  "link": {
+    "source": "/home/santi_cruz/anaconda3/pkgs/libusb-1.0.29-h73b1eb8_0",
+    "type": 1
+  },
+  "md5": "d17e3fb595a9f24fa9e149239a33475d",
+  "name": "libusb",
+  "package_tarball_full_path": "/home/santi_cruz/anaconda3/pkgs/libusb-1.0.29-h73b1eb8_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "include/libusb-1.0/libusb.h",
+        "path_type": "hardlink",
+        "sha256": "8c77e192d53960966c42d5f6ef204e3be88c9ff3ca431acdd5c6039689b3fe0b",
+        "sha256_in_prefix": "8c77e192d53960966c42d5f6ef204e3be88c9ff3ca431acdd5c6039689b3fe0b",
+        "size_in_bytes": 86294
+      },
+      {
+        "_path": "lib/libusb-1.0.so",
+        "path_type": "softlink",
+        "sha256": "bd160fb14d8cddfa205bf963c72201e4d188bca9ec7ecb6fe3ae898561836d41",
+        "size_in_bytes": 19
+      },
+      {
+        "_path": "lib/libusb-1.0.so.0",
+        "path_type": "softlink",
+        "sha256": "bd160fb14d8cddfa205bf963c72201e4d188bca9ec7ecb6fe3ae898561836d41",
+        "size_in_bytes": 19
+      },
+      {
+        "_path": "lib/libusb-1.0.so.0.5.0",
+        "path_type": "hardlink",
+        "sha256": "bd160fb14d8cddfa205bf963c72201e4d188bca9ec7ecb6fe3ae898561836d41",
+        "sha256_in_prefix": "bd160fb14d8cddfa205bf963c72201e4d188bca9ec7ecb6fe3ae898561836d41",
+        "size_in_bytes": 142064
+      },
+      {
+        "_path": "lib/pkgconfig/libusb-1.0.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/bld/rattler-build_libusb_1748856210/host_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho",
+        "sha256": "529bb1fc057abf707826fa1b8f1fc81c02a8a4c5f4d0753e632d2530ee4c425c",
+        "sha256_in_prefix": "b73d1f37a4baea56462061906e6d3f47791182366607390096a7438537a1320c",
+        "size_in_bytes": 578
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "89c84f5b26028a9d0f5c4014330703e7dff73ba0c98f90103e9cef6b43a5323c",
+  "size": 89551,
+  "subdir": "linux-64",
+  "timestamp": 1748856210000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/libusb-1.0.29-h73b1eb8_0.conda",
+  "version": "1.0.29"
+}

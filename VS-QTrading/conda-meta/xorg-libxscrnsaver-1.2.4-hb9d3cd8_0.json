@@ -1,0 +1,76 @@
+{
+  "build": "hb9d3cd8_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "__glibc >=2.17,<3.0.a0",
+    "libgcc >=13",
+    "xorg-libx11 >=1.8.10,<2.0a0",
+    "xorg-libxext >=1.3.6,<2.0a0"
+  ],
+  "extracted_package_dir": "/home/santi_cruz/anaconda3/pkgs/xorg-libxscrnsaver-1.2.4-hb9d3cd8_0",
+  "files": [
+    "include/X11/extensions/scrnsaver.h",
+    "lib/libXss.so",
+    "lib/libXss.so.1",
+    "lib/libXss.so.1.0.0",
+    "lib/pkgconfig/xscrnsaver.pc"
+  ],
+  "fn": "xorg-libxscrnsaver-1.2.4-hb9d3cd8_0.conda",
+  "license": "MIT",
+  "link": {
+    "source": "/home/santi_cruz/anaconda3/pkgs/xorg-libxscrnsaver-1.2.4-hb9d3cd8_0",
+    "type": 1
+  },
+  "md5": "303f7a0e9e0cd7d250bb6b952cecda90",
+  "name": "xorg-libxscrnsaver",
+  "package_tarball_full_path": "/home/santi_cruz/anaconda3/pkgs/xorg-libxscrnsaver-1.2.4-hb9d3cd8_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "include/X11/extensions/scrnsaver.h",
+        "path_type": "hardlink",
+        "sha256": "9a23b14d35e3c272fab86e04ff1299ed8f6ffa37a9d4ff8807b35ad0606935c9",
+        "sha256_in_prefix": "9a23b14d35e3c272fab86e04ff1299ed8f6ffa37a9d4ff8807b35ad0606935c9",
+        "size_in_bytes": 4215
+      },
+      {
+        "_path": "lib/libXss.so",
+        "path_type": "softlink",
+        "sha256": "ea1f36caba67734b11742ab5f3ab9a86107ff07d0f6fae885ff3a8bfb8bd6ec4",
+        "size_in_bytes": 16728
+      },
+      {
+        "_path": "lib/libXss.so.1",
+        "path_type": "softlink",
+        "sha256": "ea1f36caba67734b11742ab5f3ab9a86107ff07d0f6fae885ff3a8bfb8bd6ec4",
+        "size_in_bytes": 16728
+      },
+      {
+        "_path": "lib/libXss.so.1.0.0",
+        "path_type": "hardlink",
+        "sha256": "ea1f36caba67734b11742ab5f3ab9a86107ff07d0f6fae885ff3a8bfb8bd6ec4",
+        "sha256_in_prefix": "ea1f36caba67734b11742ab5f3ab9a86107ff07d0f6fae885ff3a8bfb8bd6ec4",
+        "size_in_bytes": 16728
+      },
+      {
+        "_path": "lib/pkgconfig/xscrnsaver.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/xorg-libxscrnsaver_1727899600836/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
+        "sha256": "3944482133b0d9a8d583aa13cd7998e4470caf032a9774d92e0aac64d099836d",
+        "sha256_in_prefix": "ae6da3f5b4cd73efedcc49956ae93327f4816f05c83f89cd712ce3d55399827d",
+        "size_in_bytes": 509
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "58e8fc1687534124832d22e102f098b5401173212ac69eb9fd96b16a3e2c8cb2",
+  "size": 14412,
+  "subdir": "linux-64",
+  "timestamp": 1727899730000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/xorg-libxscrnsaver-1.2.4-hb9d3cd8_0.conda",
+  "version": "1.2.4"
+}

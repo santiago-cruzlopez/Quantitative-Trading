@@ -1,0 +1,123 @@
+{
+  "build": "py313h54a4610_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "pygobject",
+    "__glibc >=2.17,<3.0.a0",
+    "libgcc >=13",
+    "python_abi 3.13.* *_cp313",
+    "python >=3.13,<3.14.0a0",
+    "libglib >=2.82.2,<3.0a0",
+    "gstreamer >=1.24.7,<1.25.0a0",
+    "gst-plugins-base >=1.24.7,<2.0a0",
+    "gstreamer >=1.24.7,<2.0a0"
+  ],
+  "extracted_package_dir": "/home/santi_cruz/anaconda3/pkgs/gst-python-1.24.11-py313h54a4610_0",
+  "files": [
+    "lib/gstreamer-1.0/libgstpython.so",
+    "lib/python3.13/site-packages/gi/overrides/Gst.py",
+    "lib/python3.13/site-packages/gi/overrides/GstAudio.py",
+    "lib/python3.13/site-packages/gi/overrides/GstPbutils.py",
+    "lib/python3.13/site-packages/gi/overrides/GstVideo.py",
+    "lib/python3.13/site-packages/gi/overrides/__pycache__/Gst.cpython-313.pyc",
+    "lib/python3.13/site-packages/gi/overrides/__pycache__/GstAudio.cpython-313.pyc",
+    "lib/python3.13/site-packages/gi/overrides/__pycache__/GstPbutils.cpython-313.pyc",
+    "lib/python3.13/site-packages/gi/overrides/__pycache__/GstVideo.cpython-313.pyc",
+    "lib/python3.13/site-packages/gi/overrides/_gi_gst.cpython-313-x86_64-linux-gnu.so"
+  ],
+  "fn": "gst-python-1.24.11-py313h54a4610_0.conda",
+  "license": "LGPL-2.1-or-later",
+  "link": {
+    "source": "/home/santi_cruz/anaconda3/pkgs/gst-python-1.24.11-py313h54a4610_0",
+    "type": 1
+  },
+  "md5": "1d932496e33dbc330a8a9749c44a66d4",
+  "name": "gst-python",
+  "package_tarball_full_path": "/home/santi_cruz/anaconda3/pkgs/gst-python-1.24.11-py313h54a4610_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/gstreamer-1.0/libgstpython.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/gst-python_1736242609376/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+        "sha256": "0a36014e948bcc1d00615a2fdb1ec9b8621e98d5056c4dd91f5b295f79b5d8c6",
+        "sha256_in_prefix": "7244a02f6b5c6161581575612dc7d54808777f295e5ead7b73b7c99a4b241ad4",
+        "size_in_bytes": 30544
+      },
+      {
+        "_path": "lib/python3.13/site-packages/gi/overrides/Gst.py",
+        "path_type": "hardlink",
+        "sha256": "b71f4e7b4f69b2f9782182ddedf503a77384bbccd5ab6fb0c11e114626d4c12c",
+        "sha256_in_prefix": "b71f4e7b4f69b2f9782182ddedf503a77384bbccd5ab6fb0c11e114626d4c12c",
+        "size_in_bytes": 22866
+      },
+      {
+        "_path": "lib/python3.13/site-packages/gi/overrides/GstAudio.py",
+        "path_type": "hardlink",
+        "sha256": "262eb78bbf6cad9f4a69a0b363c5ccf1964abccc8badefce77bfe9ab8a73d487",
+        "sha256_in_prefix": "262eb78bbf6cad9f4a69a0b363c5ccf1964abccc8badefce77bfe9ab8a73d487",
+        "size_in_bytes": 386
+      },
+      {
+        "_path": "lib/python3.13/site-packages/gi/overrides/GstPbutils.py",
+        "path_type": "hardlink",
+        "sha256": "e8d1b2cebf22ebdeab5ccb4ea50ad88456d067aaa09fceeacfe1ec44532a06c0",
+        "sha256_in_prefix": "e8d1b2cebf22ebdeab5ccb4ea50ad88456d067aaa09fceeacfe1ec44532a06c0",
+        "size_in_bytes": 3074
+      },
+      {
+        "_path": "lib/python3.13/site-packages/gi/overrides/GstVideo.py",
+        "path_type": "hardlink",
+        "sha256": "90dd02b68d9d48b2a4ddc57f26ce49515daed56e3a3a28460f76302e4dfd3ca4",
+        "sha256_in_prefix": "90dd02b68d9d48b2a4ddc57f26ce49515daed56e3a3a28460f76302e4dfd3ca4",
+        "size_in_bytes": 386
+      },
+      {
+        "_path": "lib/python3.13/site-packages/gi/overrides/__pycache__/Gst.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "2ae2eef554251625db26c4291ebc956abac8bd31ee96ebc1c1e21b517269e9d0",
+        "sha256_in_prefix": "2ae2eef554251625db26c4291ebc956abac8bd31ee96ebc1c1e21b517269e9d0",
+        "size_in_bytes": 41654
+      },
+      {
+        "_path": "lib/python3.13/site-packages/gi/overrides/__pycache__/GstAudio.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "b0c556fc63423d6edb60fbcb24e1a725084e783a4bbbc468e0bc479d77a6d1a9",
+        "sha256_in_prefix": "b0c556fc63423d6edb60fbcb24e1a725084e783a4bbbc468e0bc479d77a6d1a9",
+        "size_in_bytes": 721
+      },
+      {
+        "_path": "lib/python3.13/site-packages/gi/overrides/__pycache__/GstPbutils.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "01e373a58cb57c9731e6027f16c77e6ed996730e6714c6e4857095292a388a4e",
+        "sha256_in_prefix": "01e373a58cb57c9731e6027f16c77e6ed996730e6714c6e4857095292a388a4e",
+        "size_in_bytes": 3780
+      },
+      {
+        "_path": "lib/python3.13/site-packages/gi/overrides/__pycache__/GstVideo.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "021d1ddca10d125ab265a73af4f9c7016abddf98f3468f63306219e340329860",
+        "sha256_in_prefix": "021d1ddca10d125ab265a73af4f9c7016abddf98f3468f63306219e340329860",
+        "size_in_bytes": 721
+      },
+      {
+        "_path": "lib/python3.13/site-packages/gi/overrides/_gi_gst.cpython-313-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "055c6bd12b5ce003b99e329f6b411c5d8397026d7d4256680778be4ea7e1965f",
+        "sha256_in_prefix": "055c6bd12b5ce003b99e329f6b411c5d8397026d7d4256680778be4ea7e1965f",
+        "size_in_bytes": 43536
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "gst-python",
+  "sha256": "4e8351670165b377ff54bee1aca4e4502524f2380a51ba963febeea31c590d77",
+  "size": 55246,
+  "subdir": "linux-64",
+  "timestamp": 1736242814000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/gst-python-1.24.11-py313h54a4610_0.conda",
+  "version": "1.24.11"
+}

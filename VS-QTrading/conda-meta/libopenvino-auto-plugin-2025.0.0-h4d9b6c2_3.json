@@ -1,0 +1,45 @@
+{
+  "build": "h4d9b6c2_3",
+  "build_number": 3,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "__glibc >=2.17,<3.0.a0",
+    "libgcc >=13",
+    "libstdcxx >=13",
+    "tbb >=2021.13.0",
+    "libopenvino 2025.0.0 hdc3f47d_3"
+  ],
+  "extracted_package_dir": "/home/santi_cruz/anaconda3/pkgs/libopenvino-auto-plugin-2025.0.0-h4d9b6c2_3",
+  "files": [
+    "lib/openvino-2025.0.0/libopenvino_auto_plugin.so"
+  ],
+  "fn": "libopenvino-auto-plugin-2025.0.0-h4d9b6c2_3.conda",
+  "license": "",
+  "link": {
+    "source": "/home/santi_cruz/anaconda3/pkgs/libopenvino-auto-plugin-2025.0.0-h4d9b6c2_3",
+    "type": 1
+  },
+  "md5": "74d074a3ac7af3378e16bfa6ff9cba30",
+  "name": "libopenvino-auto-plugin",
+  "package_tarball_full_path": "/home/santi_cruz/anaconda3/pkgs/libopenvino-auto-plugin-2025.0.0-h4d9b6c2_3.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/openvino-2025.0.0/libopenvino_auto_plugin.so",
+        "path_type": "hardlink",
+        "sha256": "e1c47a4e26da09568ae6cbde8c401db62fb58ed4a43c283a3641422b0059540a",
+        "sha256_in_prefix": "e1c47a4e26da09568ae6cbde8c401db62fb58ed4a43c283a3641422b0059540a",
+        "size_in_bytes": 620624
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "ae72903e0718897b85aae2110d9bb1bfa9490b0496522e3735b65c771e7da0ea",
+  "size": 238973,
+  "subdir": "linux-64",
+  "timestamp": 1742046961000,
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/libopenvino-auto-plugin-2025.0.0-h4d9b6c2_3.conda",
+  "version": "2025.0.0"
+}

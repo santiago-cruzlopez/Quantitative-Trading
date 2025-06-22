@@ -8,4 +8,5 @@ Ubuntu Linux - Command List:
 - conda install yfinance
 - conda install scikit-learn
 - conda install -c conda-forge tensorflow=2.18.0
+- conda install matplotlib
 - pip install torch torchvision torchaudio

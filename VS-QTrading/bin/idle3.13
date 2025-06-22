@@ -1,5 +1,0 @@
-#!/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/bin/python3.13
-
-from idlelib.pyshell import main
-if __name__ == '__main__':
-    main()

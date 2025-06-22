@@ -1,4 +1,0 @@
-[Thumbnailer Entry]
-TryExec=/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/bin/gdk-pixbuf-thumbnailer
-Exec=/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading/bin/gdk-pixbuf-thumbnailer -s %s %u %o
-MimeType=image/svg+xml;image/svg+xml-compressed;

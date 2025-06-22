@@ -1,7 +1,0 @@
-prefix=/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading
-includedir=${prefix}/include
-
-Name: wayland-egl-backend
-Description: Backend wayland-egl interface
-Version: 3
-Cflags: -I${includedir}

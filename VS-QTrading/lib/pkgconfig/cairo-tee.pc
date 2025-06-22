@@ -1,8 +1,0 @@
-prefix=/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading
-includedir=${prefix}/include
-
-Name: cairo-tee
-Description: Tee surface backend for cairo graphics library
-Version: 1.18.4
-Requires: cairo
-Cflags: -I${includedir}

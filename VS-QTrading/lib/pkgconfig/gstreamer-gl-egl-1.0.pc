@@ -1,8 +1,0 @@
-prefix=/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading
-includedir=${prefix}/include
-
-Name: gstreamer-gl-egl-1.0
-Description: Streaming media framework, OpenGL plugins libraries (EGL specifics)
-Version: 1.24.11
-Requires: gstreamer-gl-1.0, egl
-Cflags: -I${includedir}/gstreamer-1.0

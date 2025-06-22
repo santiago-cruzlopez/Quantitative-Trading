@@ -1,9 +1,0 @@
-prefix=/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading
-includedir=${prefix}/include
-libdir=${prefix}/lib
-
-Name: pciaccess
-Description: Library providing generic access to the PCI bus and devices
-Version: 0.18
-Libs: -L${libdir} -lpciaccess
-Cflags: -I${includedir}

@@ -1,7 +1,0 @@
-prefix=/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading
-includedir=${prefix}/include
- 
-Name: XineramaProto
-Description: Xinerama extension headers
-Version: 1.2.1
-Cflags: -I${includedir}

@@ -1,8 +1,0 @@
-prefix=/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading
-includedir=${prefix}/include
-
-Name: cairo-pdf
-Description: PDF surface backend for cairo graphics library
-Version: 1.18.4
-Requires: cairo, zlib
-Cflags: -I${includedir}

@@ -1,7 +1,0 @@
-prefix=/home/santi_cruz/Documents/Quantitative-Trading/VS-QTrading
-includedir=${prefix}/include
- 
-Name: XF86DGAProto
-Description: XF86DGA extension headers
-Version: 2.1
-Cflags: -I${includedir}

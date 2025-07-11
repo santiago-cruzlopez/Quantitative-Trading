@@ -49,7 +49,7 @@ weights_trained, bias_trained = training_neuron(X, y)
 
 # Make Predictions
 print("Predictions:")
-input_1_val= 1
-input_2_val = 1
+input_1_val = int(input("Enter First input (0 or 1): "))
+input_2_val = int(input("Enter Second input (0 or 1): "))1
 pred = prediction(input_1_val, input_2_val, weights_trained, bias_trained)
 print(f"Prediction for inputs ({input_1_val}, {input_2_val}): {pred}")

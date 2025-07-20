@@ -29,7 +29,7 @@ output1= [
         inputs[2] * weights3[2] +
         inputs[3] * weights3[3] + bias3]
           
-output2 = np.dot(weights1, input) + bias1
+output2 = np.dot(weights1, inputs) + bias1
 
 print(output1)
 print(output2)

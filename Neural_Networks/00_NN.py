@@ -29,9 +29,28 @@ output1= [
         inputs[2] * weights3[2] +
         inputs[3] * weights3[3] + bias3]
           
-output2 = np.dot(weights1, inputs) + bias1
 
 print(output1)
+
+# Using Loops for multiple neurons
+weights = [[0.2, 0.8, -0.5, 1.0],
+           [0.5, -0.91, 0.26, -0.5],
+           [-0.26, -0.27, 0.17, 0.87]]
+
+biases = [2.0, 3.0, 0.5]
+layers_outputs = []
+for neuron_weights, neuron_bias in zip(weights, biases):
+    neuron_ouput = 0.0
+    for n_input, weight in zip(inputs, neuron_weights):
+        neuron_ouput += n_input * weight
+    neuron_ouput += neuron_bias
+    layers_outputs.append(neuron_ouput)
+
+print(layers_outputs)
+
+
+# Using numpy for One Neuron
+output2 = np.dot(weights1, inputs) + bias1
 print(output2)
 
 a = [1, 2, 3]

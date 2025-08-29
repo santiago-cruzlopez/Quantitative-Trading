@@ -14,7 +14,7 @@ Run backtest: `python src/backtest.py`
 - `src/`: Core code
 - `tests/`: Unit tests
 - `data/`: Sample datasets
-- `notebooks/`: Exploratory analysis
+- `Notebooks/`: Exploratory analysis
 
 ## Dependencies
 See pyproject.toml and environment.yml.
